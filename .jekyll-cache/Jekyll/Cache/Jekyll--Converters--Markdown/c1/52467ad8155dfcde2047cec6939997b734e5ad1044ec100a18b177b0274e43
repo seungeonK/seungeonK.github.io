@@ -1,0 +1,53 @@
+I"/<h2 id="this-is-a-practice-for-markdown-syntax"><strong>This is a practice for Markdown syntax</strong></h2>
+
+<h6 id="header-6the-smallest">header 6(The smallest)</h6>
+<h5 id="header-5">header 5</h5>
+<h4 id="header-4">header 4</h4>
+<h3 id="header-3">header 3</h3>
+<h2 id="header-2">header 2</h2>
+<h1 id="header-1the-largest">header 1(The largest)</h1>
+
+<p><strong>수평선: 내용을 명시적으로 구분하고 싶을때</strong>  <strong>’—‘를 입력<br />
+When you need a horizontal line, type ‘—‘</strong></p>
+
+<hr />
+
+<p><strong>엔터키: 라인 바꾸고 싶을 때, ‘엔터 두번’</strong>  <strong>when you change line, ‘enter twice’</strong></p>
+
+<hr />
+
+<h2 id="강조emphasis">강조(Emphasis)</h2>
+<p>Italic = <code class="language-plaintext highlighter-rouge">*something*</code> or <code class="language-plaintext highlighter-rouge">_(something)_</code><br />
+ex) <em>hello</em></p>
+
+<p>bold = <code class="language-plaintext highlighter-rouge">**something**</code> or <code class="language-plaintext highlighter-rouge">__something__</code><br />
+ex) <strong>bold</strong></p>
+
+<p>strikestroke = <code class="language-plaintext highlighter-rouge">~~(something)~~</code><br />
+ex) <del>strikestroke</del></p>
+
+<p>highlight = <code class="language-plaintext highlighter-rouge">&lt;u&gt;&lt;/u&gt;</code><br />
+ex) <u>highlight</u></p>
+
+<hr />
+
+<h2 id="block-code-insertion">Block Code Insertion</h2>
+<p><code class="language-plaintext highlighter-rouge">&lt;pre&gt;&lt;/pre&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;code&gt;&lt;/code&gt;</code> html tag로 변환<br />
+<code class="language-plaintext highlighter-rouge">`</code>를 3번 입력하고 코드 종류도 적음</p>
+
+<p>javascript:</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">func_a</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">hello</span><span class="dl">"</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>python:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">"hello world"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>bash:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>emacs ~/.zshrc
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>If no language is specified, no syntax highlighting
+</code></pre></div></div>
+<p>etc</p>
+:ET

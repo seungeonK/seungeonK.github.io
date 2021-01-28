@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://seungeonk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://seungeonk.github.io/" rel="alternate" type="text/html" /><updated>2021-01-27T15:07:59-05:00</updated><id>https://seungeonk.github.io/feed.xml</id><title type="html">Seungeon</title><subtitle>Undergrad in University of Virginia, Charlottesville</subtitle><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><entry><title type="html">Django_form</title><link href="https://seungeonk.github.io/django_form/" rel="alternate" type="text/html" title="Django_form" /><published>2021-01-17T00:00:00-05:00</published><updated>2021-01-17T00:00:00-05:00</updated><id>https://seungeonk.github.io/django_form</id><content type="html" xml:base="https://seungeonk.github.io/django_form/"></content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><summary type="html"></summary></entry><entry><title type="html">Markdown Syntax Practice</title><link href="https://seungeonk.github.io/MD-Practice/" rel="alternate" type="text/html" title="Markdown Syntax Practice" /><published>2021-01-16T00:00:00-05:00</published><updated>2021-01-16T00:00:00-05:00</updated><id>https://seungeonk.github.io/MD-Practice</id><content type="html" xml:base="https://seungeonk.github.io/MD-Practice/">&lt;h2 id=&quot;this-is-a-practice-for-markdown-syntax&quot;&gt;&lt;strong&gt;This is a practice for Markdown syntax&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;h6 id=&quot;header-6the-smallest&quot;&gt;header 6(The smallest)&lt;/h6&gt;
+&lt;h5 id=&quot;header-5&quot;&gt;header 5&lt;/h5&gt;
+&lt;h4 id=&quot;header-4&quot;&gt;header 4&lt;/h4&gt;
+&lt;h3 id=&quot;header-3&quot;&gt;header 3&lt;/h3&gt;
+&lt;h2 id=&quot;header-2&quot;&gt;header 2&lt;/h2&gt;
+&lt;h1 id=&quot;header-1the-largest&quot;&gt;header 1(The largest)&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;수평선: 내용을 명시적으로 구분하고 싶을때&lt;/strong&gt;  &lt;strong&gt;’—‘를 입력&lt;br /&gt;
+When you need a horizontal line, type ‘—‘&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;엔터키: 라인 바꾸고 싶을 때, ‘엔터 두번’&lt;/strong&gt;  &lt;strong&gt;when you change line, ‘enter twice’&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;강조emphasis&quot;&gt;강조(Emphasis)&lt;/h2&gt;
+&lt;p&gt;Italic = &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*something*&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_(something)_&lt;/code&gt;&lt;br /&gt;
+ex) &lt;em&gt;hello&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;bold = &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;**something**&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;__something__&lt;/code&gt;&lt;br /&gt;
+ex) &lt;strong&gt;bold&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;strikestroke = &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~~(something)~~&lt;/code&gt;&lt;br /&gt;
+ex) &lt;del&gt;strikestroke&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;highlight = &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;u&amp;gt;&amp;lt;/u&amp;gt;&lt;/code&gt;&lt;br /&gt;
+ex) &lt;u&gt;highlight&lt;/u&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;block-code-insertion&quot;&gt;Block Code Insertion&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;pre&amp;gt;&amp;lt;/pre&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;code&amp;gt;&amp;lt;/code&amp;gt;&lt;/code&gt; html tag로 변환&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;`&lt;/code&gt;를 3번 입력하고 코드 종류도 적음&lt;/p&gt;
+
+&lt;p&gt;javascript:&lt;/p&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;func_a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;python:&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;hello world&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;bash:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;emacs ~/.zshrc
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;If no language is specified, no syntax highlighting
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;etc&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><summary type="html">This is a practice for Markdown syntax</summary></entry><entry><title type="html">first post</title><link href="https://seungeonk.github.io/first/" rel="alternate" type="text/html" title="first post" /><published>2021-01-16T00:00:00-05:00</published><updated>2021-01-16T00:00:00-05:00</updated><id>https://seungeonk.github.io/first</id><content type="html" xml:base="https://seungeonk.github.io/first/">&lt;h1 id=&quot;first-blog&quot;&gt;First Blog&lt;/h1&gt;
+
+&lt;p&gt;first blog!&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><summary type="html">First Blog</summary></entry></feed>
