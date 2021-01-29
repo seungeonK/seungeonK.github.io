@@ -1,7 +1,7 @@
 ---
 title: "장고 view와 url(Django View and URL)"
 subtitle: "reference to official Django doc"
-layout: post
+layout: single
 ---
 
 ## Django에서 Url를 통해 View를 호출하는 방법

@@ -23,8 +23,8 @@ var store = [{
         "url": "https://seungeonk.github.io/JS_callback/",
         "teaser": null
       },{
-        "title": "자바스크립트 콜백 함수(JS callback)",
-        "excerpt":"HTTP POST request name vs id attribute Name 속성(Name Attribute) Valid only on &lt;a&gt;, &lt;form&gt;, &lt;iframe&gt;, &lt;img&gt;, &lt;map&gt;, &lt;input&gt;, &lt;select&gt;, &lt;textarea&gt; Name does not have to be unique, and can be used to group elements together such as radio buttons &amp; checkboxes ID 속성(ID Attribute) Valid on any element except...","categories": [],
+        "title": "HTML Name 속성 vs ID 속성",
+        "excerpt":"Name 속성(Name Attribute) (Important) The name attribute is used in the HTTP request sent by your browser to the server as a variable name associated with the data contained in the value attribute. Valid only on &lt;a&gt;, &lt;form&gt;, &lt;iframe&gt;, &lt;img&gt;, &lt;map&gt;, &lt;input&gt;, &lt;select&gt;, &lt;textarea&gt; Name does not have to be...","categories": [],
         "tags": [],
         "url": "https://seungeonk.github.io/Post_request_name_vs_id/",
         "teaser": null

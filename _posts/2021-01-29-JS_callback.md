@@ -1,6 +1,6 @@
 ---
 title: "자바스크립트 콜백 함수(JS callback)"
-layout: post
+layout: single
 ---
 
 ## 콜백이란?(Callback)
