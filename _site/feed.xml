@@ -1,4 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://seungeonk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://seungeonk.github.io/" rel="alternate" type="text/html" /><updated>2021-01-27T15:07:59-05:00</updated><id>https://seungeonk.github.io/feed.xml</id><title type="html">Seungeon</title><subtitle>Undergrad in University of Virginia, Charlottesville</subtitle><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><entry><title type="html">Django_form</title><link href="https://seungeonk.github.io/django_form/" rel="alternate" type="text/html" title="Django_form" /><published>2021-01-17T00:00:00-05:00</published><updated>2021-01-17T00:00:00-05:00</updated><id>https://seungeonk.github.io/django_form</id><content type="html" xml:base="https://seungeonk.github.io/django_form/"></content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><summary type="html"></summary></entry><entry><title type="html">Markdown Syntax Practice</title><link href="https://seungeonk.github.io/MD-Practice/" rel="alternate" type="text/html" title="Markdown Syntax Practice" /><published>2021-01-16T00:00:00-05:00</published><updated>2021-01-16T00:00:00-05:00</updated><id>https://seungeonk.github.io/MD-Practice</id><content type="html" xml:base="https://seungeonk.github.io/MD-Practice/">&lt;h2 id=&quot;this-is-a-practice-for-markdown-syntax&quot;&gt;&lt;strong&gt;This is a practice for Markdown syntax&lt;/strong&gt;&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://seungeonk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://seungeonk.github.io/" rel="alternate" type="text/html" /><updated>2021-01-29T00:25:28-05:00</updated><id>https://seungeonk.github.io/feed.xml</id><title type="html">Seungeon</title><subtitle>Undergrad in University of Virginia, Charlottesville</subtitle><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><entry><title type="html">자바스크립트 콜백 함수(JS callback)</title><link href="https://seungeonk.github.io/JS_callback/" rel="alternate" type="text/html" title="자바스크립트 콜백 함수(JS callback)" /><published>2021-01-29T00:00:00-05:00</published><updated>2021-01-29T00:00:00-05:00</updated><id>https://seungeonk.github.io/JS_callback</id><content type="html" xml:base="https://seungeonk.github.io/JS_callback/">&lt;h2 id=&quot;콜백이란callback&quot;&gt;콜백이란?(Callback)&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h3 id=&quot;i-will-be-back-later&quot;&gt;I will be back later!&lt;/h3&gt;
+
+&lt;p&gt;Let’s look at more examples of passing functions as values and using function expressions.&lt;/p&gt;
+
+&lt;p&gt;We’ll write a function &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ask(question, yes, no)&lt;/code&gt; with three parameters:&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ask&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;question&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;yes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;no&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;confirm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;question&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;yes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;no&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;showOk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;You agreed.&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;showCancel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;You canceled the execution.&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// usage: functions showOk, showCancel are passed as arguments to ask&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;ask&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Do you agree?&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;showOk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;showCancel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;여기서 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ask&lt;/code&gt;에 들어가는 인자(arguments) 중, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;showOk&lt;/code&gt;와 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;showCanel&lt;/code&gt; 이 콜백 함수(callback function) 혹은 콜백(callback)이라 불린다.&lt;/p&gt;
+
+&lt;p&gt;기본적인 아이디어는, 우리가 함수를 pass하고 나중에 필요할 때, 다시 부른다(expected to be called back later if necessary)는 것이다!&lt;/p&gt;
+
+&lt;p&gt;위의 예시에서, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;showOk&lt;/code&gt;는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yes&lt;/code&gt;의 콜백이 되고, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;showCancel&lt;/code&gt;은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;no&lt;/code&gt;의 콜백이 되는 것이다.&lt;/p&gt;
+
+&lt;p&gt;콜백의 기본적 정의는:&lt;br /&gt;
+&lt;em&gt;A callback is a function passed as an argument to another function.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;주의&quot;&gt;!주의!&lt;/h3&gt;
+&lt;p&gt;callback은 argument로 pass될 때, 괄호(parenthesis)를 뗀다&lt;/p&gt;
+
+&lt;p&gt;ex):&lt;/p&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;myDisplayer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;some&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;demo&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerHTML&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;some&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;myCalculator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;num1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;num2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;myCallback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;num1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;num2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;myCallback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// no () for myDisplayer&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;myCalculator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;myDisplayer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;언제-주로-사용when-to-use&quot;&gt;언제 주로 사용?(When to use?)&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;주로 비동기 함수(asynchronous functions), 즉 한 함수가 다른 함수를 기다릴 때(파일들을 로드할 때) 등에 주로 사용된다.&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><summary type="html">콜백이란?(Callback) I will be back later!</summary></entry><entry><title type="html">장고 view와 url(Django View and URL)</title><link href="https://seungeonk.github.io/django_view/" rel="alternate" type="text/html" title="장고 view와 url(Django View and URL)" /><published>2021-01-17T00:00:00-05:00</published><updated>2021-01-17T00:00:00-05:00</updated><id>https://seungeonk.github.io/django_view</id><content type="html" xml:base="https://seungeonk.github.io/django_view/">&lt;h2 id=&quot;django에서-url를-통해-view를-호출하는-방법&quot;&gt;Django에서 Url를 통해 View를 호출하는 방법&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;사용가자 웹사이트에 페이지를 요청할때, Django는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;project_name.urls&lt;/code&gt; 파이썬 모듈을 먼저 불러옴&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;project_name.urls&lt;/code&gt;에서 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;urlpatterns&lt;/code&gt;라는 변수를 찾고, 순서대로 패턴을 훑어감(traverse in order)&lt;/p&gt;
+
+&lt;p&gt;맞는 url(예: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&apos;polls/&apos;&lt;/code&gt;)를 찾고 나서, 찾은 url text(&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&apos;polls/&apos;&lt;/code&gt;)를 제거하고 남아있는 텍스트를 보냄(ex: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&apos;34/&apos;&lt;/code&gt;)&lt;/p&gt;
+
+&lt;p&gt;맞는 텍스트를 발견하면(&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&apos;&amp;lt;int:question_id&amp;gt;/&lt;/code&gt;), &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;detail()&lt;/code&gt;뷰를 콜함&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><summary type="html">Django에서 Url를 통해 View를 호출하는 방법</summary></entry><entry><title type="html">Markdown Syntax Practice</title><link href="https://seungeonk.github.io/MD-Practice/" rel="alternate" type="text/html" title="Markdown Syntax Practice" /><published>2021-01-16T00:00:00-05:00</published><updated>2021-01-16T00:00:00-05:00</updated><id>https://seungeonk.github.io/MD-Practice</id><content type="html" xml:base="https://seungeonk.github.io/MD-Practice/">&lt;h2 id=&quot;this-is-a-practice-for-markdown-syntax&quot;&gt;&lt;strong&gt;This is a practice for Markdown syntax&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;h6 id=&quot;header-6the-smallest&quot;&gt;header 6(The smallest)&lt;/h6&gt;
 &lt;h5 id=&quot;header-5&quot;&gt;header 5&lt;/h5&gt;

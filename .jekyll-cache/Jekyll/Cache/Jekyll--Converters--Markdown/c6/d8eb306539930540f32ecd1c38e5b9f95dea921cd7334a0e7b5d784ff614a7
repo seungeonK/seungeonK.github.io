@@ -1,0 +1,55 @@
+I"a<h2 id="콜백이란callback">콜백이란?(Callback)</h2>
+<hr />
+<h3 id="i-will-be-back-later">I will be back later!</h3>
+
+<p>Let’s look at more examples of passing functions as values and using function expressions.</p>
+
+<p>We’ll write a function <code class="language-plaintext highlighter-rouge">ask(question, yes, no)</code> with three parameters:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">ask</span><span class="p">(</span><span class="nx">question</span><span class="p">,</span> <span class="nx">yes</span><span class="p">,</span> <span class="nx">no</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nx">confirm</span><span class="p">(</span><span class="nx">question</span><span class="p">))</span> <span class="nx">yes</span><span class="p">()</span>
+  <span class="k">else</span> <span class="nx">no</span><span class="p">();</span>
+<span class="p">}</span>
+
+<span class="kd">function</span> <span class="nx">showOk</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nx">alert</span><span class="p">(</span> <span class="dl">"</span><span class="s2">You agreed.</span><span class="dl">"</span> <span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kd">function</span> <span class="nx">showCancel</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nx">alert</span><span class="p">(</span> <span class="dl">"</span><span class="s2">You canceled the execution.</span><span class="dl">"</span> <span class="p">);</span>
+<span class="p">}</span>
+
+<span class="c1">// usage: functions showOk, showCancel are passed as arguments to ask</span>
+<span class="nx">ask</span><span class="p">(</span><span class="dl">"</span><span class="s2">Do you agree?</span><span class="dl">"</span><span class="p">,</span> <span class="nx">showOk</span><span class="p">,</span> <span class="nx">showCancel</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>여기서 <code class="language-plaintext highlighter-rouge">ask</code>에 들어가는 인자(arguments) 중, <code class="language-plaintext highlighter-rouge">showOk</code>와 <code class="language-plaintext highlighter-rouge">showCanel</code> 이 콜백 함수(callback function) 혹은 콜백(callback)이라 불린다.</p>
+
+<p>기본적인 아이디어는, 우리가 함수를 pass하고 나중에 필요할 때, 다시 부른다(expected to be called back later if necessary)는 것이다!</p>
+
+<p>위의 예시에서, <code class="language-plaintext highlighter-rouge">showOk</code>는 <code class="language-plaintext highlighter-rouge">yes</code>의 콜백이 되고, <code class="language-plaintext highlighter-rouge">showCancel</code>은 <code class="language-plaintext highlighter-rouge">no</code>의 콜백이 되는 것이다.</p>
+
+<p>콜백의 기본적 정의는:<br />
+<em>A callback is a function passed as an argument to another function.</em></p>
+
+<h3 id="주의">!주의!</h3>
+<p>callback은 argument로 pass될 때, 괄호(parenthesis)를 뗀다</p>
+
+<p>ex):</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">myDisplayer</span><span class="p">(</span><span class="nx">some</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">"</span><span class="s2">demo</span><span class="dl">"</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">some</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kd">function</span> <span class="nx">myCalculator</span><span class="p">(</span><span class="nx">num1</span><span class="p">,</span> <span class="nx">num2</span><span class="p">,</span> <span class="nx">myCallback</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kd">let</span> <span class="nx">sum</span> <span class="o">=</span> <span class="nx">num1</span> <span class="o">+</span> <span class="nx">num2</span><span class="p">;</span>
+  <span class="nx">myCallback</span><span class="p">(</span><span class="nx">sum</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="c1">// no () for myDisplayer</span>
+<span class="nx">myCalculator</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="nx">myDisplayer</span><span class="p">);</span>
+</code></pre></div></div>
+
+<h2 id="언제-주로-사용when-to-use">언제 주로 사용?(When to use?)</h2>
+<hr />
+
+<p>주로 비동기 함수(asynchronous functions), 즉 한 함수가 다른 함수를 기다릴 때(파일들을 로드할 때) 등에 주로 사용된다.</p>
+:ET

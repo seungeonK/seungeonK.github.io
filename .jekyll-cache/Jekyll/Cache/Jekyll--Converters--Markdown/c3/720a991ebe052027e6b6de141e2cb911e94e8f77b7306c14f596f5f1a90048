@@ -1,0 +1,12 @@
+I"2<h2 id="django에서-url를-통해-view를-호출하는-방법">Django에서 Url를 통해 View를 호출하는 방법</h2>
+<hr />
+
+<p>사용가자 웹사이트에 페이지를 요청할때, Django는 <code class="language-plaintext highlighter-rouge">project_name.urls</code> 파이썬 모듈을 먼저 불러옴</p>
+
+<p><code class="language-plaintext highlighter-rouge">project_name.urls</code>에서 <code class="language-plaintext highlighter-rouge">urlpatterns</code>라는 변수를 찾고, 순서대로 패턴을 훑어감(traverse in order)</p>
+
+<p>맞는 url(예: <code class="language-plaintext highlighter-rouge">'polls/'</code>)를 찾고 나서, 찾은 url text(<code class="language-plaintext highlighter-rouge">'polls/'</code>)를 제거하고 남아있는 텍스트를 보냄(ex: <code class="language-plaintext highlighter-rouge">'34/'</code>)</p>
+
+<p>맞는 텍스트를 발견하면(<code class="language-plaintext highlighter-rouge">'&lt;int:question_id&gt;/</code>), <code class="language-plaintext highlighter-rouge">detail()</code>뷰를 콜함</p>
+
+:ET
