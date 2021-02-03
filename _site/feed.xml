@@ -1,4 +1,139 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://seungeonk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://seungeonk.github.io/" rel="alternate" type="text/html" /><updated>2021-01-29T12:39:29-05:00</updated><id>https://seungeonk.github.io/feed.xml</id><title type="html">Seungeon</title><subtitle>Undergrad in University of Virginia, Charlottesville</subtitle><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><entry><title type="html">자바스크립트 콜백 함수(JS callback)</title><link href="https://seungeonk.github.io/JS_callback/" rel="alternate" type="text/html" title="자바스크립트 콜백 함수(JS callback)" /><published>2021-01-29T00:00:00-05:00</published><updated>2021-01-29T00:00:00-05:00</updated><id>https://seungeonk.github.io/JS_callback</id><content type="html" xml:base="https://seungeonk.github.io/JS_callback/">&lt;h2 id=&quot;콜백이란callback&quot;&gt;콜백이란?(Callback)&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://seungeonk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://seungeonk.github.io/" rel="alternate" type="text/html" /><updated>2021-02-03T16:52:09-05:00</updated><id>https://seungeonk.github.io/feed.xml</id><title type="html">Seungeon</title><subtitle>Undergrad in University of Virginia, Charlottesville</subtitle><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><entry><title type="html">2/3 Sorting and Some Algorithm Principles</title><link href="https://seungeonk.github.io/cs4102%20algorithms/cs4102/" rel="alternate" type="text/html" title="2/3 Sorting and Some Algorithm Principles" /><published>2021-02-03T00:00:00-05:00</published><updated>2021-02-03T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs4102%20algorithms/cs4102</id><content type="html" xml:base="https://seungeonk.github.io/cs4102%20algorithms/cs4102/">&lt;h1 id=&quot;sorting-terms&quot;&gt;Sorting Terms&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Comparison Sort&lt;/strong&gt;: 키를 비교하여 아이템을 움직인다&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Adjacent Sort&lt;/strong&gt;: 근접한 요소(adjacent elements)를 움직임으로 정렬하는 알고리즘
+    &lt;ul&gt;
+      &lt;li&gt;bubble, insertion 등등&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Stable Sort&lt;/strong&gt;: Sorting 알고리즘이 Stable(안정)하다
+    &lt;ul&gt;
+      &lt;li&gt;when two items x and y occur in the relative order x,y in the original list AND x==y, &lt;strong&gt;then x and y appear in the same relative order x,y in the final sorted list.&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;In-Place Sort&lt;/strong&gt;: 알고리즘이 &lt;strong&gt;최대 Θ(1)&lt;/strong&gt; 추가 공간을 사용한다
+    &lt;ul&gt;
+      &lt;li&gt;e.g. allocating another array of size θ(n) is &lt;strong&gt;NOT&lt;/strong&gt; allowed.&lt;/li&gt;
+      &lt;li&gt;it doesn’t create any D.S. or so
+        &lt;ul&gt;
+          &lt;li&gt;ex) 만약 이 알고리즘이 array size 10인 scratch array를 만들면 -&amp;gt; it’s okay! because the space complexity is θ(1).&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;insertion-sort삽입-정렬&quot;&gt;Insertion Sort(삽입 정렬)&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Strategy:&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;First section of list is sorted (say i-1 items)&lt;/li&gt;
+      &lt;li&gt;Increase this partial solution by…&lt;/li&gt;
+      &lt;li&gt;Shifting down next item beyond sorted section (i.e. the ith item) down to its proper place in sorted section.  (Must shift items up to make room.)&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Since one item alone is already sorted, we can put steps 1-3 in a loop going from the 2nd to the last item.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;h2 id=&quot;python-example&quot;&gt;python example&lt;/h2&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;insertion_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;# lists start at index 0 to n-1
+&lt;/span&gt;      &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+   &lt;span class=&quot;c1&quot;&gt;# Insert lst[j] into sorted sub-list lst[0:j-1]
+&lt;/span&gt;      &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# shift item up
+&lt;/span&gt;          &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;# put item in correct spot
+&lt;/span&gt;  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;insertion-sort-analysis&quot;&gt;Insertion Sort: Analysis&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Worst Case :&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;merge-sort&quot;&gt;Merge Sort&lt;/h1&gt;
+&lt;p&gt;\(\sum_{a}^{b}(\alpha \pm \beta)\)&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs4102 algorithms" /><category term="python" /><category term="algorithm" /><category term="sort" /><summary type="html">Sorting Terms Comparison Sort: 키를 비교하여 아이템을 움직인다 Adjacent Sort: 근접한 요소(adjacent elements)를 움직임으로 정렬하는 알고리즘 bubble, insertion 등등 Stable Sort: Sorting 알고리즘이 Stable(안정)하다 when two items x and y occur in the relative order x,y in the original list AND x==y, then x and y appear in the same relative order x,y in the final sorted list. In-Place Sort: 알고리즘이 최대 Θ(1) 추가 공간을 사용한다 e.g. allocating another array of size θ(n) is NOT allowed. it doesn’t create any D.S. or so ex) 만약 이 알고리즘이 array size 10인 scratch array를 만들면 -&amp;gt; it’s okay! because the space complexity is θ(1).</summary></entry><entry><title type="html">2/4 What is software engineering?</title><link href="https://seungeonk.github.io/cs3420%20adv%20software%20dev/what-_is_software_engineering/" rel="alternate" type="text/html" title="2/4 What is software engineering?" /><published>2021-02-03T00:00:00-05:00</published><updated>2021-02-03T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3420%20adv%20software%20dev/what%20_is_software_engineering</id><content type="html" xml:base="https://seungeonk.github.io/cs3420%20adv%20software%20dev/what-_is_software_engineering/">&lt;h1 id=&quot;intro&quot;&gt;Intro&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;HCI is kind of psy branch&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;This(software engineering)&lt;/strong&gt; is a bit more business branch&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;software is very different&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;key-point-to-remember-programming-is-actually-a-small-part-of-software-engineering&quot;&gt;key point to remember: Programming is actually a small part of software engineering&lt;/h5&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;S.E. is literally the field of how to engineer software&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;EX) building a building
+    &lt;ul&gt;
+      &lt;li&gt;knowing how to hammer a nail and how to lay a brick is not enough&lt;/li&gt;
+      &lt;li&gt;What else is needed?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;high-level-se&quot;&gt;High Level S.E.&lt;/h1&gt;
+
+&lt;h3 id=&quot;at-a-high-level-se는-steps-of-the-development-process를-생각함&quot;&gt;At a high level, SE는 steps of the development process를 생각함&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Requirements(how do we know what to build?)&lt;/li&gt;
+  &lt;li&gt;Design / Specification&lt;/li&gt;
+  &lt;li&gt;Programming / Construction / Implementation&lt;/li&gt;
+  &lt;li&gt;Testing (Verification and Validation)&lt;/li&gt;
+  &lt;li&gt;Production and Release&lt;/li&gt;
+  &lt;li&gt;Maintenance and Updates(bugs etc)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;why-is-se-different&quot;&gt;Why is S.E. different?&lt;/h1&gt;
+
+&lt;p&gt;What makes creating software different than creating other things that engineers build (ex. machines, aircraft, bridges etc)?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Software is changeable&lt;/li&gt;
+  &lt;li&gt;Requirements often change DURING development&lt;/li&gt;
+  &lt;li&gt;Requirements often change AFTER development&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Misconceptions regarding actual time frames / how software is built and maintained from customers… and developers&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;problems-about-failure&quot;&gt;Problems about failure&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;how do we protect software from being failed?&lt;/li&gt;
+  &lt;li&gt;how do we make sure the software is safe?
+    &lt;ul&gt;
+      &lt;li&gt;ex) HealthCare.gov failed launch&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;find-some-failures&quot;&gt;Find some failures&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Find a major issues making software crashed&lt;/li&gt;
+  &lt;li&gt;What was the technical cause?&lt;/li&gt;
+  &lt;li&gt;What was the underlying cause?
+    &lt;ul&gt;
+      &lt;li&gt;A problem with requirements?&lt;/li&gt;
+      &lt;li&gt;No enough testing?&lt;/li&gt;
+      &lt;li&gt;Training?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;How would you mitigate this in the future?&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3420 adv software dev" /><summary type="html">Intro</summary></entry><entry><title type="html">자바스크립트 콜백 함수(JS callback)</title><link href="https://seungeonk.github.io/JS_callback/" rel="alternate" type="text/html" title="자바스크립트 콜백 함수(JS callback)" /><published>2021-01-29T00:00:00-05:00</published><updated>2021-01-29T00:00:00-05:00</updated><id>https://seungeonk.github.io/JS_callback</id><content type="html" xml:base="https://seungeonk.github.io/JS_callback/">&lt;h2 id=&quot;콜백이란callback&quot;&gt;콜백이란?(Callback)&lt;/h2&gt;
 &lt;hr /&gt;
 &lt;h3 id=&quot;i-will-be-back-later&quot;&gt;I will be back later!&lt;/h3&gt;
 
@@ -69,7 +204,7 @@
 
 &lt;p&gt;Is referenced in &lt;strong&gt;CSS&lt;/strong&gt; or &lt;strong&gt;URL&lt;/strong&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt; sign&lt;/p&gt;
 
-&lt;p&gt;Is referenced in &lt;strong&gt;JS&lt;/strong&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;getElementById()&lt;/code&gt;&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><summary type="html">Name 속성(Name Attribute)</summary></entry><entry><title type="html">장고 view와 url(Django View and URL)</title><link href="https://seungeonk.github.io/django_view/" rel="alternate" type="text/html" title="장고 view와 url(Django View and URL)" /><published>2021-01-17T00:00:00-05:00</published><updated>2021-01-17T00:00:00-05:00</updated><id>https://seungeonk.github.io/django_view</id><content type="html" xml:base="https://seungeonk.github.io/django_view/">&lt;h2 id=&quot;django에서-url를-통해-view를-호출하는-방법&quot;&gt;Django에서 Url를 통해 View를 호출하는 방법&lt;/h2&gt;
+&lt;p&gt;Is referenced in &lt;strong&gt;JS&lt;/strong&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;getElementById()&lt;/code&gt;&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><summary type="html">Name 속성(Name Attribute)</summary></entry><entry><title type="html">장고 view와 url(Django View and URL)</title><link href="https://seungeonk.github.io/cs3240%20adv%20soft%20dev/django_view/" rel="alternate" type="text/html" title="장고 view와 url(Django View and URL)" /><published>2021-01-17T00:00:00-05:00</published><updated>2021-01-17T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240%20adv%20soft%20dev/django_view</id><content type="html" xml:base="https://seungeonk.github.io/cs3240%20adv%20soft%20dev/django_view/">&lt;h2 id=&quot;django에서-url를-통해-view를-호출하는-방법&quot;&gt;Django에서 Url를 통해 View를 호출하는 방법&lt;/h2&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;사용가자 웹사이트에 페이지를 요청할때, Django는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;project_name.urls&lt;/code&gt; 파이썬 모듈을 먼저 불러옴&lt;/p&gt;
@@ -78,7 +213,7 @@
 
 &lt;p&gt;맞는 url(예: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&apos;polls/&apos;&lt;/code&gt;)를 찾고 나서, 찾은 url text(&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&apos;polls/&apos;&lt;/code&gt;)를 제거하고 남아있는 텍스트를 보냄(ex: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&apos;34/&apos;&lt;/code&gt;)&lt;/p&gt;
 
-&lt;p&gt;맞는 텍스트를 발견하면(&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&apos;&amp;lt;int:question_id&amp;gt;/&lt;/code&gt;), &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;detail()&lt;/code&gt;뷰를 콜함&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><summary type="html">Django에서 Url를 통해 View를 호출하는 방법</summary></entry><entry><title type="html">Markdown Syntax Practice</title><link href="https://seungeonk.github.io/MD-Practice/" rel="alternate" type="text/html" title="Markdown Syntax Practice" /><published>2021-01-16T00:00:00-05:00</published><updated>2021-01-16T00:00:00-05:00</updated><id>https://seungeonk.github.io/MD-Practice</id><content type="html" xml:base="https://seungeonk.github.io/MD-Practice/">&lt;h2 id=&quot;this-is-a-practice-for-markdown-syntax&quot;&gt;&lt;strong&gt;This is a practice for Markdown syntax&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;맞는 텍스트를 발견하면(&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&apos;&amp;lt;int:question_id&amp;gt;/&lt;/code&gt;), &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;detail()&lt;/code&gt;뷰를 콜함&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240 adv soft dev" /><summary type="html">Django에서 Url를 통해 View를 호출하는 방법</summary></entry><entry><title type="html">Markdown Syntax Practice</title><link href="https://seungeonk.github.io/MD-Practice/" rel="alternate" type="text/html" title="Markdown Syntax Practice" /><published>2021-01-16T00:00:00-05:00</published><updated>2021-01-16T00:00:00-05:00</updated><id>https://seungeonk.github.io/MD-Practice</id><content type="html" xml:base="https://seungeonk.github.io/MD-Practice/">&lt;h2 id=&quot;this-is-a-practice-for-markdown-syntax&quot;&gt;&lt;strong&gt;This is a practice for Markdown syntax&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;h6 id=&quot;header-6the-smallest&quot;&gt;header 6(The smallest)&lt;/h6&gt;
 &lt;h5 id=&quot;header-5&quot;&gt;header 5&lt;/h5&gt;

@@ -1,0 +1,60 @@
+I"�<h1 id="sorting-terms">Sorting Terms</h1>
+<ul>
+  <li><strong>Comparison Sort</strong>: 키를 비교하여 아이템을 움직인다</li>
+  <li><strong>Adjacent Sort</strong>: 근접한 요소(adjacent elements)를 움직임으로 정렬하는 알고리즘
+    <ul>
+      <li>bubble, insertion 등등</li>
+    </ul>
+  </li>
+  <li><strong>Stable Sort</strong>: Sorting 알고리즘이 Stable(안정)하다
+    <ul>
+      <li>when two items x and y occur in the relative order x,y in the original list AND x==y, <strong>then x and y appear in the same relative order x,y in the final sorted list.</strong></li>
+    </ul>
+  </li>
+  <li><strong>In-Place Sort</strong>: 알고리즘이 <strong>최대 Θ(1)</strong> 추가 공간을 사용한다
+    <ul>
+      <li>e.g. allocating another array of size θ(n) is <strong>NOT</strong> allowed.</li>
+      <li>it doesn’t create any D.S. or so
+        <ul>
+          <li>ex) 만약 이 알고리즘이 array size 10인 scratch array를 만들면 -&gt; it’s okay! because the space complexity is θ(1).</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="insertion-sort삽입-정렬">Insertion Sort(삽입 정렬)</h1>
+<ul>
+  <li><strong>Strategy:</strong>
+    <ul>
+      <li>First section of list is sorted (say i-1 items)</li>
+      <li>Increase this partial solution by…</li>
+      <li>Shifting down next item beyond sorted section (i.e. the ith item) down to its proper place in sorted section.  (Must shift items up to make room.)</li>
+      <li>
+        <p>Since one item alone is already sorted, we can put steps 1-3 in a loop going from the 2nd to the last item.</p>
+      </li>
+      <li>
+        <h2 id="python-example">python example</h2>
+      </li>
+    </ul>
+
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="k">def</span> <span class="nf">insertion_sort</span><span class="p">(</span><span class="n">lst</span><span class="p">):</span>
+  <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span>
+  <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">n</span><span class="p">):</span>   <span class="c1"># lists start at index 0 to n-1
+</span>      <span class="n">key</span> <span class="o">=</span> <span class="n">lst</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
+   <span class="c1"># Insert lst[j] into sorted sub-list lst[0:j-1]
+</span>      <span class="n">i</span> <span class="o">=</span> <span class="n">j</span><span class="o">-</span><span class="mi">1</span>
+      <span class="k">while</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">key</span> <span class="o">&lt;</span> <span class="n">lst</span><span class="p">[</span><span class="n">i</span><span class="p">]:</span>
+          <span class="n">lst</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">lst</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>  <span class="c1"># shift item up
+</span>          <span class="n">i</span> <span class="o">=</span> <span class="n">i</span><span class="o">-</span><span class="mi">1</span>
+      <span class="n">lst</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">key</span>   <span class="c1"># put item in correct spot
+</span>  <span class="k">return</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h1 id="insertion-sort-analysis">Insertion Sort: Analysis</h1>
+<ul>
+  <li>Worst Case :</li>
+</ul>
+:ET

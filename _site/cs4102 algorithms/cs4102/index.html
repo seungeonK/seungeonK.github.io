@@ -1,0 +1,697 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>2/3 Sorting and Some Algorithm Principles - Seungeon</title>
+<meta name="description" content="Sorting Terms    Comparison Sort: 키를 비교하여 아이템을 움직인다   Adjacent Sort: 근접한 요소(adjacent elements)를 움직임으로 정렬하는 알고리즘            bubble, insertion 등등           Stable Sort: Sorting 알고리즘이 Stable(안정)하다            when two items x and y occur in the relative order x,y in the original list AND x==y, then x and y appear in the same relative order x,y in the final sorted list.           In-Place Sort: 알고리즘이 최대 Θ(1) 추가 공간을 사용한다            e.g. allocating another array of size θ(n) is NOT allowed.       it doesn’t create any D.S. or so                    ex) 만약 이 알고리즘이 array size 10인 scratch array를 만들면 -&gt; it’s okay! because the space complexity is θ(1).">
+
+
+  <meta name="author" content="Seungeon Kim">
+  
+  <meta property="article:author" content="Seungeon Kim">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Seungeon">
+<meta property="og:title" content="2/3 Sorting and Some Algorithm Principles">
+<meta property="og:url" content="https://seungeonk.github.io/cs4102%20algorithms/cs4102/">
+
+
+  <meta property="og:description" content="Sorting Terms    Comparison Sort: 키를 비교하여 아이템을 움직인다   Adjacent Sort: 근접한 요소(adjacent elements)를 움직임으로 정렬하는 알고리즘            bubble, insertion 등등           Stable Sort: Sorting 알고리즘이 Stable(안정)하다            when two items x and y occur in the relative order x,y in the original list AND x==y, then x and y appear in the same relative order x,y in the final sorted list.           In-Place Sort: 알고리즘이 최대 Θ(1) 추가 공간을 사용한다            e.g. allocating another array of size θ(n) is NOT allowed.       it doesn’t create any D.S. or so                    ex) 만약 이 알고리즘이 array size 10인 scratch array를 만들면 -&gt; it’s okay! because the space complexity is θ(1).">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2021-02-03T00:00:00-05:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://seungeonk.github.io/cs4102%20algorithms/cs4102/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Seungeon Kim",
+      "url": "https://seungeonk.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Seungeon Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Seungeon
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://seungeonK.github.io">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/homework/">Homework</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Seungeon Kim</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Undergraduate student at University of Virginia</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Charlottesville, USA</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:sk6qk@virginia.edu">
+            <meta itemprop="email" content="sk6qk@virginia.edu" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="2/3 Sorting and Some Algorithm Principles">
+    <meta itemprop="description" content="Sorting Terms  Comparison Sort: 키를 비교하여 아이템을 움직인다  Adjacent Sort: 근접한 요소(adjacent elements)를 움직임으로 정렬하는 알고리즘          bubble, insertion 등등        Stable Sort: Sorting 알고리즘이 Stable(안정)하다          when two items x and y occur in the relative order x,y in the original list AND x==y, then x and y appear in the same relative order x,y in the final sorted list.        In-Place Sort: 알고리즘이 최대 Θ(1) 추가 공간을 사용한다          e.g. allocating another array of size θ(n) is NOT allowed.      it doesn’t create any D.S. or so                  ex) 만약 이 알고리즘이 array size 10인 scratch array를 만들면 -&gt; it’s okay! because the space complexity is θ(1).                    ">
+    <meta itemprop="datePublished" content="2021-02-03T00:00:00-05:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">2/3 Sorting and Some Algorithm Principles
+</h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h1 id="sorting-terms">Sorting Terms</h1>
+<ul>
+  <li><strong>Comparison Sort</strong>: 키를 비교하여 아이템을 움직인다</li>
+  <li><strong>Adjacent Sort</strong>: 근접한 요소(adjacent elements)를 움직임으로 정렬하는 알고리즘
+    <ul>
+      <li>bubble, insertion 등등</li>
+    </ul>
+  </li>
+  <li><strong>Stable Sort</strong>: Sorting 알고리즘이 Stable(안정)하다
+    <ul>
+      <li>when two items x and y occur in the relative order x,y in the original list AND x==y, <strong>then x and y appear in the same relative order x,y in the final sorted list.</strong></li>
+    </ul>
+  </li>
+  <li><strong>In-Place Sort</strong>: 알고리즘이 <strong>최대 Θ(1)</strong> 추가 공간을 사용한다
+    <ul>
+      <li>e.g. allocating another array of size θ(n) is <strong>NOT</strong> allowed.</li>
+      <li>it doesn’t create any D.S. or so
+        <ul>
+          <li>ex) 만약 이 알고리즘이 array size 10인 scratch array를 만들면 -&gt; it’s okay! because the space complexity is θ(1).</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="insertion-sort삽입-정렬">Insertion Sort(삽입 정렬)</h1>
+<ul>
+  <li><strong>Strategy:</strong>
+    <ul>
+      <li>First section of list is sorted (say i-1 items)</li>
+      <li>Increase this partial solution by…</li>
+      <li>Shifting down next item beyond sorted section (i.e. the ith item) down to its proper place in sorted section.  (Must shift items up to make room.)</li>
+      <li>
+        <p>Since one item alone is already sorted, we can put steps 1-3 in a loop going from the 2nd to the last item.</p>
+      </li>
+      <li>
+        <h2 id="python-example">python example</h2>
+      </li>
+    </ul>
+
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="k">def</span> <span class="nf">insertion_sort</span><span class="p">(</span><span class="n">lst</span><span class="p">):</span>
+  <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span>
+  <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">n</span><span class="p">):</span>   <span class="c1"># lists start at index 0 to n-1
+</span>      <span class="n">key</span> <span class="o">=</span> <span class="n">lst</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
+   <span class="c1"># Insert lst[j] into sorted sub-list lst[0:j-1]
+</span>      <span class="n">i</span> <span class="o">=</span> <span class="n">j</span><span class="o">-</span><span class="mi">1</span>
+      <span class="k">while</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">key</span> <span class="o">&lt;</span> <span class="n">lst</span><span class="p">[</span><span class="n">i</span><span class="p">]:</span>
+          <span class="n">lst</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">lst</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>  <span class="c1"># shift item up
+</span>          <span class="n">i</span> <span class="o">=</span> <span class="n">i</span><span class="o">-</span><span class="mi">1</span>
+      <span class="n">lst</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">key</span>   <span class="c1"># put item in correct spot
+</span>  <span class="k">return</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h1 id="insertion-sort-analysis">Insertion Sort: Analysis</h1>
+<ul>
+  <li>Worst Case :</li>
+</ul>
+
+<h1 id="merge-sort">Merge Sort</h1>
+<p>\(\sum_{a}^{b}(\alpha \pm \beta)\)</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#algorithm" class="page__taxonomy-item" rel="tag">algorithm</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#python" class="page__taxonomy-item" rel="tag">python</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#sort" class="page__taxonomy-item" rel="tag">sort</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#cs4102-algorithms" class="page__taxonomy-item" rel="tag">cs4102 algorithms</a>
+    
+    </span>
+  </p>
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-02-03T00:00:00-05:00">February 3, 2021</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=2%2F3+Sorting+and+Some+Algorithm+Principles%20https%3A%2F%2Fseungeonk.github.io%2Fcs4102%2520algorithms%2Fcs4102%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseungeonk.github.io%2Fcs4102%2520algorithms%2Fcs4102%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fseungeonk.github.io%2Fcs4102%2520algorithms%2Fcs4102%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/Post_request_name_vs_id/" class="pagination--pager" title="HTML Name 속성 vs ID 속성
+">Previous</a>
+    
+    
+      <a href="/cs3420%20adv%20software%20dev/what-_is_software_engineering/" class="pagination--pager" title="2/4 What is software engineering?
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/cs3420%20adv%20software%20dev/what-_is_software_engineering/" rel="permalink">2/4 What is software engineering?
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Intro
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Post_request_name_vs_id/" rel="permalink">HTML Name 속성 vs ID 속성
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Name 속성(Name Attribute)
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/JS_callback/" rel="permalink">자바스크립트 콜백 함수(JS callback)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">콜백이란?(Callback)
+
+
+I will be back later!
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/cs3240%20adv%20soft%20dev/django_view/" rel="permalink">장고 view와 url(Django View and URL)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Django에서 Url를 통해 View를 호출하는 방법
+
+
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Seungeon Kim.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

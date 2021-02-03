@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>HTML Name 속성 vs ID 속성 - Seungeon</title>
-<meta name="description" content="Name 속성(Name Attribute)">
+<!-- begin _includes/seo.html --><title>장고 view와 url(Django View and URL) - Seungeon</title>
+<meta name="description" content="Django에서 Url를 통해 View를 호출하는 방법">
 
 
   <meta name="author" content="Seungeon Kim">
@@ -22,30 +22,30 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Seungeon">
-<meta property="og:title" content="HTML Name 속성 vs ID 속성">
-<meta property="og:url" content="https://seungeonk.github.io/Post_request_name_vs_id/">
+<meta property="og:title" content="장고 view와 url(Django View and URL)">
+<meta property="og:url" content="https://seungeonk.github.io/cs3240%20adv%20soft%20dev/django_view/">
 
 
-  <meta property="og:description" content="Name 속성(Name Attribute)">
-
-
-
-
-
-
-
-  <meta property="article:published_time" content="2021-01-29T00:00:00-05:00">
+  <meta property="og:description" content="Django에서 Url를 통해 View를 호출하는 방법">
 
 
 
 
 
-  
+
+
+  <meta property="article:published_time" content="2021-01-17T00:00:00-05:00">
+
+
+
+
 
   
 
+  
 
-<link rel="canonical" href="https://seungeonk.github.io/Post_request_name_vs_id/">
+
+<link rel="canonical" href="https://seungeonk.github.io/cs3240%20adv%20soft%20dev/django_view/">
 
 
 
@@ -275,15 +275,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="HTML Name 속성 vs ID 속성">
-    <meta itemprop="description" content="Name 속성(Name Attribute)">
-    <meta itemprop="datePublished" content="2021-01-29T00:00:00-05:00">
+    <meta itemprop="headline" content="장고 view와 url(Django View and URL)">
+    <meta itemprop="description" content="Django에서 Url를 통해 View를 호출하는 방법">
+    <meta itemprop="datePublished" content="2021-01-17T00:00:00-05:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">HTML Name 속성 vs ID 속성
+          <h1 id="page-title" class="page__title" itemprop="headline">장고 view와 url(Django View and URL)
 </h1>
           
 
@@ -311,25 +311,16 @@
 
       <section class="page__content" itemprop="text">
         
-        <h2 id="name-속성name-attribute"><strong>Name</strong> 속성(Name Attribute)</h2>
-
-<p><strong>(Important)</strong> The name attribute is <strong>used in the HTTP request</strong> sent by your browser to the server as a variable name associated with the data contained in the value attribute.</p>
-
-<p>Valid only on <code class="language-plaintext highlighter-rouge">&lt;a&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;form&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;iframe&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;img&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;map&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;input&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;select&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;textarea&gt;</code></p>
-
-<p><strong>Name</strong> does not have to be unique, and can be used to group elements together such as radio buttons &amp; checkboxes</p>
-
+        <h2 id="django에서-url를-통해-view를-호출하는-방법">Django에서 Url를 통해 View를 호출하는 방법</h2>
 <hr />
 
-<h2 id="id-속성id-attribute"><strong>ID</strong> 속성(ID Attribute)</h2>
+<p>사용가자 웹사이트에 페이지를 요청할때, Django는 <code class="language-plaintext highlighter-rouge">project_name.urls</code> 파이썬 모듈을 먼저 불러옴</p>
 
-<p>Valid on <strong>any element except</strong> <code class="language-plaintext highlighter-rouge">&lt;base&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;html&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;meta&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;param&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;script&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;style&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;title&gt;</code></p>
+<p><code class="language-plaintext highlighter-rouge">project_name.urls</code>에서 <code class="language-plaintext highlighter-rouge">urlpatterns</code>라는 변수를 찾고, 순서대로 패턴을 훑어감(traverse in order)</p>
 
-<p><strong>Each Id should be unique</strong> in the page as rendered in the browser, which may or may not be all in the same file</p>
+<p>맞는 url(예: <code class="language-plaintext highlighter-rouge">'polls/'</code>)를 찾고 나서, 찾은 url text(<code class="language-plaintext highlighter-rouge">'polls/'</code>)를 제거하고 남아있는 텍스트를 보냄(ex: <code class="language-plaintext highlighter-rouge">'34/'</code>)</p>
 
-<p>Is referenced in <strong>CSS</strong> or <strong>URL</strong> with <code class="language-plaintext highlighter-rouge">#</code> sign</p>
-
-<p>Is referenced in <strong>JS</strong> with <code class="language-plaintext highlighter-rouge">getElementById()</code></p>
+<p>맞는 텍스트를 발견하면(<code class="language-plaintext highlighter-rouge">'&lt;int:question_id&gt;/</code>), <code class="language-plaintext highlighter-rouge">detail()</code>뷰를 콜함</p>
 
 
         
@@ -340,8 +331,27 @@
         
 
 
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#cs3240-adv-soft-dev" class="page__taxonomy-item" rel="tag">cs3240 adv soft dev</a>
+    
+    </span>
+  </p>
+
+
         
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-01-29T00:00:00-05:00">January 29, 2021</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-01-17T00:00:00-05:00">January 17, 2021</time></p>
 
 
       </footer>
@@ -351,22 +361,22 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=HTML+Name+%EC%86%8D%EC%84%B1+vs+ID+%EC%86%8D%EC%84%B1%20https%3A%2F%2Fseungeonk.github.io%2FPost_request_name_vs_id%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=%EC%9E%A5%EA%B3%A0+view%EC%99%80+url%28Django+View+and+URL%29%20https%3A%2F%2Fseungeonk.github.io%2Fcs3240%2520adv%2520soft%2520dev%2Fdjango_view%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseungeonk.github.io%2FPost_request_name_vs_id%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseungeonk.github.io%2Fcs3240%2520adv%2520soft%2520dev%2Fdjango_view%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fseungeonk.github.io%2FPost_request_name_vs_id%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fseungeonk.github.io%2Fcs3240%2520adv%2520soft%2520dev%2Fdjango_view%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/JS_callback/" class="pagination--pager" title="자바스크립트 콜백 함수(JS callback)
+      <a href="/first/" class="pagination--pager" title="first post
 ">Previous</a>
     
     
-      <a href="/cs4102%20algorithms/cs4102/" class="pagination--pager" title="2/3 Sorting and Some Algorithm Principles
+      <a href="/JS_callback/" class="pagination--pager" title="자바스크립트 콜백 함수(JS callback)
 ">Next</a>
     
   </nav>
@@ -478,6 +488,46 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
+        <a href="/Post_request_name_vs_id/" rel="permalink">HTML Name 속성 vs ID 속성
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Name 속성(Name Attribute)
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
         <a href="/JS_callback/" rel="permalink">자바스크립트 콜백 함수(JS callback)
 </a>
       
@@ -496,7 +546,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          less than 1 minute read
+          1 minute read
         
       </span>
     
@@ -507,48 +557,6 @@
 
 
 I will be back later!
-</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/cs3240%20adv%20soft%20dev/django_view/" rel="permalink">장고 view와 url(Django View and URL)
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          less than 1 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">Django에서 Url를 통해 View를 호출하는 방법
-
-
 </p>
   </article>
 </div>

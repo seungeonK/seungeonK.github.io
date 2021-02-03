@@ -1,0 +1,25 @@
+I"N<h1 id="sorting-terms">Sorting Terms</h1>
+<ul>
+  <li><strong>Comparison Sort</strong>: 키를 비교하여 아이템을 움직인다</li>
+  <li><strong>Adjacent Sort</strong>: 근접한 요소(adjacent elements)를 움직임으로 정렬하는 알고리즘
+    <ul>
+      <li>bubble, insertion 등등</li>
+    </ul>
+  </li>
+  <li><strong>Stable Sort</strong>: Sorting 알고리즘이 Stable(안정)하다
+    <ul>
+      <li>when two items x and y occur in the relative order x,y in the original list AND x==y, <strong>then x and y appear in the same relative order x,y in the final sorted list.</strong></li>
+    </ul>
+  </li>
+  <li><strong>In-Place Sort</strong>: 알고리즘이 <strong>최대 Θ(1)</strong> 추가 공간을 사용한다
+    <ul>
+      <li>e.g. allocating another array of size θ(n) is <strong>NOT</strong> allowed.</li>
+      <li>it doesn’t create any D.S. or so
+        <ul>
+          <li>ex) 만약 이 알고리즘이 array size 10인 scratch array를 만들면 -&gt; it’s okay! because the space complexity is θ(1).</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+:ET
