@@ -3,7 +3,7 @@ title: 2/4 What is software engineering?
 subtitle:
 
 categories:
-    - cs3420 adv software dev
+    - cs3420 lecuture
 tags:
 ---
 
@@ -43,7 +43,7 @@ tags:
 
 What makes creating software different than creating other things that engineers build (ex. machines, aircraft, bridges etc)?
 
-* Software is changeable
+* Software is changeable/malleable
 * Requirements often change DURING development
 * Requirements often change AFTER development
 * **Misconceptions regarding actual time frames / how software is built and maintained from customers... and developers**

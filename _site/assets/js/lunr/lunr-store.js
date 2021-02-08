@@ -12,9 +12,9 @@ var store = [{
         "teaser": null
       },{
         "title": "장고 view와 url(Django View and URL)",
-        "excerpt":"Django에서 Url를 통해 View를 호출하는 방법    사용가자 웹사이트에 페이지를 요청할때, Django는 project_name.urls 파이썬 모듈을 먼저 불러옴   project_name.urls에서 urlpatterns라는 변수를 찾고, 순서대로 패턴을 훑어감(traverse in order)   맞는 url(예: 'polls/')를 찾고 나서, 찾은 url text('polls/')를 제거하고 남아있는 텍스트를 보냄(ex: '34/')   맞는 텍스트를 발견하면('&lt;int:question_id&gt;/), detail()뷰를 콜함   ","categories": ["cs3240 adv soft dev"],
+        "excerpt":"Django에서 Url를 통해 View를 호출하는 방법    사용가자 웹사이트에 페이지를 요청할때, Django는 project_name.urls 파이썬 모듈을 먼저 불러옴   project_name.urls에서 urlpatterns라는 변수를 찾고, 순서대로 패턴을 훑어감(traverse in order)   맞는 url(예: 'polls/')를 찾고 나서, 찾은 url text('polls/')를 제거하고 남아있는 텍스트를 보냄(ex: '34/')   맞는 텍스트를 발견하면('&lt;int:question_id&gt;/), detail()뷰를 콜함   ","categories": ["cs3240 django"],
         "tags": [],
-        "url": "https://seungeonk.github.io/cs3240%20adv%20soft%20dev/django_view/",
+        "url": "https://seungeonk.github.io/cs3240%20django/django_view/",
         "teaser": null
       },{
         "title": "자바스크립트 콜백 함수(JS callback)",
@@ -35,9 +35,21 @@ var store = [{
         "url": "https://seungeonk.github.io/cs4102%20algorithms/cs4102/",
         "teaser": null
       },{
-        "title": "2/4 What is software engineering?",
-        "excerpt":"Intro HCI is kind of psy branch This(software engineering) is a bit more business branch software is very different key point to remember: Programming is actually a small part of software engineering S.E. is literally the field of how to engineer software EX) building a building knowing how to hammer...","categories": ["cs3420 adv software dev"],
+        "title": "장고 헤로쿠 모델 조작하기",
+        "excerpt":"헤로쿠로 배포된 장고 앱의 모델을 액세스 하고 싶을 때,   heroku run -a app_name python3 manage.py shell   you can access models remotely through heroku.  ","categories": ["cs3240 django"],
         "tags": [],
-        "url": "https://seungeonk.github.io/cs3420%20adv%20software%20dev/what-_is_software_engineering/",
+        "url": "https://seungeonk.github.io/cs3240%20django/django_heroku_access_models/",
+        "teaser": null
+      },{
+        "title": "2/4 What is software engineering?",
+        "excerpt":"Intro HCI is kind of psy branch This(software engineering) is a bit more business branch software is very different key point to remember: Programming is actually a small part of software engineering S.E. is literally the field of how to engineer software EX) building a building knowing how to hammer...","categories": ["cs3420 lecuture"],
+        "tags": [],
+        "url": "https://seungeonk.github.io/cs3420%20lecuture/what-_is_software_engineering/",
+        "teaser": null
+      },{
+        "title": "장고 폼 관리",
+        "excerpt":" ","categories": ["cs3240 django"],
+        "tags": [],
+        "url": "https://seungeonk.github.io/cs3240%20django/django_form_process/",
         "teaser": null
       }]

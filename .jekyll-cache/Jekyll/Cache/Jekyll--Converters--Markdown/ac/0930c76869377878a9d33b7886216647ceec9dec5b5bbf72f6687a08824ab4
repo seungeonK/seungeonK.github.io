@@ -1,0 +1,7 @@
+I":<p>헤로쿠로 배포된 장고 앱의 모델을 액세스 하고 싶을 때,</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>heroku run -a app_name python3 manage.py shell
+</code></pre></div></div>
+
+<p>you can access models remotely through heroku.</p>
+:ET

@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>2/3 Sorting and Some Algorithm Principles - Seungeon</title>
-<meta name="description" content="Sorting Terms    Comparison Sort: 키를 비교하여 아이템을 움직인다   Adjacent Sort: 근접한 요소(adjacent elements)를 움직임으로 정렬하는 알고리즘            bubble, insertion 등등           Stable Sort: Sorting 알고리즘이 Stable(안정)하다            when two items x and y occur in the relative order x,y in the original list AND x==y, then x and y appear in the same relative order x,y in the final sorted list.           In-Place Sort: 알고리즘이 최대 Θ(1) 추가 공간을 사용한다            e.g. allocating another array of size θ(n) is NOT allowed.       it doesn’t create any D.S. or so                    ex) 만약 이 알고리즘이 array size 10인 scratch array를 만들면 -&gt; it’s okay! because the space complexity is θ(1).">
+<!-- begin _includes/seo.html --><title>장고 헤로쿠 모델 조작하기 - Seungeon</title>
+<meta name="description" content="헤로쿠로 배포된 장고 앱의 모델을 액세스 하고 싶을 때,">
 
 
   <meta name="author" content="Seungeon Kim">
@@ -22,11 +22,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Seungeon">
-<meta property="og:title" content="2/3 Sorting and Some Algorithm Principles">
-<meta property="og:url" content="https://seungeonk.github.io/cs4102%20algorithms/cs4102/">
+<meta property="og:title" content="장고 헤로쿠 모델 조작하기">
+<meta property="og:url" content="https://seungeonk.github.io/cs3240%20django/django_heroku_access_models/">
 
 
-  <meta property="og:description" content="Sorting Terms    Comparison Sort: 키를 비교하여 아이템을 움직인다   Adjacent Sort: 근접한 요소(adjacent elements)를 움직임으로 정렬하는 알고리즘            bubble, insertion 등등           Stable Sort: Sorting 알고리즘이 Stable(안정)하다            when two items x and y occur in the relative order x,y in the original list AND x==y, then x and y appear in the same relative order x,y in the final sorted list.           In-Place Sort: 알고리즘이 최대 Θ(1) 추가 공간을 사용한다            e.g. allocating another array of size θ(n) is NOT allowed.       it doesn’t create any D.S. or so                    ex) 만약 이 알고리즘이 array size 10인 scratch array를 만들면 -&gt; it’s okay! because the space complexity is θ(1).">
+  <meta property="og:description" content="헤로쿠로 배포된 장고 앱의 모델을 액세스 하고 싶을 때,">
 
 
 
@@ -45,7 +45,7 @@
   
 
 
-<link rel="canonical" href="https://seungeonk.github.io/cs4102%20algorithms/cs4102/">
+<link rel="canonical" href="https://seungeonk.github.io/cs3240%20django/django_heroku_access_models/">
 
 
 
@@ -275,15 +275,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="2/3 Sorting and Some Algorithm Principles">
-    <meta itemprop="description" content="Sorting Terms  Comparison Sort: 키를 비교하여 아이템을 움직인다  Adjacent Sort: 근접한 요소(adjacent elements)를 움직임으로 정렬하는 알고리즘          bubble, insertion 등등        Stable Sort: Sorting 알고리즘이 Stable(안정)하다          when two items x and y occur in the relative order x,y in the original list AND x==y, then x and y appear in the same relative order x,y in the final sorted list.        In-Place Sort: 알고리즘이 최대 Θ(1) 추가 공간을 사용한다          e.g. allocating another array of size θ(n) is NOT allowed.      it doesn’t create any D.S. or so                  ex) 만약 이 알고리즘이 array size 10인 scratch array를 만들면 -&gt; it’s okay! because the space complexity is θ(1).                    ">
+    <meta itemprop="headline" content="장고 헤로쿠 모델 조작하기">
+    <meta itemprop="description" content="헤로쿠로 배포된 장고 앱의 모델을 액세스 하고 싶을 때,">
     <meta itemprop="datePublished" content="2021-02-03T00:00:00-05:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">2/3 Sorting and Some Algorithm Principles
+          <h1 id="page-title" class="page__title" itemprop="headline">장고 헤로쿠 모델 조작하기
 </h1>
           
 
@@ -299,7 +299,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          1 minute read
+          less than 1 minute read
         
       </span>
     
@@ -311,68 +311,12 @@
 
       <section class="page__content" itemprop="text">
         
-        <h1 id="sorting-terms">Sorting Terms</h1>
-<ul>
-  <li><strong>Comparison Sort</strong>: 키를 비교하여 아이템을 움직인다</li>
-  <li><strong>Adjacent Sort</strong>: 근접한 요소(adjacent elements)를 움직임으로 정렬하는 알고리즘
-    <ul>
-      <li>bubble, insertion 등등</li>
-    </ul>
-  </li>
-  <li><strong>Stable Sort</strong>: Sorting 알고리즘이 Stable(안정)하다
-    <ul>
-      <li>when two items x and y occur in the relative order x,y in the original list AND x==y, <strong>then x and y appear in the same relative order x,y in the final sorted list.</strong></li>
-    </ul>
-  </li>
-  <li><strong>In-Place Sort</strong>: 알고리즘이 <strong>최대 Θ(1)</strong> 추가 공간을 사용한다
-    <ul>
-      <li>e.g. allocating another array of size θ(n) is <strong>NOT</strong> allowed.</li>
-      <li>it doesn’t create any D.S. or so
-        <ul>
-          <li>ex) 만약 이 알고리즘이 array size 10인 scratch array를 만들면 -&gt; it’s okay! because the space complexity is θ(1).</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
+        <p>헤로쿠로 배포된 장고 앱의 모델을 액세스 하고 싶을 때,</p>
 
-<h1 id="insertion-sort삽입-정렬">Insertion Sort(삽입 정렬)</h1>
-<ul>
-  <li><strong>Strategy:</strong>
-    <ul>
-      <li>First section of list is sorted (say i-1 items)</li>
-      <li>Increase this partial solution by…</li>
-      <li>Shifting down next item beyond sorted section (i.e. the ith item) down to its proper place in sorted section.  (Must shift items up to make room.)</li>
-      <li>
-        <p>Since one item alone is already sorted, we can put steps 1-3 in a loop going from the 2nd to the last item.</p>
-      </li>
-      <li>
-        <h2 id="python-example">python example</h2>
-      </li>
-    </ul>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>heroku run -a app_name python3 manage.py shell
+</code></pre></div></div>
 
-    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="k">def</span> <span class="nf">insertion_sort</span><span class="p">(</span><span class="n">lst</span><span class="p">):</span>
-  <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span>
-  <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">n</span><span class="p">):</span>   <span class="c1"># lists start at index 0 to n-1
-</span>      <span class="n">key</span> <span class="o">=</span> <span class="n">lst</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
-   <span class="c1"># Insert lst[j] into sorted sub-list lst[0:j-1]
-</span>      <span class="n">i</span> <span class="o">=</span> <span class="n">j</span><span class="o">-</span><span class="mi">1</span>
-      <span class="k">while</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">key</span> <span class="o">&lt;</span> <span class="n">lst</span><span class="p">[</span><span class="n">i</span><span class="p">]:</span>
-          <span class="n">lst</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">lst</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>  <span class="c1"># shift item up
-</span>          <span class="n">i</span> <span class="o">=</span> <span class="n">i</span><span class="o">-</span><span class="mi">1</span>
-      <span class="n">lst</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">key</span>   <span class="c1"># put item in correct spot
-</span>  <span class="k">return</span>
-</code></pre></div>    </div>
-  </li>
-</ul>
-
-<h1 id="insertion-sort-analysis">Insertion Sort: Analysis</h1>
-<ul>
-  <li>Worst Case :</li>
-</ul>
-
-<h1 id="merge-sort">Merge Sort</h1>
-<p>\(\sum_{a}^{b}(\alpha \pm \beta)\)</p>
+<p>you can access models remotely through heroku.</p>
 
         
       </section>
@@ -380,33 +324,6 @@
       <footer class="page__meta">
         
         
-  
-
-
-  
-  
-  
-
-  <p class="page__taxonomy">
-    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
-    <span itemprop="keywords">
-    
-      
-      
-      <a href="/tags/#algorithm" class="page__taxonomy-item" rel="tag">algorithm</a><span class="sep">, </span>
-    
-      
-      
-      <a href="/tags/#python" class="page__taxonomy-item" rel="tag">python</a><span class="sep">, </span>
-    
-      
-      
-      <a href="/tags/#sort" class="page__taxonomy-item" rel="tag">sort</a>
-    
-    </span>
-  </p>
-
-
 
 
   
@@ -422,7 +339,7 @@
     
       
       
-      <a href="/categories/#cs4102-algorithms" class="page__taxonomy-item" rel="tag">cs4102 algorithms</a>
+      <a href="/categories/#cs3240-django" class="page__taxonomy-item" rel="tag">cs3240 django</a>
     
     </span>
   </p>
@@ -439,22 +356,22 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=2%2F3+Sorting+and+Some+Algorithm+Principles%20https%3A%2F%2Fseungeonk.github.io%2Fcs4102%2520algorithms%2Fcs4102%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=%EC%9E%A5%EA%B3%A0+%ED%97%A4%EB%A1%9C%EC%BF%A0+%EB%AA%A8%EB%8D%B8+%EC%A1%B0%EC%9E%91%ED%95%98%EA%B8%B0%20https%3A%2F%2Fseungeonk.github.io%2Fcs3240%2520django%2Fdjango_heroku_access_models%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseungeonk.github.io%2Fcs4102%2520algorithms%2Fcs4102%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseungeonk.github.io%2Fcs3240%2520django%2Fdjango_heroku_access_models%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fseungeonk.github.io%2Fcs4102%2520algorithms%2Fcs4102%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fseungeonk.github.io%2Fcs3240%2520django%2Fdjango_heroku_access_models%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/Post_request_name_vs_id/" class="pagination--pager" title="HTML Name 속성 vs ID 속성
+      <a href="/cs4102%20algorithms/cs4102/" class="pagination--pager" title="2/3 Sorting and Some Algorithm Principles
 ">Previous</a>
     
     
-      <a href="/cs3240%20django/django_heroku_access_models/" class="pagination--pager" title="장고 헤로쿠 모델 조작하기
+      <a href="/cs3420%20lecuture/what-_is_software_engineering/" class="pagination--pager" title="2/4 What is software engineering?
 ">Next</a>
     
   </nav>
@@ -559,7 +476,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/cs3240%20django/django_heroku_access_models/" rel="permalink">장고 헤로쿠 모델 조작하기
+        <a href="/cs4102%20algorithms/cs4102/" rel="permalink">2/3 Sorting and Some Algorithm Principles
 </a>
       
     </h2>
@@ -577,15 +494,22 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          less than 1 minute read
+          1 minute read
         
       </span>
     
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">헤로쿠로 배포된 장고 앱의 모델을 액세스 하고 싶을 때,
-</p>
+    <p class="archive__item-excerpt" itemprop="description">Sorting Terms
+
+  Comparison Sort: 키를 비교하여 아이템을 움직인다
+  Adjacent Sort: 근접한 요소(adjacent elements)를 움직임으로 정렬하는 알고리즘
+    
+      bubble, insertion 등등
+    
+  
+  Sta...</p>
   </article>
 </div>
 
