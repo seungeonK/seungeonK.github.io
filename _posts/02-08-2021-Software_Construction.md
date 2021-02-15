@@ -4,7 +4,6 @@ subtitle:
 
 categories:
     - cs3420 lecuture
-tags:
 ---
 
 # IDEs and SCM
