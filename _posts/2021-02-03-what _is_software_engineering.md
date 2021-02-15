@@ -43,7 +43,7 @@ tags:
 
 What makes creating software different than creating other things that engineers build (ex. machines, aircraft, bridges etc)?
 
-* Software is changeable/malleable
+* Software is changeable/malleable (소프트웨어는 가변성이다)
 * Requirements often change DURING development
 * Requirements often change AFTER development
 * **Misconceptions regarding actual time frames / how software is built and maintained from customers... and developers**
