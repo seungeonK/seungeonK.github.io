@@ -3,19 +3,17 @@ title: "장고 폼 관리"
 subtitle: "managing form processing in Django"
 categories:
     - cs3240 django
-
 ---
 
-ex)
 
-```python
+```html
 <h1>{{ question.question_text }}</h1>
 
 {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
 
 <form action="{% url 'polls:vote' question.id %}" method="post">
 {% csrf_token %}
-{% for choice in question.choice_set.all %}
+{% for choice in question.choice_set.all() %}
     <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}">
     <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label><br>
 {% endfor %}
