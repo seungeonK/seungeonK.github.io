@@ -38,6 +38,5 @@ ex)
 * **항상!** `POST` 데이터 처리가 끝나면 HttpResponseRedirect()를 리턴해야함. 이것은 장고뿐만 아니라 다른 웹 개발에서도 좋은 practice!
 
 * `reverse()`함수는 view 함수 안에 URL를 하드코딩 하는 것을 피하게 해주는 함수이다.
-    * 
 
 
