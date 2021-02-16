@@ -3,6 +3,7 @@ title: "장고 폼 관리"
 subtitle: "managing form processing in Django"
 categories:
     - cs3240 django
+    
 ---
 
 

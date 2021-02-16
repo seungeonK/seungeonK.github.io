@@ -1,7 +1,8 @@
 ---
 title: 2/16 plan-driven-method
 subtitle:
-
+permalink: /homework/cs3240
+layout: category
 categories:
     - cs3420 lecuture
 tags:
