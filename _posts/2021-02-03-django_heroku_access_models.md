@@ -2,7 +2,7 @@
 title: "장고 헤로쿠 모델 조작하기"
 subtitle: "manipulate Model through Heroku"
 categories:
-    - cs3240 django
+    - django
 
 ---
 

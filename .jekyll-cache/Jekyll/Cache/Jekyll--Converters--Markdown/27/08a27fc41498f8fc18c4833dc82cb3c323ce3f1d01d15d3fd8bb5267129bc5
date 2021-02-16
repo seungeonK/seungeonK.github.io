@@ -1,0 +1,107 @@
+I"Y<h1 id="ides-and-scm">IDEs and SCM</h1>
+
+<p>How do we work together as a team?</p>
+
+<ul>
+  <li><strong>Our definition</strong>
+    <ul>
+      <li>Software Construction focuses specifically on the building, testing, and technical production of the software porudct and tools and techniques used</li>
+    </ul>
+  </li>
+  <li><strong>Techniques and Practices</strong>
+    <ul>
+      <li>Coding standards</li>
+      <li>Refactoring</li>
+      <li>Collective code ownership and continuous integration</li>
+      <li>minimal shippable/viable product</li>
+    </ul>
+  </li>
+  <li><strong>Tool Categories</strong>
+    <ul>
+      <li>IDEs</li>
+      <li>Source control management</li>
+      <li>Bug/ Issue tracker</li>
+      <li>Requirements / Features / Backlog tracker</li>
+      <li>Communication systems</li>
+      <li>Continuous intergration systems</li>
+    </ul>
+  </li>
+</ul>
+
+<p>These are all things helping larger team <strong>keep on track</strong></p>
+
+<ul>
+  <li>Training
+    <ul>
+      <li>In many companies, when you’re on-boarded, you have some time of <strong>crash course</strong> in the tools and systems used in that organization</li>
+      <li>Smaller and more agile teams often allow more freedom for developers in tool/system choices</li>
+      <li>New team memeber/new developers are often given less freedom…</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="ides">IDEs</h1>
+
+<ul>
+  <li>An IDE is a programming tool that combines a few dev features into one unified system
+    <ul>
+      <li>code editor
+        <ul>
+          <li>syntax highlighting</li>
+          <li>code folding</li>
+          <li>auto-complete</li>
+        </ul>
+      </li>
+      <li>compiling/running</li>
+      <li>debugging</li>
+      <li>Testing</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="source-control-management">Source Control Management</h1>
+
+<ul>
+  <li>SCM enbales multiple people to simultaneously work on a single project.</li>
+  <li>Verion control also enables one person to use multiple computers to work on a project, so it’s valuable even if you are working by yourself</li>
+  <li>
+    <p>if there are any conflicting edits to the same line of a file, then the version control system requests human assistance in deciding what to do</p>
+  </li>
+  <li>
+    <h3 id="distributed-vs-centralized-scm">Distributed vs Centralized SCM</h3>
+    <ul>
+      <li>Distributed version control is more modern</li>
+      <li>main difference is that
+        <ul>
+          <li>Centralized -&gt; there is just one repo</li>
+          <li>distributed -&gt; there are multiple repos</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="repository">Repository</h3>
+    <ul>
+      <li>place where SCM keeps track of changes</li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="working-copyworking-tree">Working copy(Working Tree)</h3>
+    <ul>
+      <li>Your current view or copy of what’s in the repo</li>
+      <li>you edit, update, test, etc these files</li>
+      <li>When you’re ready, you <strong>commit</strong> a file to the repository -&gt; kind of <strong>Save files</strong></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="typical-git-workflow">Typical Git WorkFlow</h1>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. Start coding session by fetching code from shared remote repo
+2. Merge that branch into local branch
+3. Code, test files in your local branch
+4. Commit code to local repo
+5. Repeat steps 3 and 4 until you have something ready for sharing with others
+6. Push code to shared remote repo
+7. But you should look at and fetch any changes others have made first. Resolve any problems before push
+</code></pre></div></div>
+:ET

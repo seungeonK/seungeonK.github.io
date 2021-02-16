@@ -1,6 +1,9 @@
 ---
 title: "HTML Name 속성 vs ID 속성"
 layout: single
+
+categories:
+    - JS
 ---
 
 ## __Name__ 속성(Name Attribute)

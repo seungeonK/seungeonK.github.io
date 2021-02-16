@@ -2,8 +2,7 @@
 title: 2/4 What is software engineering?
 subtitle:
 
-categories:
-    - cs3420 lecuture
+category: cs3240
 tags:
 ---
 

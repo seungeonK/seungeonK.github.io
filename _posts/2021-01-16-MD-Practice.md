@@ -1,6 +1,8 @@
 ---
 layout: single
 title: "Markdown Syntax Practice"
+categories:
+  - markdown
 ---
 
 ## __This is a practice for Markdown syntax__

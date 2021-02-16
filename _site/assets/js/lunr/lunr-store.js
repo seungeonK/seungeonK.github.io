@@ -1,32 +1,26 @@
 var store = [{
         "title": "Markdown Syntax Practice",
-        "excerpt":"This is a practice for Markdown syntax header 6(The smallest) header 5 header 4 header 3 header 2 header 1(The largest) 수평선: 내용을 명시적으로 구분하고 싶을때 ’—‘를 입력 When you need a horizontal line, type ‘—‘ 엔터키: 라인 바꾸고 싶을 때, ‘엔터 두번’ when you change line, ‘enter twice’ 강조(Emphasis)...","categories": [],
+        "excerpt":"This is a practice for Markdown syntax header 6(The smallest) header 5 header 4 header 3 header 2 header 1(The largest) 수평선: 내용을 명시적으로 구분하고 싶을때 ’—‘를 입력 When you need a horizontal line, type ‘—‘ 엔터키: 라인 바꾸고 싶을 때, ‘엔터 두번’ when you change line, ‘enter twice’ 강조(Emphasis)...","categories": ["markdown"],
         "tags": [],
-        "url": "https://seungeonk.github.io/MD-Practice/",
-        "teaser": null
-      },{
-        "title": "first post",
-        "excerpt":"First Blog   first blog!  ","categories": [],
-        "tags": [],
-        "url": "https://seungeonk.github.io/first/",
+        "url": "https://seungeonk.github.io/markdown/MD-Practice/",
         "teaser": null
       },{
         "title": "장고 view와 url(Django View and URL)",
-        "excerpt":"Django에서 Url를 통해 View를 호출하는 방법    사용가자 웹사이트에 페이지를 요청할때, Django는 project_name.urls 파이썬 모듈을 먼저 불러옴   project_name.urls에서 urlpatterns라는 변수를 찾고, 순서대로 패턴을 훑어감(traverse in order)   맞는 url(예: 'polls/')를 찾고 나서, 찾은 url text('polls/')를 제거하고 남아있는 텍스트를 보냄(ex: '34/')   맞는 텍스트를 발견하면('&lt;int:question_id&gt;/), detail()뷰를 콜함   ","categories": ["cs3240 django"],
+        "excerpt":"Django에서 Url를 통해 View를 호출하는 방법    사용가자 웹사이트에 페이지를 요청할때, Django는 project_name.urls 파이썬 모듈을 먼저 불러옴   project_name.urls에서 urlpatterns라는 변수를 찾고, 순서대로 패턴을 훑어감(traverse in order)   맞는 url(예: 'polls/')를 찾고 나서, 찾은 url text('polls/')를 제거하고 남아있는 텍스트를 보냄(ex: '34/')   맞는 텍스트를 발견하면('&lt;int:question_id&gt;/), detail()뷰를 콜함   ","categories": ["django"],
         "tags": [],
-        "url": "https://seungeonk.github.io/cs3240%20django/django_view/",
+        "url": "https://seungeonk.github.io/django/django_view/",
         "teaser": null
       },{
         "title": "자바스크립트 콜백 함수(JS callback)",
-        "excerpt":"콜백이란?(Callback) I will be back later! Let’s look at more examples of passing functions as values and using function expressions. We’ll write a function ask(question, yes, no) with three parameters: function ask(question, yes, no) { if (confirm(question)) yes() else no(); } function showOk() { alert( \"You agreed.\" ); } function...","categories": [],
+        "excerpt":"콜백이란?(Callback) I will be back later! Let’s look at more examples of passing functions as values and using function expressions. We’ll write a function ask(question, yes, no) with three parameters: function ask(question, yes, no) { if (confirm(question)) yes() else no(); } function showOk() { alert( \"You agreed.\" ); } function...","categories": ["JS"],
         "tags": [],
-        "url": "https://seungeonk.github.io/JS_callback/",
+        "url": "https://seungeonk.github.io/js/JS_callback/",
         "teaser": null
       },{
         "title": "HTML Name 속성 vs ID 속성",
-        "excerpt":"Name 속성(Name Attribute) (Important) The name attribute is used in the HTTP request sent by your browser to the server as a variable name associated with the data contained in the value attribute. Valid only on &lt;a&gt;, &lt;form&gt;, &lt;iframe&gt;, &lt;img&gt;, &lt;map&gt;, &lt;input&gt;, &lt;select&gt;, &lt;textarea&gt; Name does not have to be...","categories": [],
+        "excerpt":"Name 속성(Name Attribute) (Important) The name attribute is used in the HTTP request sent by your browser to the server as a variable name associated with the data contained in the value attribute. Valid only on &lt;a&gt;, &lt;form&gt;, &lt;iframe&gt;, &lt;img&gt;, &lt;map&gt;, &lt;input&gt;, &lt;select&gt;, &lt;textarea&gt; Name does not have to be...","categories": ["JS"],
         "tags": [],
-        "url": "https://seungeonk.github.io/Post_request_name_vs_id/",
+        "url": "https://seungeonk.github.io/js/Post_request_name_vs_id/",
         "teaser": null
       },{
         "title": "2/3 Sorting and Some Algorithm Principles",
@@ -36,20 +30,32 @@ var store = [{
         "teaser": null
       },{
         "title": "장고 헤로쿠 모델 조작하기",
-        "excerpt":"헤로쿠로 배포된 장고 앱의 모델을 액세스 하고 싶을 때,   heroku run -a app_name python3 manage.py shell   you can access models remotely through heroku.  ","categories": ["cs3240 django"],
+        "excerpt":"헤로쿠로 배포된 장고 앱의 모델을 액세스 하고 싶을 때,   heroku run -a app_name python3 manage.py shell   you can access models remotely through heroku.  ","categories": ["django"],
         "tags": [],
-        "url": "https://seungeonk.github.io/cs3240%20django/django_heroku_access_models/",
+        "url": "https://seungeonk.github.io/django/django_heroku_access_models/",
         "teaser": null
       },{
         "title": "2/4 What is software engineering?",
-        "excerpt":"Intro HCI is kind of psy branch This(software engineering) is a bit more business branch software is very different key point to remember: Programming is actually a small part of software engineering S.E. is literally the field of how to engineer software EX) building a building knowing how to hammer...","categories": ["cs3420 lecuture"],
+        "excerpt":"Intro HCI is kind of psy branch This(software engineering) is a bit more business branch software is very different key point to remember: Programming is actually a small part of software engineering S.E. is literally the field of how to engineer software EX) building a building knowing how to hammer...","categories": ["cs3240"],
         "tags": [],
-        "url": "https://seungeonk.github.io/cs3420%20lecuture/what-_is_software_engineering/",
+        "url": "https://seungeonk.github.io/cs3240/what-_is_software_engineering/",
         "teaser": null
       },{
-        "title": "장고 폼 관리",
-        "excerpt":" ","categories": ["cs3240 django"],
+        "title": "software construction",
+        "excerpt":"IDEs and SCM How do we work together as a team? Our definition Software Construction focuses specifically on the building, testing, and technical production of the software porudct and tools and techniques used Techniques and Practices Coding standards Refactoring Collective code ownership and continuous integration minimal shippable/viable product Tool Categories...","categories": ["cs3240"],
         "tags": [],
-        "url": "https://seungeonk.github.io/cs3240%20django/django_form_process/",
+        "url": "https://seungeonk.github.io/cs3240/Software_Construction/",
+        "teaser": null
+      },{
+        "title": "2/16 Software Process",
+        "excerpt":"A process? Organizations want a well-defined, well-understood, repeatable software development process. Why? Find and repeat good practices Management know what to do next know when we’re done with current task know if we’re late estimate time to completion, costs New team members know what to do The creation and tranlation...","categories": ["cs3240"],
+        "tags": [],
+        "url": "https://seungeonk.github.io/cs3240/cs3240-software-process/",
+        "teaser": null
+      },{
+        "title": "2/16 plan-driven-method",
+        "excerpt":"Plan-Driven Method 플랜-드리븐 방법은 개발자가 요구사항을 먼저 결정할 때 좋다. 그 Requirement가 상대적으로 바뀌지 않을때도 좋다. remember: continuum Focus on repeatability and predictability Defined, standardized steps we need to follow 철저한 documentation이 존재함/혹은 만듦 verification과 validation에 중점(소포트웨어가 잘 돌아가는지) 상세한 플랜, 워크플로우, 역할, 책임감 그리고 work product description이 들어있다 Rational...","categories": ["cs3240"],
+        "tags": [],
+        "url": "https://seungeonk.github.io/homework/cs3240",
         "teaser": null
       }]

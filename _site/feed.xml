@@ -1,9 +1,343 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://seungeonk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://seungeonk.github.io/" rel="alternate" type="text/html" /><updated>2021-02-04T15:27:15-05:00</updated><id>https://seungeonk.github.io/feed.xml</id><title type="html">Seungeon</title><subtitle>Undergrad in University of Virginia, Charlottesville</subtitle><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><entry><title type="html">장고 폼 관리</title><link href="https://seungeonk.github.io/cs3240%20django/django_form_process/" rel="alternate" type="text/html" title="장고 폼 관리" /><published>2021-02-04T00:00:00-05:00</published><updated>2021-02-04T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240%20django/django_form_process</id><content type="html" xml:base="https://seungeonk.github.io/cs3240%20django/django_form_process/"></content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240 django" /><summary type="html"></summary></entry><entry><title type="html">장고 헤로쿠 모델 조작하기</title><link href="https://seungeonk.github.io/cs3240%20django/django_heroku_access_models/" rel="alternate" type="text/html" title="장고 헤로쿠 모델 조작하기" /><published>2021-02-03T00:00:00-05:00</published><updated>2021-02-03T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240%20django/django_heroku_access_models</id><content type="html" xml:base="https://seungeonk.github.io/cs3240%20django/django_heroku_access_models/">&lt;p&gt;헤로쿠로 배포된 장고 앱의 모델을 액세스 하고 싶을 때,&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://seungeonk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://seungeonk.github.io/" rel="alternate" type="text/html" /><updated>2021-02-15T21:12:11-05:00</updated><id>https://seungeonk.github.io/feed.xml</id><title type="html">Seungeon</title><subtitle>Undergrad in University of Virginia, Charlottesville</subtitle><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><entry><title type="html">2/16 Software Process</title><link href="https://seungeonk.github.io/cs3240/cs3240-software-process/" rel="alternate" type="text/html" title="2/16 Software Process" /><published>2021-02-15T00:00:00-05:00</published><updated>2021-02-15T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240-software-process</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240-software-process/">&lt;h1 id=&quot;a-process&quot;&gt;A process?&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Organizations want a well-defined, well-understood, repeatable software development process.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Why?&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Find and repeat good practices&lt;/li&gt;
+      &lt;li&gt;Management
+        &lt;ul&gt;
+          &lt;li&gt;know what to do next&lt;/li&gt;
+          &lt;li&gt;know when we’re done with current task&lt;/li&gt;
+          &lt;li&gt;know if we’re late&lt;/li&gt;
+          &lt;li&gt;estimate time to completion, costs&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;New team members know what to do&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;h2 id=&quot;the-creation-and-tranlation-of-human-needs-into-requirements-requirements-into-design-design-into-code-testing-installing-etc&quot;&gt;The creation and tranlation of human needs into requirements, requirements into design, design into code, testing, installing, etc&lt;/h2&gt;
+  &lt;h1 id=&quot;software-process&quot;&gt;Software Process&lt;/h1&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;All processes have some form of:
+    &lt;ul&gt;
+      &lt;li&gt;Requirements Elicitation&lt;/li&gt;
+      &lt;li&gt;Requirements Specification&lt;/li&gt;
+      &lt;li&gt;Design&lt;/li&gt;
+      &lt;li&gt;Development(design, implemented, verified)&lt;/li&gt;
+      &lt;li&gt;Validation&lt;/li&gt;
+      &lt;li&gt;Evolution(AKA, maintence)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The form/ iteration/ timing/ etc. of these activities defines different process families and methodologies&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;software-process-models&quot;&gt;Software Process Models&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Brodaly speaking, process models and thus methodologies fall on a continuum&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;agile-method&quot;&gt;Agile method&lt;/h2&gt;
+    &lt;ul&gt;
+      &lt;li&gt;scrum, extreme programming&lt;/li&gt;
+      &lt;li&gt;rapid iteration&lt;/li&gt;
+      &lt;li&gt;moving through software version continuously&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;plan-driven&quot;&gt;Plan-Driven&lt;/h2&gt;
+    &lt;ul&gt;
+      &lt;li&gt;focus on specific phase intensively&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;choosing-a-software-process&quot;&gt;Choosing a Software Process&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;organizational-factors&quot;&gt;Organizational factors&lt;/h2&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Is the team co-located or global?&lt;/li&gt;
+      &lt;li&gt;How is the team structured(Are thre PMs? Small teams? Large Team?)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;technology-factors&quot;&gt;Technology factors&lt;/h2&gt;
+    &lt;ul&gt;
+      &lt;li&gt;How does the team like to work? Whiteboard or online tracking?&lt;/li&gt;
+      &lt;li&gt;Do you have access to software to manage communication effectively?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;domainsector-factors&quot;&gt;Domain/Sector factors&lt;/h2&gt;
+    &lt;ul&gt;
+      &lt;li&gt;how quick is the turnaround on a products?&lt;/li&gt;
+      &lt;li&gt;Are there constant updates?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;regulatory-factors&quot;&gt;Regulatory factors&lt;/h2&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Are you building something that requires government or other third-party oversight?&lt;/li&gt;
+      &lt;li&gt;What docs / artifiacts will you have to provide?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;agile-methodologies&quot;&gt;Agile Methodologies&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Scrum&lt;/li&gt;
+      &lt;li&gt;Extreme Programming(XP)&lt;/li&gt;
+      &lt;li&gt;Kanban&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;plan-driven-methodologies&quot;&gt;Plan-Driven Methodologies&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Rational Unified Process(RUP)&lt;/li&gt;
+      &lt;li&gt;Personal Software Process(PSP)&lt;/li&gt;
+      &lt;li&gt;Team Software Process(TSP)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">A process?</summary></entry><entry><title type="html">2/16 plan-driven-method</title><link href="https://seungeonk.github.io/homework/cs3240" rel="alternate" type="text/html" title="2/16 plan-driven-method" /><published>2021-02-15T00:00:00-05:00</published><updated>2021-02-15T00:00:00-05:00</updated><id>https://seungeonk.github.io/homework/plan-driven-methodologies</id><content type="html" xml:base="https://seungeonk.github.io/homework/cs3240">&lt;h1 id=&quot;plan-driven-method&quot;&gt;Plan-Driven Method&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;플랜-드리븐 방법은 개발자가 요구사항을 먼저 결정할 때 좋다.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;그 Requirement가 상대적으로 바뀌지 않을때도 좋다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;remember-continuum&quot;&gt;remember: continuum&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Focus on repeatability and predictability&lt;/li&gt;
+  &lt;li&gt;Defined, standardized steps we need to follow&lt;/li&gt;
+  &lt;li&gt;철저한 documentation이 존재함/혹은 만듦&lt;/li&gt;
+  &lt;li&gt;verification과 validation에 중점(소포트웨어가 잘 돌아가는지)&lt;/li&gt;
+  &lt;li&gt;상세한 플랜, 워크플로우, 역할, 책임감 그리고 work product description이 들어있다&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;rational-unified-process&quot;&gt;Rational Unified Process&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;RUP&lt;/li&gt;
+  &lt;li&gt;Built around the Unified Modeling Language(UML)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Toolsets were created to help build UML diagrams and then translate them into code&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The process iself is configurable&lt;/li&gt;
+  &lt;li&gt;6가지 practice로 만들어지는데:
+    &lt;ul&gt;
+      &lt;li&gt;develope software iteratively&lt;/li&gt;
+      &lt;li&gt;manage requirements&lt;/li&gt;
+      &lt;li&gt;use component-based architectures&lt;/li&gt;
+      &lt;li&gt;visually model software&lt;/li&gt;
+      &lt;li&gt;verify software quality&lt;/li&gt;
+      &lt;li&gt;
+        &lt;h2 id=&quot;control-changes-to-software&quot;&gt;control changes to software&lt;/h2&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Plan Driven(P.D.) 는 요구사항이 잘 바뀌지 않을 때 좋다&lt;/li&gt;
+  &lt;li&gt;팀이 사이즈가 커지면, P.D. 프로세스가 더 효율적임&lt;/li&gt;
+  &lt;li&gt;P.D.는 통합되야하는 여러가지 components가 있을 경우 효과적&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Plan-Driven Method</summary></entry><entry><title type="html">software construction</title><link href="https://seungeonk.github.io/cs3240/Software_Construction/" rel="alternate" type="text/html" title="software construction" /><published>2021-02-08T00:00:00-05:00</published><updated>2021-02-08T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/Software_Construction</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/Software_Construction/">&lt;h1 id=&quot;ides-and-scm&quot;&gt;IDEs and SCM&lt;/h1&gt;
+
+&lt;p&gt;How do we work together as a team?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Our definition&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Software Construction focuses specifically on the building, testing, and technical production of the software porudct and tools and techniques used&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Techniques and Practices&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Coding standards&lt;/li&gt;
+      &lt;li&gt;Refactoring&lt;/li&gt;
+      &lt;li&gt;Collective code ownership and continuous integration&lt;/li&gt;
+      &lt;li&gt;minimal shippable/viable product&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Tool Categories&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;IDEs&lt;/li&gt;
+      &lt;li&gt;Source control management&lt;/li&gt;
+      &lt;li&gt;Bug/ Issue tracker&lt;/li&gt;
+      &lt;li&gt;Requirements / Features / Backlog tracker&lt;/li&gt;
+      &lt;li&gt;Communication systems&lt;/li&gt;
+      &lt;li&gt;Continuous intergration systems&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are all things helping larger team &lt;strong&gt;keep on track&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Training
+    &lt;ul&gt;
+      &lt;li&gt;In many companies, when you’re on-boarded, you have some time of &lt;strong&gt;crash course&lt;/strong&gt; in the tools and systems used in that organization&lt;/li&gt;
+      &lt;li&gt;Smaller and more agile teams often allow more freedom for developers in tool/system choices&lt;/li&gt;
+      &lt;li&gt;New team memeber/new developers are often given less freedom…&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;ides&quot;&gt;IDEs&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;An IDE is a programming tool that combines a few dev features into one unified system
+    &lt;ul&gt;
+      &lt;li&gt;code editor
+        &lt;ul&gt;
+          &lt;li&gt;syntax highlighting&lt;/li&gt;
+          &lt;li&gt;code folding&lt;/li&gt;
+          &lt;li&gt;auto-complete&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;compiling/running&lt;/li&gt;
+      &lt;li&gt;debugging&lt;/li&gt;
+      &lt;li&gt;Testing&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;source-control-management&quot;&gt;Source Control Management&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;SCM enbales multiple people to simultaneously work on a single project.&lt;/li&gt;
+  &lt;li&gt;Verion control also enables one person to use multiple computers to work on a project, so it’s valuable even if you are working by yourself&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;if there are any conflicting edits to the same line of a file, then the version control system requests human assistance in deciding what to do&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;distributed-vs-centralized-scm&quot;&gt;Distributed vs Centralized SCM&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Distributed version control is more modern&lt;/li&gt;
+      &lt;li&gt;main difference is that
+        &lt;ul&gt;
+          &lt;li&gt;Centralized -&amp;gt; there is just one repo&lt;/li&gt;
+          &lt;li&gt;distributed -&amp;gt; there are multiple repos&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;repository&quot;&gt;Repository&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;place where SCM keeps track of changes&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;working-copyworking-tree&quot;&gt;Working copy(Working Tree)&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Your current view or copy of what’s in the repo&lt;/li&gt;
+      &lt;li&gt;you edit, update, test, etc these files&lt;/li&gt;
+      &lt;li&gt;When you’re ready, you &lt;strong&gt;commit&lt;/strong&gt; a file to the repository -&amp;gt; kind of &lt;strong&gt;Save files&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;typical-git-workflow&quot;&gt;Typical Git WorkFlow&lt;/h1&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. Start coding session by fetching code from shared remote repo
+2. Merge that branch into local branch
+3. Code, test files in your local branch
+4. Commit code to local repo
+5. Repeat steps 3 and 4 until you have something ready for sharing with others
+6. Push code to shared remote repo
+7. But you should look at and fetch any changes others have made first. Resolve any problems before push
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">IDEs and SCM</summary></entry><entry><title type="html">장고 헤로쿠 모델 조작하기</title><link href="https://seungeonk.github.io/django/django_heroku_access_models/" rel="alternate" type="text/html" title="장고 헤로쿠 모델 조작하기" /><published>2021-02-03T00:00:00-05:00</published><updated>2021-02-03T00:00:00-05:00</updated><id>https://seungeonk.github.io/django/django_heroku_access_models</id><content type="html" xml:base="https://seungeonk.github.io/django/django_heroku_access_models/">&lt;p&gt;헤로쿠로 배포된 장고 앱의 모델을 액세스 하고 싶을 때,&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;heroku run -a app_name python3 manage.py shell
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;you can access models remotely through heroku.&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240 django" /><summary type="html">헤로쿠로 배포된 장고 앱의 모델을 액세스 하고 싶을 때,</summary></entry><entry><title type="html">2/3 Sorting and Some Algorithm Principles</title><link href="https://seungeonk.github.io/cs4102%20algorithms/cs4102/" rel="alternate" type="text/html" title="2/3 Sorting and Some Algorithm Principles" /><published>2021-02-03T00:00:00-05:00</published><updated>2021-02-03T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs4102%20algorithms/cs4102</id><content type="html" xml:base="https://seungeonk.github.io/cs4102%20algorithms/cs4102/">&lt;h1 id=&quot;sorting-terms&quot;&gt;Sorting Terms&lt;/h1&gt;
+&lt;p&gt;you can access models remotely through heroku.&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="django" /><summary type="html">헤로쿠로 배포된 장고 앱의 모델을 액세스 하고 싶을 때,</summary></entry><entry><title type="html">2/4 What is software engineering?</title><link href="https://seungeonk.github.io/cs3240/what-_is_software_engineering/" rel="alternate" type="text/html" title="2/4 What is software engineering?" /><published>2021-02-03T00:00:00-05:00</published><updated>2021-02-03T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/what%20_is_software_engineering</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/what-_is_software_engineering/">&lt;h1 id=&quot;intro&quot;&gt;Intro&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;HCI is kind of psy branch&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;This(software engineering)&lt;/strong&gt; is a bit more business branch&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;software is very different&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;key-point-to-remember-programming-is-actually-a-small-part-of-software-engineering&quot;&gt;key point to remember: Programming is actually a small part of software engineering&lt;/h5&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;S.E. is literally the field of how to engineer software&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;EX) building a building
+    &lt;ul&gt;
+      &lt;li&gt;knowing how to hammer a nail and how to lay a brick is not enough&lt;/li&gt;
+      &lt;li&gt;What else is needed?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;high-level-se&quot;&gt;High Level S.E.&lt;/h1&gt;
+
+&lt;h3 id=&quot;at-a-high-level-se는-steps-of-the-development-process를-생각함&quot;&gt;At a high level, SE는 steps of the development process를 생각함&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Requirements(how do we know what to build?)&lt;/li&gt;
+  &lt;li&gt;Design / Specification&lt;/li&gt;
+  &lt;li&gt;Programming / Construction / Implementation&lt;/li&gt;
+  &lt;li&gt;Testing (Verification and Validation)&lt;/li&gt;
+  &lt;li&gt;Production and Release&lt;/li&gt;
+  &lt;li&gt;Maintenance and Updates(bugs etc)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;why-is-se-different&quot;&gt;Why is S.E. different?&lt;/h1&gt;
+
+&lt;p&gt;What makes creating software different than creating other things that engineers build (ex. machines, aircraft, bridges etc)?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Software is changeable/malleable (소프트웨어는 가변성이다)&lt;/li&gt;
+  &lt;li&gt;Requirements often change DURING development&lt;/li&gt;
+  &lt;li&gt;Requirements often change AFTER development&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Misconceptions regarding actual time frames / how software is built and maintained from customers… and developers&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;problems-about-failure&quot;&gt;Problems about failure&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;how do we protect software from being failed?&lt;/li&gt;
+  &lt;li&gt;how do we make sure the software is safe?
+    &lt;ul&gt;
+      &lt;li&gt;ex) HealthCare.gov failed launch&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;find-some-failures&quot;&gt;Find some failures&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Find a major issues making software crashed&lt;/li&gt;
+  &lt;li&gt;What was the technical cause?&lt;/li&gt;
+  &lt;li&gt;What was the underlying cause?
+    &lt;ul&gt;
+      &lt;li&gt;A problem with requirements?&lt;/li&gt;
+      &lt;li&gt;No enough testing?&lt;/li&gt;
+      &lt;li&gt;Training?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;How would you mitigate this in the future?&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Intro</summary></entry><entry><title type="html">2/3 Sorting and Some Algorithm Principles</title><link href="https://seungeonk.github.io/cs4102%20algorithms/cs4102/" rel="alternate" type="text/html" title="2/3 Sorting and Some Algorithm Principles" /><published>2021-02-03T00:00:00-05:00</published><updated>2021-02-03T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs4102%20algorithms/cs4102</id><content type="html" xml:base="https://seungeonk.github.io/cs4102%20algorithms/cs4102/">&lt;h1 id=&quot;sorting-terms&quot;&gt;Sorting Terms&lt;/h1&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Comparison Sort&lt;/strong&gt;: 키를 비교하여 아이템을 움직인다&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Adjacent Sort&lt;/strong&gt;: 근접한 요소(adjacent elements)를 움직임으로 정렬하는 알고리즘
@@ -64,81 +398,25 @@
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;merge-sort&quot;&gt;Merge Sort&lt;/h1&gt;
-&lt;p&gt;\(\sum_{a}^{b}(\alpha \pm \beta)\)&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs4102 algorithms" /><category term="python" /><category term="algorithm" /><category term="sort" /><summary type="html">Sorting Terms Comparison Sort: 키를 비교하여 아이템을 움직인다 Adjacent Sort: 근접한 요소(adjacent elements)를 움직임으로 정렬하는 알고리즘 bubble, insertion 등등 Stable Sort: Sorting 알고리즘이 Stable(안정)하다 when two items x and y occur in the relative order x,y in the original list AND x==y, then x and y appear in the same relative order x,y in the final sorted list. In-Place Sort: 알고리즘이 최대 Θ(1) 추가 공간을 사용한다 e.g. allocating another array of size θ(n) is NOT allowed. it doesn’t create any D.S. or so ex) 만약 이 알고리즘이 array size 10인 scratch array를 만들면 -&amp;gt; it’s okay! because the space complexity is θ(1).</summary></entry><entry><title type="html">2/4 What is software engineering?</title><link href="https://seungeonk.github.io/cs3420%20lecuture/what-_is_software_engineering/" rel="alternate" type="text/html" title="2/4 What is software engineering?" /><published>2021-02-03T00:00:00-05:00</published><updated>2021-02-03T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3420%20lecuture/what%20_is_software_engineering</id><content type="html" xml:base="https://seungeonk.github.io/cs3420%20lecuture/what-_is_software_engineering/">&lt;h1 id=&quot;intro&quot;&gt;Intro&lt;/h1&gt;
+&lt;p&gt;\(\sum_{a}^{b}(\alpha \pm \beta)\)&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs4102 algorithms" /><category term="python" /><category term="algorithm" /><category term="sort" /><summary type="html">Sorting Terms Comparison Sort: 키를 비교하여 아이템을 움직인다 Adjacent Sort: 근접한 요소(adjacent elements)를 움직임으로 정렬하는 알고리즘 bubble, insertion 등등 Stable Sort: Sorting 알고리즘이 Stable(안정)하다 when two items x and y occur in the relative order x,y in the original list AND x==y, then x and y appear in the same relative order x,y in the final sorted list. In-Place Sort: 알고리즘이 최대 Θ(1) 추가 공간을 사용한다 e.g. allocating another array of size θ(n) is NOT allowed. it doesn’t create any D.S. or so ex) 만약 이 알고리즘이 array size 10인 scratch array를 만들면 -&amp;gt; it’s okay! because the space complexity is θ(1).</summary></entry><entry><title type="html">HTML Name 속성 vs ID 속성</title><link href="https://seungeonk.github.io/js/Post_request_name_vs_id/" rel="alternate" type="text/html" title="HTML Name 속성 vs ID 속성" /><published>2021-01-29T00:00:00-05:00</published><updated>2021-01-29T00:00:00-05:00</updated><id>https://seungeonk.github.io/js/Post_request_name_vs_id</id><content type="html" xml:base="https://seungeonk.github.io/js/Post_request_name_vs_id/">&lt;h2 id=&quot;name-속성name-attribute&quot;&gt;&lt;strong&gt;Name&lt;/strong&gt; 속성(Name Attribute)&lt;/h2&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;HCI is kind of psy branch&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;This(software engineering)&lt;/strong&gt; is a bit more business branch&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;software is very different&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h5 id=&quot;key-point-to-remember-programming-is-actually-a-small-part-of-software-engineering&quot;&gt;key point to remember: Programming is actually a small part of software engineering&lt;/h5&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;S.E. is literally the field of how to engineer software&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;EX) building a building
-    &lt;ul&gt;
-      &lt;li&gt;knowing how to hammer a nail and how to lay a brick is not enough&lt;/li&gt;
-      &lt;li&gt;What else is needed?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;(Important)&lt;/strong&gt; The name attribute is &lt;strong&gt;used in the HTTP request&lt;/strong&gt; sent by your browser to the server as a variable name associated with the data contained in the value attribute.&lt;/p&gt;
 
-&lt;h1 id=&quot;high-level-se&quot;&gt;High Level S.E.&lt;/h1&gt;
+&lt;p&gt;Valid only on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;a&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;form&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;iframe&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;img&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;map&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;input&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;select&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;textarea&amp;gt;&lt;/code&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;at-a-high-level-se는-steps-of-the-development-process를-생각함&quot;&gt;At a high level, SE는 steps of the development process를 생각함&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Name&lt;/strong&gt; does not have to be unique, and can be used to group elements together such as radio buttons &amp;amp; checkboxes&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Requirements(how do we know what to build?)&lt;/li&gt;
-  &lt;li&gt;Design / Specification&lt;/li&gt;
-  &lt;li&gt;Programming / Construction / Implementation&lt;/li&gt;
-  &lt;li&gt;Testing (Verification and Validation)&lt;/li&gt;
-  &lt;li&gt;Production and Release&lt;/li&gt;
-  &lt;li&gt;Maintenance and Updates(bugs etc)&lt;/li&gt;
-&lt;/ul&gt;
+&lt;hr /&gt;
 
-&lt;h1 id=&quot;why-is-se-different&quot;&gt;Why is S.E. different?&lt;/h1&gt;
+&lt;h2 id=&quot;id-속성id-attribute&quot;&gt;&lt;strong&gt;ID&lt;/strong&gt; 속성(ID Attribute)&lt;/h2&gt;
 
-&lt;p&gt;What makes creating software different than creating other things that engineers build (ex. machines, aircraft, bridges etc)?&lt;/p&gt;
+&lt;p&gt;Valid on &lt;strong&gt;any element except&lt;/strong&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;html&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;meta&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;param&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;script&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;style&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;title&amp;gt;&lt;/code&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Software is changeable/malleable&lt;/li&gt;
-  &lt;li&gt;Requirements often change DURING development&lt;/li&gt;
-  &lt;li&gt;Requirements often change AFTER development&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Misconceptions regarding actual time frames / how software is built and maintained from customers… and developers&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Each Id should be unique&lt;/strong&gt; in the page as rendered in the browser, which may or may not be all in the same file&lt;/p&gt;
 
-&lt;h1 id=&quot;problems-about-failure&quot;&gt;Problems about failure&lt;/h1&gt;
+&lt;p&gt;Is referenced in &lt;strong&gt;CSS&lt;/strong&gt; or &lt;strong&gt;URL&lt;/strong&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt; sign&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;how do we protect software from being failed?&lt;/li&gt;
-  &lt;li&gt;how do we make sure the software is safe?
-    &lt;ul&gt;
-      &lt;li&gt;ex) HealthCare.gov failed launch&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;find-some-failures&quot;&gt;Find some failures&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Find a major issues making software crashed&lt;/li&gt;
-  &lt;li&gt;What was the technical cause?&lt;/li&gt;
-  &lt;li&gt;What was the underlying cause?
-    &lt;ul&gt;
-      &lt;li&gt;A problem with requirements?&lt;/li&gt;
-      &lt;li&gt;No enough testing?&lt;/li&gt;
-      &lt;li&gt;Training?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;How would you mitigate this in the future?&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3420 lecuture" /><summary type="html">Intro</summary></entry><entry><title type="html">자바스크립트 콜백 함수(JS callback)</title><link href="https://seungeonk.github.io/JS_callback/" rel="alternate" type="text/html" title="자바스크립트 콜백 함수(JS callback)" /><published>2021-01-29T00:00:00-05:00</published><updated>2021-01-29T00:00:00-05:00</updated><id>https://seungeonk.github.io/JS_callback</id><content type="html" xml:base="https://seungeonk.github.io/JS_callback/">&lt;h2 id=&quot;콜백이란callback&quot;&gt;콜백이란?(Callback)&lt;/h2&gt;
+&lt;p&gt;Is referenced in &lt;strong&gt;JS&lt;/strong&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;getElementById()&lt;/code&gt;&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="JS" /><summary type="html">Name 속성(Name Attribute)</summary></entry><entry><title type="html">자바스크립트 콜백 함수(JS callback)</title><link href="https://seungeonk.github.io/js/JS_callback/" rel="alternate" type="text/html" title="자바스크립트 콜백 함수(JS callback)" /><published>2021-01-29T00:00:00-05:00</published><updated>2021-01-29T00:00:00-05:00</updated><id>https://seungeonk.github.io/js/JS_callback</id><content type="html" xml:base="https://seungeonk.github.io/js/JS_callback/">&lt;h2 id=&quot;콜백이란callback&quot;&gt;콜백이란?(Callback)&lt;/h2&gt;
 &lt;hr /&gt;
 &lt;h3 id=&quot;i-will-be-back-later&quot;&gt;I will be back later!&lt;/h3&gt;
 
@@ -191,25 +469,7 @@
 &lt;h2 id=&quot;언제-주로-사용when-to-use&quot;&gt;언제 주로 사용?(When to use?)&lt;/h2&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;주로 비동기 함수(asynchronous functions), 즉 한 함수가 다른 함수를 기다릴 때(파일들을 로드할 때) 등에 주로 사용된다.&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><summary type="html">콜백이란?(Callback) I will be back later!</summary></entry><entry><title type="html">HTML Name 속성 vs ID 속성</title><link href="https://seungeonk.github.io/Post_request_name_vs_id/" rel="alternate" type="text/html" title="HTML Name 속성 vs ID 속성" /><published>2021-01-29T00:00:00-05:00</published><updated>2021-01-29T00:00:00-05:00</updated><id>https://seungeonk.github.io/Post_request_name_vs_id</id><content type="html" xml:base="https://seungeonk.github.io/Post_request_name_vs_id/">&lt;h2 id=&quot;name-속성name-attribute&quot;&gt;&lt;strong&gt;Name&lt;/strong&gt; 속성(Name Attribute)&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;(Important)&lt;/strong&gt; The name attribute is &lt;strong&gt;used in the HTTP request&lt;/strong&gt; sent by your browser to the server as a variable name associated with the data contained in the value attribute.&lt;/p&gt;
-
-&lt;p&gt;Valid only on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;a&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;form&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;iframe&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;img&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;map&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;input&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;select&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;textarea&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Name&lt;/strong&gt; does not have to be unique, and can be used to group elements together such as radio buttons &amp;amp; checkboxes&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;id-속성id-attribute&quot;&gt;&lt;strong&gt;ID&lt;/strong&gt; 속성(ID Attribute)&lt;/h2&gt;
-
-&lt;p&gt;Valid on &lt;strong&gt;any element except&lt;/strong&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;html&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;meta&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;param&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;script&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;style&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;title&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Each Id should be unique&lt;/strong&gt; in the page as rendered in the browser, which may or may not be all in the same file&lt;/p&gt;
-
-&lt;p&gt;Is referenced in &lt;strong&gt;CSS&lt;/strong&gt; or &lt;strong&gt;URL&lt;/strong&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt; sign&lt;/p&gt;
-
-&lt;p&gt;Is referenced in &lt;strong&gt;JS&lt;/strong&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;getElementById()&lt;/code&gt;&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><summary type="html">Name 속성(Name Attribute)</summary></entry><entry><title type="html">장고 view와 url(Django View and URL)</title><link href="https://seungeonk.github.io/cs3240%20django/django_view/" rel="alternate" type="text/html" title="장고 view와 url(Django View and URL)" /><published>2021-01-17T00:00:00-05:00</published><updated>2021-01-17T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240%20django/django_view</id><content type="html" xml:base="https://seungeonk.github.io/cs3240%20django/django_view/">&lt;h2 id=&quot;django에서-url를-통해-view를-호출하는-방법&quot;&gt;Django에서 Url를 통해 View를 호출하는 방법&lt;/h2&gt;
+&lt;p&gt;주로 비동기 함수(asynchronous functions), 즉 한 함수가 다른 함수를 기다릴 때(파일들을 로드할 때) 등에 주로 사용된다.&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="JS" /><summary type="html">콜백이란?(Callback) I will be back later!</summary></entry><entry><title type="html">장고 view와 url(Django View and URL)</title><link href="https://seungeonk.github.io/django/django_view/" rel="alternate" type="text/html" title="장고 view와 url(Django View and URL)" /><published>2021-01-17T00:00:00-05:00</published><updated>2021-01-17T00:00:00-05:00</updated><id>https://seungeonk.github.io/django/django_view</id><content type="html" xml:base="https://seungeonk.github.io/django/django_view/">&lt;h2 id=&quot;django에서-url를-통해-view를-호출하는-방법&quot;&gt;Django에서 Url를 통해 View를 호출하는 방법&lt;/h2&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;사용가자 웹사이트에 페이지를 요청할때, Django는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;project_name.urls&lt;/code&gt; 파이썬 모듈을 먼저 불러옴&lt;/p&gt;
@@ -218,9 +478,7 @@
 
 &lt;p&gt;맞는 url(예: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&apos;polls/&apos;&lt;/code&gt;)를 찾고 나서, 찾은 url text(&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&apos;polls/&apos;&lt;/code&gt;)를 제거하고 남아있는 텍스트를 보냄(ex: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&apos;34/&apos;&lt;/code&gt;)&lt;/p&gt;
 
-&lt;p&gt;맞는 텍스트를 발견하면(&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&apos;&amp;lt;int:question_id&amp;gt;/&lt;/code&gt;), &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;detail()&lt;/code&gt;뷰를 콜함&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240 django" /><summary type="html">Django에서 Url를 통해 View를 호출하는 방법</summary></entry><entry><title type="html">first post</title><link href="https://seungeonk.github.io/first/" rel="alternate" type="text/html" title="first post" /><published>2021-01-16T00:00:00-05:00</published><updated>2021-01-16T00:00:00-05:00</updated><id>https://seungeonk.github.io/first</id><content type="html" xml:base="https://seungeonk.github.io/first/">&lt;h1 id=&quot;first-blog&quot;&gt;First Blog&lt;/h1&gt;
-
-&lt;p&gt;first blog!&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><summary type="html">First Blog</summary></entry><entry><title type="html">Markdown Syntax Practice</title><link href="https://seungeonk.github.io/MD-Practice/" rel="alternate" type="text/html" title="Markdown Syntax Practice" /><published>2021-01-16T00:00:00-05:00</published><updated>2021-01-16T00:00:00-05:00</updated><id>https://seungeonk.github.io/MD-Practice</id><content type="html" xml:base="https://seungeonk.github.io/MD-Practice/">&lt;h2 id=&quot;this-is-a-practice-for-markdown-syntax&quot;&gt;&lt;strong&gt;This is a practice for Markdown syntax&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;맞는 텍스트를 발견하면(&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&apos;&amp;lt;int:question_id&amp;gt;/&lt;/code&gt;), &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;detail()&lt;/code&gt;뷰를 콜함&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="django" /><summary type="html">Django에서 Url를 통해 View를 호출하는 방법</summary></entry><entry><title type="html">Markdown Syntax Practice</title><link href="https://seungeonk.github.io/markdown/MD-Practice/" rel="alternate" type="text/html" title="Markdown Syntax Practice" /><published>2021-01-16T00:00:00-05:00</published><updated>2021-01-16T00:00:00-05:00</updated><id>https://seungeonk.github.io/markdown/MD-Practice</id><content type="html" xml:base="https://seungeonk.github.io/markdown/MD-Practice/">&lt;h2 id=&quot;this-is-a-practice-for-markdown-syntax&quot;&gt;&lt;strong&gt;This is a practice for Markdown syntax&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;h6 id=&quot;header-6the-smallest&quot;&gt;header 6(The smallest)&lt;/h6&gt;
 &lt;h5 id=&quot;header-5&quot;&gt;header 5&lt;/h5&gt;
@@ -271,4 +529,4 @@ ex) &lt;u&gt;highlight&lt;/u&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;If no language is specified, no syntax highlighting
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;etc&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><summary type="html">This is a practice for Markdown syntax</summary></entry></feed>
+&lt;p&gt;etc&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="markdown" /><summary type="html">This is a practice for Markdown syntax</summary></entry></feed>

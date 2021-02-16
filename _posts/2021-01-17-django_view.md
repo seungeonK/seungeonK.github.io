@@ -1,8 +1,7 @@
 ---
 title: "장고 view와 url(Django View and URL)"
 subtitle: "reference to official Django doc"
-categories:
-    - cs3240 django
+category: django
 
 ---
 
