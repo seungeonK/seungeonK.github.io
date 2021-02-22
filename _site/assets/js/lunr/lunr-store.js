@@ -58,4 +58,10 @@ var store = [{
         "tags": [],
         "url": "https://seungeonk.github.io/homework/cs3240",
         "teaser": null
+      },{
+        "title": "Run github blog locally",
+        "excerpt":"깃허브 블로그를 locally manipulate시에는   bundle exec jekyll serve  ","categories": ["github"],
+        "tags": [],
+        "url": "https://seungeonk.github.io/github/run_jekyll_locally/",
+        "teaser": null
       }]
