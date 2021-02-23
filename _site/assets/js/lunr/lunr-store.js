@@ -23,6 +23,12 @@ var store = [{
         "url": "https://seungeonk.github.io/js/Post_request_name_vs_id/",
         "teaser": null
       },{
+        "title": "2/4 What is software engineering?",
+        "excerpt":"Intro HCI is kind of psy branch This(software engineering) is a bit more business branch software is very different key point to remember: Programming is actually a small part of software engineering S.E. is literally the field of how to engineer software EX) building a building knowing how to hammer...","categories": ["cs3240"],
+        "tags": [],
+        "url": "https://seungeonk.github.io/cs3240/cs3240_what-_is_software_engineering/",
+        "teaser": null
+      },{
         "title": "2/3 Sorting and Some Algorithm Principles",
         "excerpt":"Sorting Terms Comparison Sort: 키를 비교하여 아이템을 움직인다 Adjacent Sort: 근접한 요소(adjacent elements)를 움직임으로 정렬하는 알고리즘 bubble, insertion 등등 Stable Sort: Sorting 알고리즘이 Stable(안정)하다 when two items x and y occur in the relative order x,y in the original list AND x==y, then x and y appear in the same...","categories": ["cs4102 algorithms"],
         "tags": ["python","algorithm","sort"],
@@ -35,33 +41,39 @@ var store = [{
         "url": "https://seungeonk.github.io/django/django_heroku_access_models/",
         "teaser": null
       },{
-        "title": "2/4 What is software engineering?",
-        "excerpt":"Intro HCI is kind of psy branch This(software engineering) is a bit more business branch software is very different key point to remember: Programming is actually a small part of software engineering S.E. is literally the field of how to engineer software EX) building a building knowing how to hammer...","categories": ["cs3240"],
-        "tags": [],
-        "url": "https://seungeonk.github.io/cs3240/what-_is_software_engineering/",
-        "teaser": null
-      },{
         "title": "software construction",
         "excerpt":"IDEs and SCM How do we work together as a team? Our definition Software Construction focuses specifically on the building, testing, and technical production of the software porudct and tools and techniques used Techniques and Practices Coding standards Refactoring Collective code ownership and continuous integration minimal shippable/viable product Tool Categories...","categories": ["cs3240"],
         "tags": [],
-        "url": "https://seungeonk.github.io/cs3240/Software_Construction/",
+        "url": "https://seungeonk.github.io/cs3240/cs3240_Software_Construction/",
+        "teaser": null
+      },{
+        "title": "2/16 Agile Methodologies",
+        "excerpt":"Background 플랜 드리븐은 about determining the nature of a software product up front and then building contracts, documentation, infrastructure, etc. Agile은 “We can figure it out as we go, because requirements and nees change” 한때 Agile은 붐이었는데, It focuses on getting something to market as soon as possible to capitalize...","categories": ["cs3240"],
+        "tags": [],
+        "url": "https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies/",
         "teaser": null
       },{
         "title": "2/16 Software Process",
         "excerpt":"A process? Organizations want a well-defined, well-understood, repeatable software development process. Why? Find and repeat good practices Management know what to do next know when we’re done with current task know if we’re late estimate time to completion, costs New team members know what to do The creation and tranlation...","categories": ["cs3240"],
         "tags": [],
-        "url": "https://seungeonk.github.io/cs3240/cs3240-software-process/",
+        "url": "https://seungeonk.github.io/cs3240/cs3240-Software-process/",
         "teaser": null
       },{
-        "title": "2/16 plan-driven-method",
+        "title": "2/16 Plan-Driven Method",
         "excerpt":"Plan-Driven Method 플랜-드리븐 방법은 개발자가 요구사항을 먼저 결정할 때 좋다. 그 Requirement가 상대적으로 바뀌지 않을때도 좋다. remember: continuum Focus on repeatability and predictability Defined, standardized steps we need to follow 철저한 documentation이 존재함/혹은 만듦 verification과 validation에 중점(소포트웨어가 잘 돌아가는지) 상세한 플랜, 워크플로우, 역할, 책임감 그리고 work product description이 들어있다 Rational...","categories": ["cs3240"],
         "tags": [],
         "url": "https://seungeonk.github.io/homework/cs3240",
         "teaser": null
       },{
+        "title": "2/22 Requiremens Engineering(요구사항)",
+        "excerpt":"Your Software will haunt you Software Requirement(소프트웨어 요구사항) A software requirement Is a condition or capability needed by a user to solve a problem or achieve an objective Must be met or possessed by a system or component to satisfy a contract, standard, specification, or other formal constraint Requirements are...","categories": ["cs3240"],
+        "tags": [],
+        "url": "https://seungeonk.github.io/cs3240/cs3240_Requirements_Engineering/",
+        "teaser": null
+      },{
         "title": "Run github blog locally",
         "excerpt":"깃허브 블로그를 locally manipulate시에는   bundle exec jekyll serve  ","categories": ["github"],
         "tags": [],
-        "url": "https://seungeonk.github.io/github/run_jekyll_locally/",
+        "url": "https://seungeonk.github.io/github/github_run_jekyll_locally/",
         "teaser": null
       }]

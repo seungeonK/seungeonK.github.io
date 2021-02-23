@@ -1,0 +1,732 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>2/22 Requiremens Engineering(요구사항) - Seungeon</title>
+<meta name="description" content="Your Software will haunt you">
+
+
+  <meta name="author" content="Seungeon Kim">
+  
+  <meta property="article:author" content="Seungeon Kim">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Seungeon">
+<meta property="og:title" content="2/22 Requiremens Engineering(요구사항)">
+<meta property="og:url" content="https://seungeonk.github.io/cs3240/cs3240_Requirements_Engineering/">
+
+
+  <meta property="og:description" content="Your Software will haunt you">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2021-02-22T00:00:00-05:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://seungeonk.github.io/cs3240/cs3240_Requirements_Engineering/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Seungeon Kim",
+      "url": "https://seungeonk.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Seungeon Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Seungeon
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://seungeonK.github.io">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/homework/">Homework</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Seungeon Kim</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Undergraduate student at University of Virginia</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Charlottesville, USA</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:sk6qk@virginia.edu">
+            <meta itemprop="email" content="sk6qk@virginia.edu" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="2/22 Requiremens Engineering(요구사항)">
+    <meta itemprop="description" content="Your Software will haunt you">
+    <meta itemprop="datePublished" content="2021-02-22T00:00:00-05:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">2/22 Requiremens Engineering(요구사항)
+</h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h2 id="your-software-will-haunt-you">Your Software will haunt you</h2>
+
+<h2 id="software-requirement소프트웨어-요구사항">Software Requirement(소프트웨어 요구사항)</h2>
+
+<ul>
+  <li>A software requirement
+    <ul>
+      <li>Is a condition or capability needed by a user to solve a problem or achieve an objective</li>
+      <li>Must be met or possessed by a system or component to satisfy a contract, standard, specification, or other formal constraint</li>
+    </ul>
+  </li>
+  <li>
+    <p>Requirements are often buried “deep beneath layters of assumptions, misconceptions, and politics.”</p>
+  </li>
+  <li><strong>Never assume</strong> you know what your customer wants</li>
+</ul>
+
+<hr />
+
+<h2 id="requirements-engineering">Requirements Engineering</h2>
+
+<ul>
+  <li>
+    <p>R.E.는 반복적인 문제분석, 결과 관찰을 documenting하는것, 정확하게 고객에 뭐를 요구하는지를 알아차리는 것의 <strong>체계적인 반복</strong> 이다.</p>
+  </li>
+  <li>
+    <p>R.E. is made up of</p>
+    <ul>
+      <li>분석(aka <strong>elicitation</strong>s): studying user needs to get a definition of the system</li>
+      <li>Modeling: 유저 요구사항을 모든 소프트웨어 엔지니어들이 이해할 수 있는 actionable statement로 바꾸는 작업</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="requirements-elkicitation요구사항-뽑아내기">Requirements Elkicitation(요구사항 뽑아내기)</h2>
+
+<ul>
+  <li>Rqruirements elicitation은 stakeholders로부터 요구사항을 수집하는 과정</li>
+  <li><strong>Stakeholder</strong>는 여기세 관심이 있는 집합체(또는 그 집합체의 대표나 그룹)를 통틀어 아우르는 말.
+    <ul>
+      <li>ex) who is the stakeholders for SIS?
+        <ul>
+          <li>Students(SIS 쓰니까), finance, register office, faculty advisors,…</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>e.g. name some possible stakeholders for a software system
+    <ul>
+      <li>How do you identify the stakeholders?</li>
+      <li>When should they be involved in the process?</li>
+      <li>How is this different for different “types” of software?</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="functional-requirements기능-요구사항">Functional Requirements(기능 요구사항)</h2>
+
+<ul>
+  <li>
+    <p>“The system shall…”</p>
+  </li>
+  <li>
+    <p>기능 요구사항을은:</p>
+    <ul>
+      <li>구체적, 모호하지 않아야됨
+        <ul>
+          <li>구체적으로 “play the current loaded song when you press <code class="language-plaintext highlighter-rouge">play</code> button”</li>
+        </ul>
+      </li>
+      <li>Meausrable and observable</li>
+      <li>Testable in some way to determine if the requirement has been met</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="non-functional-requirements무기능-요구사항">Non-Functional Requirements(무기능 요구사항)</h2>
+
+<ul>
+  <li>talks about the state of the system
+    <ul>
+      <li>How do you build a system with these concepts in your mind</li>
+    </ul>
+  </li>
+  <li>Some examples:
+    <ul>
+      <li>security</li>
+      <li>privacy</li>
+      <li>usability</li>
+      <li>accessbility</li>
+      <li>reliability</li>
+      <li>perfomance</li>
+    </ul>
+  </li>
+  <li>만약 N.F.R에 문제가 있으면, 시스템 전체를 다시 해야 할 수도 있다.
+    <ul>
+      <li>예로, 분당 1000개의 거래를 handle하는 프레임워크를 골랐다</li>
+      <li>once the system goes live, you’re getting 10,000 transactions per minute…</li>
+      <li>다시 처음부터 갈아엎어야 하는 상황</li>
+    </ul>
+  </li>
+  <li><strong>Work Hard at getting NFRs up front!</strong></li>
+</ul>
+
+<h2 id="contraints">Contraints</h2>
+
+<ul>
+  <li>
+    <p>제약은 NFR이랑 다르다 in that they deal with implementation not with <em>features</em> or <em>conditions</em></p>
+  </li>
+  <li>
+    <p>제약은 limits what you can build</p>
+    <ul>
+      <li>ex) 언어를 뭐로 쓰지? <code class="language-plaintext highlighter-rouge">python</code>? <code class="language-plaintext highlighter-rouge">Jave</code>? those kinds of things</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="examples">examples</h2>
+
+<ul>
+  <li>our 3240 projects:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">Github</code>, <code class="language-plaintext highlighter-rouge">Django</code>, <code class="language-plaintext highlighter-rouge">Heroku</code> -&gt; 이런 것들은 <strong>Constraints</strong>임</li>
+      <li><code class="language-plaintext highlighter-rouge">Bootstrap</code>는? -&gt; <strong>optional</strong></li>
+    </ul>
+  </li>
+</ul>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#cs3240" class="page__taxonomy-item" rel="tag">cs3240</a>
+    
+    </span>
+  </p>
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-02-22T00:00:00-05:00">February 22, 2021</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=2%2F22+Requiremens+Engineering%28%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%29%20https%3A%2F%2Fseungeonk.github.io%2Fcs3240%2Fcs3240_Requirements_Engineering%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseungeonk.github.io%2Fcs3240%2Fcs3240_Requirements_Engineering%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fseungeonk.github.io%2Fcs3240%2Fcs3240_Requirements_Engineering%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/homework/cs3240" class="pagination--pager" title="2/16 Plan-Driven Method
+">Previous</a>
+    
+    
+      <a href="/github/github_run_jekyll_locally/" class="pagination--pager" title="Run github blog locally
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/github/github_run_jekyll_locally/" rel="permalink">Run github blog locally
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">깃허브 블로그를 locally manipulate시에는
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/homework/cs3240" rel="permalink">2/16 Plan-Driven Method
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Plan-Driven Method
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/cs3240/cs3240-Software-process/" rel="permalink">2/16 Software Process
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">A process?
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/cs3240/cs3240-Agile-Methodologies/" rel="permalink">2/16 Agile Methodologies
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Background
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Seungeon Kim.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,35 @@
+I"T<ul>
+  <li>
+    <p>플랜 드리븐은 about determining the nature of a software product up front and then building contracts, documentation, infrastructure, etc.</p>
+  </li>
+  <li>
+    <p>Agile은 <strong>“We can figure it out as we go, because requirements and nees change”</strong></p>
+  </li>
+  <li>
+    <p>한때 Agile은 붐이었는데, It focuses on getting something to market <strong>as soon as possible</strong> to capitalize on all the new and exciting things</p>
+    <ul>
+      <li>This is still true today with mobile app dev</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="agile-processes">Agile Processes</h2>
+
+<ul>
+  <li>
+    <p>“Manifesto for Agile Software Developement”의 탄생</p>
+
+    <ul>
+      <li><strong>Individuals and interactions</strong> over processes and tools</li>
+      <li>
+        <p><strong>Customer collaboration</strong> over contract negotiation</p>
+      </li>
+      <li>
+        <p><strong>Working software</strong> over comprehensive documentation</p>
+      </li>
+      <li><strong>Responding to change</strong> over following a plan</li>
+    </ul>
+  </li>
+</ul>
+
+:ET

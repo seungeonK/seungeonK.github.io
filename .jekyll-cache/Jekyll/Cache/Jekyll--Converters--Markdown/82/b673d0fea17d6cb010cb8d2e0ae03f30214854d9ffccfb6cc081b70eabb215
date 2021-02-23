@@ -1,0 +1,174 @@
+I";<h2 id="background">Background</h2>
+
+<ul>
+  <li>
+    <p>플랜 드리븐은 about determining the nature of a software product up front and then building contracts, documentation, infrastructure, etc.</p>
+  </li>
+  <li>
+    <p>Agile은 <strong>“We can figure it out as we go, because requirements and nees change”</strong></p>
+  </li>
+  <li>
+    <p>한때 Agile은 붐이었는데, It focuses on getting something to market <strong>as soon as possible</strong> to capitalize on all the new and exciting things</p>
+    <ul>
+      <li>This is still true today with mobile app dev</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="agile-processes">Agile Processes</h2>
+
+<ul>
+  <li>
+    <p>“Manifesto for Agile Software Developement”의 탄생</p>
+
+    <ul>
+      <li>
+        <p><strong>Individuals and interactions</strong> over processes and tools</p>
+      </li>
+      <li>
+        <p><strong>Customer collaboration</strong> over contract negotiation</p>
+      </li>
+      <li>
+        <p><strong>Working software</strong> over comprehensive documentation</p>
+      </li>
+      <li>
+        <p><strong>Responding to change</strong> over following a plan</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Self documenting에 더 중점을 두는 것</p>
+  </li>
+  <li>
+    <p>Market이 변하면, Requirements도 변하고, 여러가지가 변하기 때문에 그것에 따라 개발 방식도 바뀌어야 하기 때문에 <code class="language-plaintext highlighter-rouge">Agile</code>이 더 효율적임.</p>
+  </li>
+</ul>
+
+<h2 id="extreme-programmingxp익스트림-프로그래밍">Extreme Programming(XP)(익스트림 프로그래밍)</h2>
+
+<ul>
+  <li>
+    <p>It is kind of practices(관행)</p>
+  </li>
+  <li>
+    <p>One of the well-known Agile process</p>
+  </li>
+  <li>
+    <p>Rarely does a team follow XP strictly now</p>
+  </li>
+  <li>
+    <p>Each practice could be adjusted for a given team/project</p>
+  </li>
+</ul>
+
+<h2 id="the-12-xp-practices익스트림-프로그래밍-관습">The 12 XP Practices(익스트림 프로그래밍 관습)</h2>
+
+<ul>
+  <li>
+    <h2 id="the-planning-game">The Planning Game:</h2>
+    <ul>
+      <li>Use user stories and story points at the beginning of each iteration to plan</li>
+    </ul>
+  </li>
+  <li>
+    <h2 id="whole-teamaka-on-site-customer">Whole Team(a.k.a. On-site customer)</h2>
+    <ul>
+      <li>Everyone(from business to coders to QA to customer) is part of one team and is co-located as much as possible to promote cohesion</li>
+    </ul>
+  </li>
+  <li>
+    <h2 id="sustainable-paceaka-the-40-hour-work-week">Sustainable Pace(a.k.a. The 40-hour work week)</h2>
+    <ul>
+      <li><u>Team members that work too much burn out quicker and are much more likely to introduce defects into the system.</u></li>
+    </ul>
+  </li>
+  <li>
+    <h2 id="small-releases">Small Releases</h2>
+    <ul>
+      <li>Get customer feedback early and often to prevent building the wrong solution</li>
+    </ul>
+  </li>
+  <li>
+    <h2 id="coding-standards">Coding Standards</h2>
+    <ul>
+      <li>Following good coding standards and naming mitigates the need for extensive documentation</li>
+      <li>The code shold always be understandable and an artifact unto itself</li>
+    </ul>
+  </li>
+  <li>
+    <h2 id="pair-programming">Pair Programming</h2>
+    <ul>
+      <li>An early inverstment in learning how to pair yields significant results in reducing the number of defects injected into a system</li>
+    </ul>
+  </li>
+  <li>
+    <h2 id="test-driven-development">Test-Driven Development</h2>
+    <ul>
+      <li>Thest first, then write the code that passes the test</li>
+      <li>Make tests automated and add them to the overall code base</li>
+    </ul>
+  </li>
+  <li>
+    <h2 id="refactor-mercilessly">Refactor Mercilessly</h2>
+    <ul>
+      <li>Continuously imporve your codebase and don’t leave anything stagnant</li>
+    </ul>
+  </li>
+  <li>
+    <h2 id="collective-code-ownership">Collective Code Ownership</h2>
+    <ul>
+      <li>No one ‘owns’ any part of the system</li>
+      <li>Anyone can update any part of the code when needed</li>
+    </ul>
+  </li>
+  <li>
+    <h2 id="continuous-integration">Continuous Integration</h2>
+    <ul>
+      <li>Constantly build the code</li>
+      <li>When code is checked in, run all tests and rebuild</li>
+      <li>Always have a working build</li>
+    </ul>
+  </li>
+  <li>
+    <h2 id="simple-design">Simple Design</h2>
+    <ul>
+      <li>Build the simplest thing that works</li>
+    </ul>
+  </li>
+  <li>
+    <h2 id="metaphor-over-architecture">Metaphor Over Architecture</h2>
+    <ul>
+      <li>Have a narrative / description that can be used to communicate design decisions</li>
+    </ul>
+  </li>
+  <li>
+    <h2 id="stand-up-meeting">Stand-Up Meeting</h2>
+    <ul>
+      <li>
+        <p>The start of every workday begins with a meeting in which all team members must stand in circle, giving updates and what they will work on that day</p>
+      </li>
+      <li>
+        <p>Why do they stand? To prevent the meeting from going too long…</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="scrum">Scrum</h2>
+
+<ul>
+  <li>
+    <p>Another Agile Methodology</p>
+  </li>
+  <li>
+    <p>Focuses on:</p>
+    <ul>
+      <li>Simplicity</li>
+      <li>ANY complex project(not just software)</li>
+      <li>Constant feedback(both with team and customer)</li>
+      <li>Sprint iterations always end with a potentially shippable product</li>
+    </ul>
+  </li>
+</ul>
+
+:ET

@@ -1,0 +1,34 @@
+I"<h2 id="your-software-will-haunt-you">Your Software will haunt you</h2>
+
+<h2 id="software-requirement소프트웨어-요구사항">Software Requirement(소프트웨어 요구사항)</h2>
+
+<ul>
+  <li>A software requirement
+    <ul>
+      <li>Is a condition or capability needed by a user to solve a problem or achieve an objective</li>
+      <li>Must be met or possessed by a system or component to satisfy a contract, standard, specification, or other formal constraint</li>
+    </ul>
+  </li>
+  <li>
+    <p>Requirements are often buried “deep beneath layters of assumptions, misconceptions, and politics.”</p>
+  </li>
+  <li><strong>Never assume</strong> you know what your customer wants</li>
+</ul>
+
+<hr />
+
+<h2 id="requirements-engineering">Requirements Engineering</h2>
+
+<ul>
+  <li>
+    <p>R.E.는 반복적인 문제분석, 결과 관찰을 documenting하는것, 정확하게 고객에 뭐를 요구하는지를 알아차리는 것의 <strong>체계적인 반복</strong> 이다.</p>
+  </li>
+  <li>
+    <p>R.E. is made up of</p>
+    <ul>
+      <li>분석: studying user needs to get a definition of the system</li>
+      <li>Modeling: 유저 요구사항을 모든 소프트웨어 엔지니어들이 이해할 수 있는 actionable statement로 바꾸는 작업</li>
+    </ul>
+  </li>
+</ul>
+:ET

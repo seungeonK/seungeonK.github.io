@@ -1,5 +1,5 @@
 ---
-title: 2/16 plan-driven-method
+title: 2/16 Plan-Driven Method
 subtitle:
 permalink: /homework/cs3240
 layout: category
