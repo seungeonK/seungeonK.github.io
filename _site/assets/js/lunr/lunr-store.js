@@ -76,4 +76,10 @@ var store = [{
         "tags": [],
         "url": "https://seungeonk.github.io/github/github_run_jekyll_locally/",
         "teaser": null
+      },{
+        "title": "2/23 Requirements Elicitation",
+        "excerpt":"Requirements Elicitation(요구사항 뽑아내기) Requirements Engineering process는 2개의 stages를 효율적으로 split한다 Requirements analysis or elicitation: stakeholder가 뭐가 필요한지 다큐멘트하면서 일하는 행동 Requirements modeling or specification: stakeholder에게서 받은 ‘plain language’를 something actionable by developers to work on 로 바꾸는 행동 Stakeholder anyone has vest interest in the system를 stakeholder라 부름. could be...","categories": ["cs3240"],
+        "tags": [],
+        "url": "https://seungeonk.github.io/cs3240/cs3240_Requirements_Elicitation/",
+        "teaser": null
       }]

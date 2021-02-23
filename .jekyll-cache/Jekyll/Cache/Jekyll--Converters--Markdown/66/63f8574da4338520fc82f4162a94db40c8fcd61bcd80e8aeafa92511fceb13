@@ -1,0 +1,33 @@
+I"(<h2 id="requirements-elicitation요구사항-뽑아내기">Requirements Elicitation(요구사항 뽑아내기)</h2>
+
+<ul>
+  <li>Requirements Engineering process는 2개의 stages를 효율적으로 split한다
+    <ul>
+      <li><strong>Requirements analysis or elicitation</strong>: stakeholder가 뭐가 필요한지 다큐멘트하면서 일하는 행동</li>
+      <li><strong>Requirements modeling or specification</strong>: stakeholder에게서 받은 ‘plain language’를 something actionable by developers to work on 로 바꾸는 행동</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="stakeholder">Stakeholder</h2>
+<ul>
+  <li>anyone has vest interest in the system를 stakeholder라 부름.
+    <ul>
+      <li>could be <strong>users</strong>, <strong>people who are paying for it</strong>, etc</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="elicitation-techniques">Elicitation Techniques</h2>
+<ul>
+  <li>Now that we know basically what we are after, what techniques should we use to get the infor from stakeholders?</li>
+  <li><strong>Interview</strong>: common, usually strutured but could be just a conversation with stakeholders, must ensure the customer agrees with the outcome of interview
+    <ul>
+      <li>만약 follow-up 질문이 떠오르면 질문해도 가능, just make sure you write them down for documentation</li>
+    </ul>
+  </li>
+  <li><strong>observation</strong>: watch people do their current daily jobs and see where problems arise</li>
+  <li><strong>examining docs/artifacts</strong>: read everything you can about current policy and procedures</li>
+</ul>
+
+:ET

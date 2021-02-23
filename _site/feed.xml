@@ -1,4 +1,83 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://seungeonk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://seungeonk.github.io/" rel="alternate" type="text/html" /><updated>2021-02-22T21:49:12-05:00</updated><id>https://seungeonk.github.io/feed.xml</id><title type="html">Seungeon</title><subtitle>Undergrad in University of Virginia, Charlottesville</subtitle><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><entry><title type="html">Run github blog locally</title><link href="https://seungeonk.github.io/github/github_run_jekyll_locally/" rel="alternate" type="text/html" title="Run github blog locally" /><published>2021-02-22T00:00:00-05:00</published><updated>2021-02-22T00:00:00-05:00</updated><id>https://seungeonk.github.io/github/github_run_jekyll_locally</id><content type="html" xml:base="https://seungeonk.github.io/github/github_run_jekyll_locally/">&lt;p&gt;깃허브 블로그를 locally manipulate시에는&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://seungeonk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://seungeonk.github.io/" rel="alternate" type="text/html" /><updated>2021-02-23T12:05:51-05:00</updated><id>https://seungeonk.github.io/feed.xml</id><title type="html">Seungeon</title><subtitle>Undergrad in University of Virginia, Charlottesville</subtitle><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><entry><title type="html">2/23 Requirements Elicitation</title><link href="https://seungeonk.github.io/cs3240/cs3240_Requirements_Elicitation/" rel="alternate" type="text/html" title="2/23 Requirements Elicitation" /><published>2021-02-23T00:00:00-05:00</published><updated>2021-02-23T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_Requirements_Elicitation</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_Requirements_Elicitation/">&lt;h2 id=&quot;requirements-elicitation요구사항-뽑아내기&quot;&gt;Requirements Elicitation(요구사항 뽑아내기)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Requirements Engineering process는 2개의 stages를 효율적으로 split한다
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Requirements analysis or elicitation&lt;/strong&gt;: stakeholder가 뭐가 필요한지 다큐멘트하면서 일하는 행동&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Requirements modeling or specification&lt;/strong&gt;: stakeholder에게서 받은 ‘plain language’를 something actionable by developers to work on 로 바꾸는 행동&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;stakeholder&quot;&gt;Stakeholder&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;anyone has vest interest in the system를 stakeholder라 부름.
+    &lt;ul&gt;
+      &lt;li&gt;could be &lt;strong&gt;users&lt;/strong&gt;, &lt;strong&gt;people who are paying for it&lt;/strong&gt;, etc&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;elicitation-techniques&quot;&gt;Elicitation Techniques&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Now that we know basically what we are after, what techniques should we use to get the infor from stakeholders?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Interview&lt;/strong&gt;: common, usually strutured but could be just a conversation with stakeholders, must ensure the customer agrees with the outcome of interview
+    &lt;ul&gt;
+      &lt;li&gt;만약 follow-up 질문이 떠오르면 질문해도 가능, just make sure you write them down for documentation&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;observation&lt;/strong&gt;: watch people do their current daily jobs and see where problems arise&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;examining docs/artifacts&lt;/strong&gt;: read everything you can about current policy and procedures&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;groupware&lt;/strong&gt;: kind of a mix of asynchronous interview with a large digital whiteboard
+    &lt;ul&gt;
+      &lt;li&gt;digital whiteboard, slack, discord etc&lt;/li&gt;
+      &lt;li&gt;anyone can toss ideas and pick anything seeming useful&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;questionnaires&lt;/strong&gt;: an asynchronous interview with as many stakeholders as possible&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;prototypes&lt;/strong&gt;: rapid prototyping is often a good way to determine if you’re on the right track
+    &lt;ul&gt;
+      &lt;li&gt;mock-up을 만들고 고객에게 보여주면 instant feedback이 가능하다&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;focus group&lt;/strong&gt;: stakeholder중에 subset을 골라 group interview를 하는 방식&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;on-site customer&lt;/strong&gt;: the customer is a member of the team and guides the whole process&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;10-problems-with-requirements-elicitation&quot;&gt;10 Problems with Requirements Elicitation&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The boundary of the system is ill-defined&lt;/li&gt;
+  &lt;li&gt;Unnecessary design information may be given&lt;/li&gt;
+  &lt;li&gt;Stakeholders have incomplete understanding of their needs&lt;/li&gt;
+  &lt;li&gt;Stakeholders have poor understanding of computer capabilities and limitations&lt;/li&gt;
+  &lt;li&gt;Software enginners have poor knowledge of the problem domain&lt;/li&gt;
+  &lt;li&gt;Stakeholder and software engineers speak different languages&lt;/li&gt;
+  &lt;li&gt;“Obvious” information is ommited&lt;/li&gt;
+  &lt;li&gt;Different stakeholders have conflicting views&lt;/li&gt;
+  &lt;li&gt;Requirements are vague and untestable, such as “user friendly” and “robust”&lt;/li&gt;
+  &lt;li&gt;Requirements are volatile(변덕스러운) and change over time&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;which-techniques-to-use어떤-기술을-쓸까&quot;&gt;Which Techniques To Use?(어떤 기술을 쓸까?)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Not enough information gathered?
+    &lt;ul&gt;
+      &lt;li&gt;Build the wrong product&lt;/li&gt;
+      &lt;li&gt;Missing key features&lt;/li&gt;
+      &lt;li&gt;May need to be completely rebuilt&lt;/li&gt;
+      &lt;li&gt;Cannot properly estimate costs/time frame&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Too much information gathered?
+    &lt;ul&gt;
+      &lt;li&gt;Conflicting requirements&lt;/li&gt;
+      &lt;li&gt;Time-to-market has been affected&lt;/li&gt;
+      &lt;li&gt;System could be over-engineered&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Identify which stakeholders are most important&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Requirements Elicitation(요구사항 뽑아내기)</summary></entry><entry><title type="html">Run github blog locally</title><link href="https://seungeonk.github.io/github/github_run_jekyll_locally/" rel="alternate" type="text/html" title="Run github blog locally" /><published>2021-02-22T00:00:00-05:00</published><updated>2021-02-22T00:00:00-05:00</updated><id>https://seungeonk.github.io/github/github_run_jekyll_locally</id><content type="html" xml:base="https://seungeonk.github.io/github/github_run_jekyll_locally/">&lt;p&gt;깃허브 블로그를 locally manipulate시에는&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle exec jekyll serve
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="github" /><summary type="html">깃허브 블로그를 locally manipulate시에는</summary></entry><entry><title type="html">2/22 Requiremens Engineering(요구사항)</title><link href="https://seungeonk.github.io/cs3240/cs3240_Requirements_Engineering/" rel="alternate" type="text/html" title="2/22 Requiremens Engineering(요구사항)" /><published>2021-02-22T00:00:00-05:00</published><updated>2021-02-22T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_Requirements_Engineering</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_Requirements_Engineering/">&lt;h2 id=&quot;your-software-will-haunt-you&quot;&gt;Your Software will haunt you&lt;/h2&gt;
@@ -128,121 +207,7 @@
       &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Bootstrap&lt;/code&gt;는? -&amp;gt; &lt;strong&gt;optional&lt;/strong&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Your Software will haunt you</summary></entry><entry><title type="html">2/16 Software Process</title><link href="https://seungeonk.github.io/cs3240/cs3240-Software-process/" rel="alternate" type="text/html" title="2/16 Software Process" /><published>2021-02-15T00:00:00-05:00</published><updated>2021-02-15T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240-Software-process</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240-Software-process/">&lt;h1 id=&quot;a-process&quot;&gt;A process?&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Organizations want a well-defined, well-understood, repeatable software development process.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Why?&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Find and repeat good practices&lt;/li&gt;
-      &lt;li&gt;Management
-        &lt;ul&gt;
-          &lt;li&gt;know what to do next&lt;/li&gt;
-          &lt;li&gt;know when we’re done with current task&lt;/li&gt;
-          &lt;li&gt;know if we’re late&lt;/li&gt;
-          &lt;li&gt;estimate time to completion, costs&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;New team members know what to do&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;h2 id=&quot;the-creation-and-tranlation-of-human-needs-into-requirements-requirements-into-design-design-into-code-testing-installing-etc&quot;&gt;The creation and tranlation of human needs into requirements, requirements into design, design into code, testing, installing, etc&lt;/h2&gt;
-  &lt;h1 id=&quot;software-process&quot;&gt;Software Process&lt;/h1&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;All processes have some form of:
-    &lt;ul&gt;
-      &lt;li&gt;Requirements Elicitation&lt;/li&gt;
-      &lt;li&gt;Requirements Specification&lt;/li&gt;
-      &lt;li&gt;Design&lt;/li&gt;
-      &lt;li&gt;Development(design, implemented, verified)&lt;/li&gt;
-      &lt;li&gt;Validation&lt;/li&gt;
-      &lt;li&gt;Evolution(AKA, maintence)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;The form/ iteration/ timing/ etc. of these activities defines different process families and methodologies&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-&lt;h1 id=&quot;software-process-models&quot;&gt;Software Process Models&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Brodaly speaking, process models and thus methodologies fall on a continuum&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h2 id=&quot;agile-method&quot;&gt;Agile method&lt;/h2&gt;
-    &lt;ul&gt;
-      &lt;li&gt;scrum, extreme programming&lt;/li&gt;
-      &lt;li&gt;rapid iteration&lt;/li&gt;
-      &lt;li&gt;moving through software version continuously&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h2 id=&quot;plan-driven&quot;&gt;Plan-Driven&lt;/h2&gt;
-    &lt;ul&gt;
-      &lt;li&gt;focus on specific phase intensively&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;choosing-a-software-process&quot;&gt;Choosing a Software Process&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;h2 id=&quot;organizational-factors&quot;&gt;Organizational factors&lt;/h2&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Is the team co-located or global?&lt;/li&gt;
-      &lt;li&gt;How is the team structured(Are thre PMs? Small teams? Large Team?)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h2 id=&quot;technology-factors&quot;&gt;Technology factors&lt;/h2&gt;
-    &lt;ul&gt;
-      &lt;li&gt;How does the team like to work? Whiteboard or online tracking?&lt;/li&gt;
-      &lt;li&gt;Do you have access to software to manage communication effectively?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h2 id=&quot;domainsector-factors&quot;&gt;Domain/Sector factors&lt;/h2&gt;
-    &lt;ul&gt;
-      &lt;li&gt;how quick is the turnaround on a products?&lt;/li&gt;
-      &lt;li&gt;Are there constant updates?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h2 id=&quot;regulatory-factors&quot;&gt;Regulatory factors&lt;/h2&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Are you building something that requires government or other third-party oversight?&lt;/li&gt;
-      &lt;li&gt;What docs / artifiacts will you have to provide?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h3 id=&quot;agile-methodologies&quot;&gt;Agile Methodologies&lt;/h3&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Scrum&lt;/li&gt;
-      &lt;li&gt;Extreme Programming(XP)&lt;/li&gt;
-      &lt;li&gt;Kanban&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h3 id=&quot;plan-driven-methodologies&quot;&gt;Plan-Driven Methodologies&lt;/h3&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Rational Unified Process(RUP)&lt;/li&gt;
-      &lt;li&gt;Personal Software Process(PSP)&lt;/li&gt;
-      &lt;li&gt;Team Software Process(TSP)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">A process?</summary></entry><entry><title type="html">2/16 Agile Methodologies</title><link href="https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies/" rel="alternate" type="text/html" title="2/16 Agile Methodologies" /><published>2021-02-15T00:00:00-05:00</published><updated>2021-02-15T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies/">&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Your Software will haunt you</summary></entry><entry><title type="html">2/16 Agile Methodologies</title><link href="https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies/" rel="alternate" type="text/html" title="2/16 Agile Methodologies" /><published>2021-02-15T00:00:00-05:00</published><updated>2021-02-15T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies/">&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -455,7 +420,121 @@
   &lt;li&gt;Plan Driven(P.D.) 는 요구사항이 잘 바뀌지 않을 때 좋다&lt;/li&gt;
   &lt;li&gt;팀이 사이즈가 커지면, P.D. 프로세스가 더 효율적임&lt;/li&gt;
   &lt;li&gt;P.D.는 통합되야하는 여러가지 components가 있을 경우 효과적&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Plan-Driven Method</summary></entry><entry><title type="html">software construction</title><link href="https://seungeonk.github.io/cs3240/cs3240_Software_Construction/" rel="alternate" type="text/html" title="software construction" /><published>2021-02-08T00:00:00-05:00</published><updated>2021-02-08T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_Software_Construction</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_Software_Construction/">&lt;h1 id=&quot;ides-and-scm&quot;&gt;IDEs and SCM&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Plan-Driven Method</summary></entry><entry><title type="html">2/16 Software Process</title><link href="https://seungeonk.github.io/cs3240/cs3240-Software-process/" rel="alternate" type="text/html" title="2/16 Software Process" /><published>2021-02-15T00:00:00-05:00</published><updated>2021-02-15T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240-Software-process</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240-Software-process/">&lt;h1 id=&quot;a-process&quot;&gt;A process?&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Organizations want a well-defined, well-understood, repeatable software development process.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Why?&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Find and repeat good practices&lt;/li&gt;
+      &lt;li&gt;Management
+        &lt;ul&gt;
+          &lt;li&gt;know what to do next&lt;/li&gt;
+          &lt;li&gt;know when we’re done with current task&lt;/li&gt;
+          &lt;li&gt;know if we’re late&lt;/li&gt;
+          &lt;li&gt;estimate time to completion, costs&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;New team members know what to do&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;h2 id=&quot;the-creation-and-tranlation-of-human-needs-into-requirements-requirements-into-design-design-into-code-testing-installing-etc&quot;&gt;The creation and tranlation of human needs into requirements, requirements into design, design into code, testing, installing, etc&lt;/h2&gt;
+  &lt;h1 id=&quot;software-process&quot;&gt;Software Process&lt;/h1&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;All processes have some form of:
+    &lt;ul&gt;
+      &lt;li&gt;Requirements Elicitation&lt;/li&gt;
+      &lt;li&gt;Requirements Specification&lt;/li&gt;
+      &lt;li&gt;Design&lt;/li&gt;
+      &lt;li&gt;Development(design, implemented, verified)&lt;/li&gt;
+      &lt;li&gt;Validation&lt;/li&gt;
+      &lt;li&gt;Evolution(AKA, maintence)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The form/ iteration/ timing/ etc. of these activities defines different process families and methodologies&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;software-process-models&quot;&gt;Software Process Models&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Brodaly speaking, process models and thus methodologies fall on a continuum&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;agile-method&quot;&gt;Agile method&lt;/h2&gt;
+    &lt;ul&gt;
+      &lt;li&gt;scrum, extreme programming&lt;/li&gt;
+      &lt;li&gt;rapid iteration&lt;/li&gt;
+      &lt;li&gt;moving through software version continuously&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;plan-driven&quot;&gt;Plan-Driven&lt;/h2&gt;
+    &lt;ul&gt;
+      &lt;li&gt;focus on specific phase intensively&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;choosing-a-software-process&quot;&gt;Choosing a Software Process&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;organizational-factors&quot;&gt;Organizational factors&lt;/h2&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Is the team co-located or global?&lt;/li&gt;
+      &lt;li&gt;How is the team structured(Are thre PMs? Small teams? Large Team?)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;technology-factors&quot;&gt;Technology factors&lt;/h2&gt;
+    &lt;ul&gt;
+      &lt;li&gt;How does the team like to work? Whiteboard or online tracking?&lt;/li&gt;
+      &lt;li&gt;Do you have access to software to manage communication effectively?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;domainsector-factors&quot;&gt;Domain/Sector factors&lt;/h2&gt;
+    &lt;ul&gt;
+      &lt;li&gt;how quick is the turnaround on a products?&lt;/li&gt;
+      &lt;li&gt;Are there constant updates?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;regulatory-factors&quot;&gt;Regulatory factors&lt;/h2&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Are you building something that requires government or other third-party oversight?&lt;/li&gt;
+      &lt;li&gt;What docs / artifiacts will you have to provide?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;agile-methodologies&quot;&gt;Agile Methodologies&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Scrum&lt;/li&gt;
+      &lt;li&gt;Extreme Programming(XP)&lt;/li&gt;
+      &lt;li&gt;Kanban&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;plan-driven-methodologies&quot;&gt;Plan-Driven Methodologies&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Rational Unified Process(RUP)&lt;/li&gt;
+      &lt;li&gt;Personal Software Process(PSP)&lt;/li&gt;
+      &lt;li&gt;Team Software Process(TSP)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">A process?</summary></entry><entry><title type="html">software construction</title><link href="https://seungeonk.github.io/cs3240/cs3240_Software_Construction/" rel="alternate" type="text/html" title="software construction" /><published>2021-02-08T00:00:00-05:00</published><updated>2021-02-08T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_Software_Construction</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_Software_Construction/">&lt;h1 id=&quot;ides-and-scm&quot;&gt;IDEs and SCM&lt;/h1&gt;
 
 &lt;p&gt;How do we work together as a team?&lt;/p&gt;
 
@@ -700,57 +779,4 @@
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;heroku run -a app_name python3 manage.py shell
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;you can access models remotely through heroku.&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="django" /><summary type="html">헤로쿠로 배포된 장고 앱의 모델을 액세스 하고 싶을 때,</summary></entry><entry><title type="html">자바스크립트 콜백 함수(JS callback)</title><link href="https://seungeonk.github.io/js/JS_callback/" rel="alternate" type="text/html" title="자바스크립트 콜백 함수(JS callback)" /><published>2021-01-29T00:00:00-05:00</published><updated>2021-01-29T00:00:00-05:00</updated><id>https://seungeonk.github.io/js/JS_callback</id><content type="html" xml:base="https://seungeonk.github.io/js/JS_callback/">&lt;h2 id=&quot;콜백이란callback&quot;&gt;콜백이란?(Callback)&lt;/h2&gt;
-&lt;hr /&gt;
-&lt;h3 id=&quot;i-will-be-back-later&quot;&gt;I will be back later!&lt;/h3&gt;
-
-&lt;p&gt;Let’s look at more examples of passing functions as values and using function expressions.&lt;/p&gt;
-
-&lt;p&gt;We’ll write a function &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ask(question, yes, no)&lt;/code&gt; with three parameters:&lt;/p&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ask&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;question&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;yes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;no&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;confirm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;question&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;yes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;no&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;showOk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;You agreed.&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;showCancel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;You canceled the execution.&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// usage: functions showOk, showCancel are passed as arguments to ask&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;ask&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Do you agree?&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;showOk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;showCancel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;여기서 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ask&lt;/code&gt;에 들어가는 인자(arguments) 중, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;showOk&lt;/code&gt;와 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;showCanel&lt;/code&gt; 이 콜백 함수(callback function) 혹은 콜백(callback)이라 불린다.&lt;/p&gt;
-
-&lt;p&gt;기본적인 아이디어는, 우리가 함수를 pass하고 나중에 필요할 때, 다시 부른다(expected to be called back later if necessary)는 것이다!&lt;/p&gt;
-
-&lt;p&gt;위의 예시에서, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;showOk&lt;/code&gt;는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yes&lt;/code&gt;의 콜백이 되고, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;showCancel&lt;/code&gt;은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;no&lt;/code&gt;의 콜백이 되는 것이다.&lt;/p&gt;
-
-&lt;p&gt;콜백의 기본적 정의는:&lt;br /&gt;
-&lt;em&gt;A callback is a function passed as an argument to another function.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;주의&quot;&gt;!주의!&lt;/h3&gt;
-&lt;p&gt;callback은 argument로 pass될 때, 괄호(parenthesis)를 뗀다&lt;/p&gt;
-
-&lt;p&gt;ex):&lt;/p&gt;
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;myDisplayer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;some&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;demo&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerHTML&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;some&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;myCalculator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;num1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;num2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;myCallback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;num1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;num2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;myCallback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// no () for myDisplayer&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;myCalculator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;myDisplayer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;언제-주로-사용when-to-use&quot;&gt;언제 주로 사용?(When to use?)&lt;/h2&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;주로 비동기 함수(asynchronous functions), 즉 한 함수가 다른 함수를 기다릴 때(파일들을 로드할 때) 등에 주로 사용된다.&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="JS" /><summary type="html">콜백이란?(Callback) I will be back later!</summary></entry></feed>
+&lt;p&gt;you can access models remotely through heroku.&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="django" /><summary type="html">헤로쿠로 배포된 장고 앱의 모델을 액세스 하고 싶을 때,</summary></entry></feed>
