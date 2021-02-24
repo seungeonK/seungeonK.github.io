@@ -48,7 +48,7 @@ var store = [{
         "teaser": null
       },{
         "title": "2/16 Agile Methodologies",
-        "excerpt":"Background 플랜 드리븐은 about determining the nature of a software product up front and then building contracts, documentation, infrastructure, etc. Agile은 “We can figure it out as we go, because requirements and nees change” 한때 Agile은 붐이었는데, It focuses on getting something to market as soon as possible to capitalize...","categories": ["cs3240"],
+        "excerpt":"Background 플랜 드리븐은 about determining the nature of a software product up front and then building contracts, documentation, infrastructure, etc. Agile은 “We can figure it out as we go, because requirements and needs change” 한때 Agile은 붐이었는데, It focuses on getting something to market as soon as possible to capitalize...","categories": ["cs3240"],
         "tags": [],
         "url": "https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies/",
         "teaser": null
@@ -81,5 +81,11 @@ var store = [{
         "excerpt":"Requirements Elicitation(요구사항 뽑아내기) Requirements Engineering process는 2개의 stages를 효율적으로 split한다 Requirements analysis or elicitation: stakeholder가 뭐가 필요한지 다큐멘트하면서 일하는 행동 Requirements modeling or specification: stakeholder에게서 받은 ‘plain language’를 something actionable by developers to work on 로 바꾸는 행동 Stakeholder anyone has vest interest in the system를 stakeholder라 부름. could be...","categories": ["cs3240"],
         "tags": [],
         "url": "https://seungeonk.github.io/cs3240/cs3240_Requirements_Elicitation/",
+        "teaser": null
+      },{
+        "title": "2/24 Requirements Specification",
+        "excerpt":"Requirements Specification(요구사항 특이점) 고객들의 요구사항을 모은 후에, what are some ways you can communicate those requirements to the dev team? we discuss use cases and software requirements specification (SRS) documents for more plan-driven environments and user stories for more agile projects. Requirements Modeling/Specification Stakeholders에게서 요구사항을 뽑아냈으면, How do you write...","categories": ["cs3240"],
+        "tags": [],
+        "url": "https://seungeonk.github.io/cs3240/cs3240_Requirements_Specifiaction/",
         "teaser": null
       }]

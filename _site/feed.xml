@@ -1,4 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://seungeonk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://seungeonk.github.io/" rel="alternate" type="text/html" /><updated>2021-02-23T12:05:51-05:00</updated><id>https://seungeonk.github.io/feed.xml</id><title type="html">Seungeon</title><subtitle>Undergrad in University of Virginia, Charlottesville</subtitle><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><entry><title type="html">2/23 Requirements Elicitation</title><link href="https://seungeonk.github.io/cs3240/cs3240_Requirements_Elicitation/" rel="alternate" type="text/html" title="2/23 Requirements Elicitation" /><published>2021-02-23T00:00:00-05:00</published><updated>2021-02-23T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_Requirements_Elicitation</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_Requirements_Elicitation/">&lt;h2 id=&quot;requirements-elicitation요구사항-뽑아내기&quot;&gt;Requirements Elicitation(요구사항 뽑아내기)&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://seungeonk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://seungeonk.github.io/" rel="alternate" type="text/html" /><updated>2021-02-24T18:01:36-05:00</updated><id>https://seungeonk.github.io/feed.xml</id><title type="html">Seungeon</title><subtitle>Undergrad in University of Virginia, Charlottesville</subtitle><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><entry><title type="html">2/24 Requirements Specification</title><link href="https://seungeonk.github.io/cs3240/cs3240_Requirements_Specifiaction/" rel="alternate" type="text/html" title="2/24 Requirements Specification" /><published>2021-02-24T00:00:00-05:00</published><updated>2021-02-24T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_Requirements_Specifiaction</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_Requirements_Specifiaction/">&lt;h2 id=&quot;requirements-specification요구사항-특이점&quot;&gt;Requirements Specification(요구사항 특이점)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;고객들의 요구사항을 모은 후에, what are some ways you can communicate those requirements to the dev team?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;we discuss use cases and &lt;strong&gt;software requirements specification (SRS) documents&lt;/strong&gt; for more plan-driven environments and &lt;strong&gt;user stories&lt;/strong&gt; for more agile projects.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;requirements-modelingspecification&quot;&gt;Requirements Modeling/Specification&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Stakeholders에게서 요구사항을 뽑아냈으면, How do you write the requirements down so that:
+    &lt;ul&gt;
+      &lt;li&gt;뭐를 만들어야할지에 관한 팀과 고객 사이에 agreement&lt;/li&gt;
+      &lt;li&gt;개발팀 사이에 애매하지 않은 understanding&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Requirements specification는 &lt;strong&gt;a restating of the requirements in a technical format of some kind that is actionable by developers&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;analysiselicitation-vs-modeliingspecification&quot;&gt;Analysis/Elicitation vs Modeliing/Specification&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Analysis는 customer-focused, modeling/specification는 developer-focused(more technical)&lt;/li&gt;
+  &lt;li&gt;분석은 should be non-technical human readable and understandable&lt;/li&gt;
+  &lt;li&gt;Specification는 should be unambiguous to developers for system comprehension&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;specification-techniques-and-formats&quot;&gt;Specification Techniques and Formats&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We will examine 3 methods for R.S.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Use Cases&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Software Requirements Specification(SRS)&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;User Stories&lt;/strong&gt;
+        &lt;ul&gt;
+          &lt;li&gt;more agile and scrum uses&lt;/li&gt;
+          &lt;li&gt;get input from user, written down to work with the developers&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;These range from more plan-driven to more agile, although thre can be aspects spread between all of them&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Main Point: No matter the precise technique, the idea is to capture specific, actionable requirements!&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;use-cases&quot;&gt;Use Cases&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;a more visual way of modeling requirements&lt;/li&gt;
+  &lt;li&gt;Consists of a use case diagram(specified by UML) and a use case document&lt;/li&gt;
+  &lt;li&gt;Base around user interactions with the system&lt;/li&gt;
+  &lt;li&gt;plan-driven에서 많이 쓴다, 물론 agile에서도 쓰긴 한다&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;soft-requirements-specificationsrs&quot;&gt;Soft Requirements Specification(SRS)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;SRS is a &lt;strong&gt;templat&lt;/strong&gt; that is followed by a team to document functional requirements, non-functional requirements, and 제약등등&lt;/li&gt;
+  &lt;li&gt;Follows IEEE specifications&lt;/li&gt;
+  &lt;li&gt;Use Cases를 쓰는 팀이 종종 이걸 쓴다, as a part of a larger SRS document&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;user-stories&quot;&gt;User Stories&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Short description of system behavior:
+    &lt;ul&gt;
+      &lt;li&gt;From user point of view&lt;/li&gt;
+      &lt;li&gt;Written on one index card!
+        &lt;ul&gt;
+          &lt;li&gt;short, actionalbe, easy to follow 사이즈로&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Written by developer and customer together&lt;/li&gt;
+      &lt;li&gt;Level of detail: enough to estimate time to implement(in terms of weeks)&lt;/li&gt;
+      &lt;li&gt;Focus on user needs&lt;/li&gt;
+      &lt;li&gt;Not on algorithms, UI, database details, technology etc&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;user-story-예시&quot;&gt;User Story 예시&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;When a transaction causes a customer’s account to go into overdraft, transfer money from the overdraft protection account, if any&lt;/li&gt;
+      &lt;li&gt;Produce a statement for each account, showing transaction date, number, payee, and amount. A sample statement is attached - make the report look something like the sample&lt;/li&gt;
+      &lt;li&gt;Students can purchase monthly parking passes online. Parking passes can be paid via credit cards or PayPal&lt;/li&gt;
+      &lt;li&gt;An alternate format:
+        &lt;ul&gt;
+          &lt;li&gt;As a/an&lt;/li&gt;
+          &lt;li&gt;I want to -or- the system shall …&lt;/li&gt;
+          &lt;li&gt;So that …&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;ex) On SIS, As a faculty memeber, I should be able to view academic records of students. As a student, only students can view their account
+  &lt;img src=&quot;/assets/images/user_stories_example.png&quot; /&gt;&lt;/li&gt;
+      &lt;li&gt;이런것처럼 카드에 적을 수 있는 것들&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Requirements Specification(요구사항 특이점)</summary></entry><entry><title type="html">2/23 Requirements Elicitation</title><link href="https://seungeonk.github.io/cs3240/cs3240_Requirements_Elicitation/" rel="alternate" type="text/html" title="2/23 Requirements Elicitation" /><published>2021-02-23T00:00:00-05:00</published><updated>2021-02-23T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_Requirements_Elicitation</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_Requirements_Elicitation/">&lt;h2 id=&quot;requirements-elicitation요구사항-뽑아내기&quot;&gt;Requirements Elicitation(요구사항 뽑아내기)&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Requirements Engineering process는 2개의 stages를 효율적으로 split한다
@@ -61,7 +163,7 @@
 
 &lt;h2 id=&quot;which-techniques-to-use어떤-기술을-쓸까&quot;&gt;Which Techniques To Use?(어떤 기술을 쓸까?)&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;Not enough information gathered?
+  &lt;li&gt;Not enough inform$$ation gathered?
     &lt;ul&gt;
       &lt;li&gt;Build the wrong product&lt;/li&gt;
       &lt;li&gt;Missing key features&lt;/li&gt;
@@ -207,179 +309,7 @@
       &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Bootstrap&lt;/code&gt;는? -&amp;gt; &lt;strong&gt;optional&lt;/strong&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Your Software will haunt you</summary></entry><entry><title type="html">2/16 Agile Methodologies</title><link href="https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies/" rel="alternate" type="text/html" title="2/16 Agile Methodologies" /><published>2021-02-15T00:00:00-05:00</published><updated>2021-02-15T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies/">&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;플랜 드리븐은 about determining the nature of a software product up front and then building contracts, documentation, infrastructure, etc.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Agile은 &lt;strong&gt;“We can figure it out as we go, because requirements and nees change”&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;한때 Agile은 붐이었는데, It focuses on getting something to market &lt;strong&gt;as soon as possible&lt;/strong&gt; to capitalize on all the new and exciting things&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;This is still true today with mobile app dev&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;agile-processes&quot;&gt;Agile Processes&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;“Manifesto for Agile Software Developement”의 탄생&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;strong&gt;Individuals and interactions&lt;/strong&gt; over processes and tools&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;strong&gt;Customer collaboration&lt;/strong&gt; over contract negotiation&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;strong&gt;Working software&lt;/strong&gt; over comprehensive documentation&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;strong&gt;Responding to change&lt;/strong&gt; over following a plan&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Self documenting에 더 중점을 두는 것&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Market이 변하면, Requirements도 변하고, 여러가지가 변하기 때문에 그것에 따라 개발 방식도 바뀌어야 하기 때문에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Agile&lt;/code&gt;이 더 효율적임.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;extreme-programmingxp익스트림-프로그래밍&quot;&gt;Extreme Programming(XP)(익스트림 프로그래밍)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;It is kind of practices(관행)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;One of the well-known Agile process&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Rarely does a team follow XP strictly now&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Each practice could be adjusted for a given team/project&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;the-12-xp-practices익스트림-프로그래밍-관습&quot;&gt;The 12 XP Practices(익스트림 프로그래밍 관습)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;The Planning Game:&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Use user stories and story points at the beginning of each iteration to plan&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Whole Team(a.k.a. On-site customer)&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Everyone(from business to coders to QA to customer) is part of one team and is co-located as much as possible to promote cohesion&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Sustainable Pace(a.k.a. The 40-hour work week)&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;u&gt;Team members that work too much burn out quicker and are much more likely to introduce defects into the system.&lt;/u&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Small Releases&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Get customer feedback early and often to prevent building the wrong solution&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Coding Standards&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Following good coding standards and naming mitigates the need for extensive documentation&lt;/li&gt;
-      &lt;li&gt;The code shold always be understandable and an artifact unto itself&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Pair Programming&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;An early inverstment in learning how to pair yields significant results in reducing the number of defects injected into a system&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Test-Driven Development&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Test first, then write the code that passes the test&lt;/li&gt;
-      &lt;li&gt;Make tests automated and add them to the overall code base&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Refactor Mercilessly&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Continuously imporve your codebase and don’t leave anything stagnant&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Collective Code Ownership&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;No one ‘owns’ any part of the system&lt;/li&gt;
-      &lt;li&gt;Anyone can update any part of the code when needed&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Continuous Integration&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Constantly build the code&lt;/li&gt;
-      &lt;li&gt;When code is checked in, run all tests and rebuild&lt;/li&gt;
-      &lt;li&gt;Always have a working build&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Simple Design&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Build the simplest thing that works&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Metaphor Over Architecture&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Have a narrative / description that can be used to communicate design decisions&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Stand-Up Meeting&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;The start of every workday begins with a meeting in which all team members must stand in circle, giving updates and what they will work on that day&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Why do they stand? To prevent the meeting from going too long…&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;scrum&quot;&gt;Scrum&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Another Agile Methodology&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Focuses on&lt;/strong&gt;:
-    &lt;ul&gt;
-      &lt;li&gt;Simplicity&lt;/li&gt;
-      &lt;li&gt;ANY complex project(not just software)&lt;/li&gt;
-      &lt;li&gt;Constant feedback(both with team and customer)&lt;/li&gt;
-      &lt;li&gt;Sprint iterations always end with a potentially shippable product&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;What’s Sprint?&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Sprint is a dedicated amount of time and say “check point”&lt;/li&gt;
-      &lt;li&gt;Over that time frame, see what we can do, what the hightest priority feature&lt;/li&gt;
-      &lt;li&gt;At the end of the scrum, you should have ‘something’ working.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Applying Scrum to CS3240&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Will be using Scrum for our projects&lt;/li&gt;
-      &lt;li&gt;Will create a product backlog based on the project you pick&lt;/li&gt;
-      &lt;li&gt;During each sprint, your team will choose user stories off the backlog to work on&lt;/li&gt;
-      &lt;li&gt;Each week, your team will have a stand-up meeting, demo to the customer(TA), and plan the next sprint&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Background</summary></entry><entry><title type="html">2/16 Plan-Driven Method</title><link href="https://seungeonk.github.io/homework/cs3240" rel="alternate" type="text/html" title="2/16 Plan-Driven Method" /><published>2021-02-15T00:00:00-05:00</published><updated>2021-02-15T00:00:00-05:00</updated><id>https://seungeonk.github.io/homework/cs3240_Plan-driven-methodologies</id><content type="html" xml:base="https://seungeonk.github.io/homework/cs3240">&lt;h1 id=&quot;plan-driven-method&quot;&gt;Plan-Driven Method&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Your Software will haunt you</summary></entry><entry><title type="html">2/16 Plan-Driven Method</title><link href="https://seungeonk.github.io/homework/cs3240" rel="alternate" type="text/html" title="2/16 Plan-Driven Method" /><published>2021-02-15T00:00:00-05:00</published><updated>2021-02-15T00:00:00-05:00</updated><id>https://seungeonk.github.io/homework/cs3240_Plan-driven-methodologies</id><content type="html" xml:base="https://seungeonk.github.io/homework/cs3240">&lt;h1 id=&quot;plan-driven-method&quot;&gt;Plan-Driven Method&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;플랜-드리븐 방법은 개발자가 요구사항을 먼저 결정할 때 좋다.&lt;/li&gt;
@@ -534,7 +464,190 @@
       &lt;li&gt;Team Software Process(TSP)&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">A process?</summary></entry><entry><title type="html">software construction</title><link href="https://seungeonk.github.io/cs3240/cs3240_Software_Construction/" rel="alternate" type="text/html" title="software construction" /><published>2021-02-08T00:00:00-05:00</published><updated>2021-02-08T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_Software_Construction</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_Software_Construction/">&lt;h1 id=&quot;ides-and-scm&quot;&gt;IDEs and SCM&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">A process?</summary></entry><entry><title type="html">2/16 Agile Methodologies</title><link href="https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies/" rel="alternate" type="text/html" title="2/16 Agile Methodologies" /><published>2021-02-15T00:00:00-05:00</published><updated>2021-02-15T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies/">&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;플랜 드리븐은 about determining the nature of a software product up front and then building contracts, documentation, infrastructure, etc.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Agile은 &lt;strong&gt;“We can figure it out as we go, because requirements and needs change”&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;한때 Agile은 붐이었는데, It focuses on getting something to market &lt;strong&gt;as soon as possible&lt;/strong&gt; to capitalize on all the new and exciting things&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;This is still true today with mobile app dev&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;agile-processes&quot;&gt;Agile Processes&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;“Manifesto for Agile Software Developement”의 탄생&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;Individuals and interactions&lt;/strong&gt; over processes and tools&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;Customer collaboration&lt;/strong&gt; over contract negotiation&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;Working software&lt;/strong&gt; over comprehensive documentation&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;Responding to change&lt;/strong&gt; over following a plan&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Self documenting에 더 중점을 두는 것&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Market이 변하면, Requirements도 변하고, 여러가지가 변하기 때문에 그것에 따라 개발 방식도 바뀌어야 하기 때문에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Agile&lt;/code&gt;이 더 효율적임.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;extreme-programmingxp익스트림-프로그래밍&quot;&gt;Extreme Programming(XP)(익스트림 프로그래밍)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;It is kind of practices(관행)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;One of the well-known Agile process&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Rarely does a team follow XP strictly now&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Each practice could be adjusted for a given team/project&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;the-12-xp-practices익스트림-프로그래밍-관습&quot;&gt;The 12 XP Practices(익스트림 프로그래밍 관습)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;The Planning Game:&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Use user stories and story points at the beginning of each iteration to plan&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Whole Team(a.k.a. On-site customer)&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Everyone(from business to coders to QA to customer) is part of one team and is co-located as much as possible to promote cohesion&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Sustainable Pace(a.k.a. The 40-hour work week)&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;u&gt;Team members that work too much burn out quicker and are much more likely to introduce defects into the system.&lt;/u&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Small Releases&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Get customer feedback early and often to prevent building the wrong solution&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Coding Standards&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Following good coding standards and naming mitigates the need for extensive documentation&lt;/li&gt;
+      &lt;li&gt;The code shold always be understandable and an artifact unto itself&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Pair Programming&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;An early inverstment in learning how to pair yields significant results in reducing the number of defects injected into a system&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Test-Driven Development&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Test first, then write the code that passes the test&lt;/li&gt;
+      &lt;li&gt;Make tests automated and add them to the overall code base&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Refactor Mercilessly&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Continuously imporve your codebase and don’t leave anything stagnant&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Collective Code Ownership&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;No one ‘owns’ any part of the system&lt;/li&gt;
+      &lt;li&gt;Anyone can update any part of the code when needed&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Continuous Integration&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Constantly build the code&lt;/li&gt;
+      &lt;li&gt;When code is checked in, run all tests and rebuild&lt;/li&gt;
+      &lt;li&gt;Always have a working build&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Simple Design&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Build the simplest thing that works&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Metaphor Over Architecture&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Have a narrative / description that can be used to communicate design decisions&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Stand-Up Meeting&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;The start of every workday begins with a meeting in which all team members must stand in circle, giving updates and what they will work on that day&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Why do they stand? To prevent the meeting from going too long…&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;scrum&quot;&gt;Scrum&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Another Agile Methodology&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;특정 개발 언어나 방법론에 의존적이지 않으며, 제품 개발 뿐만 아니라 일반적인 프로젝트 관리에도 사용 가능한 프로세스 프레임워크이다&lt;/li&gt;
+  &lt;li&gt;작은 주기(Sprint)로 개발 및 검토를 하며, 효율적인 협업 방법을 제공함.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/scrum.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Focuses on&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;Simplicity&lt;/li&gt;
+      &lt;li&gt;ANY complex project(not just software)&lt;/li&gt;
+      &lt;li&gt;Constant feedback(both with team and customer)&lt;/li&gt;
+      &lt;li&gt;Sprint iterations always end with a potentially shippable product&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;What’s Sprint?&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Sprint is a dedicated amount of time and say “check point”&lt;/li&gt;
+      &lt;li&gt;Over that time frame, see what we can do, what the hightest priority feature&lt;/li&gt;
+      &lt;li&gt;At the end of the scrum, you should have ‘something’ working.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Applying Scrum to CS3240&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Will be using Scrum for our projects&lt;/li&gt;
+      &lt;li&gt;Will create a product backlog based on the project you pick&lt;/li&gt;
+      &lt;li&gt;During each sprint, your team will choose user stories off the backlog to work on
+        &lt;ul&gt;
+          &lt;li&gt;&lt;strong&gt;Backlog란?&lt;/strong&gt; 개발할 제품의 요구사항인 사용자 스토리의 집합, 우선순위로 관리&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Each week, your team will have a stand-up meeting, demo to the customer(TA), and plan the next sprint&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Background</summary></entry><entry><title type="html">software construction</title><link href="https://seungeonk.github.io/cs3240/cs3240_Software_Construction/" rel="alternate" type="text/html" title="software construction" /><published>2021-02-08T00:00:00-05:00</published><updated>2021-02-08T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_Software_Construction</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_Software_Construction/">&lt;h1 id=&quot;ides-and-scm&quot;&gt;IDEs and SCM&lt;/h1&gt;
 
 &lt;p&gt;How do we work together as a team?&lt;/p&gt;
 
@@ -639,7 +752,68 @@
 5. Repeat steps 3 and 4 until you have something ready for sharing with others
 6. Push code to shared remote repo
 7. But you should look at and fetch any changes others have made first. Resolve any problems before push
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">IDEs and SCM</summary></entry><entry><title type="html">2/4 What is software engineering?</title><link href="https://seungeonk.github.io/cs3240/cs3240_what-_is_software_engineering/" rel="alternate" type="text/html" title="2/4 What is software engineering?" /><published>2021-02-03T00:00:00-05:00</published><updated>2021-02-03T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_what%20_is_software_engineering</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_what-_is_software_engineering/">&lt;h1 id=&quot;intro&quot;&gt;Intro&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">IDEs and SCM</summary></entry><entry><title type="html">2/3 Sorting and Some Algorithm Principles</title><link href="https://seungeonk.github.io/cs4102%20algorithms/cs4102/" rel="alternate" type="text/html" title="2/3 Sorting and Some Algorithm Principles" /><published>2021-02-03T00:00:00-05:00</published><updated>2021-02-03T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs4102%20algorithms/cs4102</id><content type="html" xml:base="https://seungeonk.github.io/cs4102%20algorithms/cs4102/">&lt;h1 id=&quot;sorting-terms&quot;&gt;Sorting Terms&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Comparison Sort&lt;/strong&gt;: 키를 비교하여 아이템을 움직인다&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Adjacent Sort&lt;/strong&gt;: 근접한 요소(adjacent elements)를 움직임으로 정렬하는 알고리즘
+    &lt;ul&gt;
+      &lt;li&gt;bubble, insertion 등등&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Stable Sort&lt;/strong&gt;: Sorting 알고리즘이 Stable(안정)하다
+    &lt;ul&gt;
+      &lt;li&gt;when two items x and y occur in the relative order x,y in the original list AND x==y, &lt;strong&gt;then x and y appear in the same relative order x,y in the final sorted list.&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;In-Place Sort&lt;/strong&gt;: 알고리즘이 &lt;strong&gt;최대 Θ(1)&lt;/strong&gt; 추가 공간을 사용한다
+    &lt;ul&gt;
+      &lt;li&gt;e.g. allocating another array of size θ(n) is &lt;strong&gt;NOT&lt;/strong&gt; allowed.&lt;/li&gt;
+      &lt;li&gt;it doesn’t create any D.S. or so
+        &lt;ul&gt;
+          &lt;li&gt;ex) 만약 이 알고리즘이 array size 10인 scratch array를 만들면 -&amp;gt; it’s okay! because the space complexity is θ(1).&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;insertion-sort삽입-정렬&quot;&gt;Insertion Sort(삽입 정렬)&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Strategy:&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;First section of list is sorted (say i-1 items)&lt;/li&gt;
+      &lt;li&gt;Increase this partial solution by…&lt;/li&gt;
+      &lt;li&gt;Shifting down next item beyond sorted section (i.e. the ith item) down to its proper place in sorted section.  (Must shift items up to make room.)&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Since one item alone is already sorted, we can put steps 1-3 in a loop going from the 2nd to the last item.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;h2 id=&quot;python-example&quot;&gt;python example&lt;/h2&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;insertion_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;# lists start at index 0 to n-1
+&lt;/span&gt;      &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+   &lt;span class=&quot;c1&quot;&gt;# Insert lst[j] into sorted sub-list lst[0:j-1]
+&lt;/span&gt;      &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# shift item up
+&lt;/span&gt;          &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;# put item in correct spot
+&lt;/span&gt;  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;insertion-sort-analysis&quot;&gt;Insertion Sort: Analysis&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Worst Case :&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;merge-sort&quot;&gt;Merge Sort&lt;/h1&gt;
+&lt;p&gt;\(\sum_{a}^{b}(\alpha \pm \beta)\)&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs4102 algorithms" /><category term="python" /><category term="algorithm" /><category term="sort" /><summary type="html">Sorting Terms Comparison Sort: 키를 비교하여 아이템을 움직인다 Adjacent Sort: 근접한 요소(adjacent elements)를 움직임으로 정렬하는 알고리즘 bubble, insertion 등등 Stable Sort: Sorting 알고리즘이 Stable(안정)하다 when two items x and y occur in the relative order x,y in the original list AND x==y, then x and y appear in the same relative order x,y in the final sorted list. In-Place Sort: 알고리즘이 최대 Θ(1) 추가 공간을 사용한다 e.g. allocating another array of size θ(n) is NOT allowed. it doesn’t create any D.S. or so ex) 만약 이 알고리즘이 array size 10인 scratch array를 만들면 -&amp;gt; it’s okay! because the space complexity is θ(1).</summary></entry><entry><title type="html">2/4 What is software engineering?</title><link href="https://seungeonk.github.io/cs3240/cs3240_what-_is_software_engineering/" rel="alternate" type="text/html" title="2/4 What is software engineering?" /><published>2021-02-03T00:00:00-05:00</published><updated>2021-02-03T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_what%20_is_software_engineering</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_what-_is_software_engineering/">&lt;h1 id=&quot;intro&quot;&gt;Intro&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -713,70 +887,4 @@
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;How would you mitigate this in the future?&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Intro</summary></entry><entry><title type="html">2/3 Sorting and Some Algorithm Principles</title><link href="https://seungeonk.github.io/cs4102%20algorithms/cs4102/" rel="alternate" type="text/html" title="2/3 Sorting and Some Algorithm Principles" /><published>2021-02-03T00:00:00-05:00</published><updated>2021-02-03T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs4102%20algorithms/cs4102</id><content type="html" xml:base="https://seungeonk.github.io/cs4102%20algorithms/cs4102/">&lt;h1 id=&quot;sorting-terms&quot;&gt;Sorting Terms&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Comparison Sort&lt;/strong&gt;: 키를 비교하여 아이템을 움직인다&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Adjacent Sort&lt;/strong&gt;: 근접한 요소(adjacent elements)를 움직임으로 정렬하는 알고리즘
-    &lt;ul&gt;
-      &lt;li&gt;bubble, insertion 등등&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Stable Sort&lt;/strong&gt;: Sorting 알고리즘이 Stable(안정)하다
-    &lt;ul&gt;
-      &lt;li&gt;when two items x and y occur in the relative order x,y in the original list AND x==y, &lt;strong&gt;then x and y appear in the same relative order x,y in the final sorted list.&lt;/strong&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;In-Place Sort&lt;/strong&gt;: 알고리즘이 &lt;strong&gt;최대 Θ(1)&lt;/strong&gt; 추가 공간을 사용한다
-    &lt;ul&gt;
-      &lt;li&gt;e.g. allocating another array of size θ(n) is &lt;strong&gt;NOT&lt;/strong&gt; allowed.&lt;/li&gt;
-      &lt;li&gt;it doesn’t create any D.S. or so
-        &lt;ul&gt;
-          &lt;li&gt;ex) 만약 이 알고리즘이 array size 10인 scratch array를 만들면 -&amp;gt; it’s okay! because the space complexity is θ(1).&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;insertion-sort삽입-정렬&quot;&gt;Insertion Sort(삽입 정렬)&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Strategy:&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;First section of list is sorted (say i-1 items)&lt;/li&gt;
-      &lt;li&gt;Increase this partial solution by…&lt;/li&gt;
-      &lt;li&gt;Shifting down next item beyond sorted section (i.e. the ith item) down to its proper place in sorted section.  (Must shift items up to make room.)&lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Since one item alone is already sorted, we can put steps 1-3 in a loop going from the 2nd to the last item.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;h2 id=&quot;python-example&quot;&gt;python example&lt;/h2&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;insertion_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;# lists start at index 0 to n-1
-&lt;/span&gt;      &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-   &lt;span class=&quot;c1&quot;&gt;# Insert lst[j] into sorted sub-list lst[0:j-1]
-&lt;/span&gt;      &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
-          &lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# shift item up
-&lt;/span&gt;          &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;# put item in correct spot
-&lt;/span&gt;  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;insertion-sort-analysis&quot;&gt;Insertion Sort: Analysis&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;Worst Case :&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;merge-sort&quot;&gt;Merge Sort&lt;/h1&gt;
-&lt;p&gt;\(\sum_{a}^{b}(\alpha \pm \beta)\)&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs4102 algorithms" /><category term="python" /><category term="algorithm" /><category term="sort" /><summary type="html">Sorting Terms Comparison Sort: 키를 비교하여 아이템을 움직인다 Adjacent Sort: 근접한 요소(adjacent elements)를 움직임으로 정렬하는 알고리즘 bubble, insertion 등등 Stable Sort: Sorting 알고리즘이 Stable(안정)하다 when two items x and y occur in the relative order x,y in the original list AND x==y, then x and y appear in the same relative order x,y in the final sorted list. In-Place Sort: 알고리즘이 최대 Θ(1) 추가 공간을 사용한다 e.g. allocating another array of size θ(n) is NOT allowed. it doesn’t create any D.S. or so ex) 만약 이 알고리즘이 array size 10인 scratch array를 만들면 -&amp;gt; it’s okay! because the space complexity is θ(1).</summary></entry><entry><title type="html">장고 헤로쿠 모델 조작하기</title><link href="https://seungeonk.github.io/django/django_heroku_access_models/" rel="alternate" type="text/html" title="장고 헤로쿠 모델 조작하기" /><published>2021-02-03T00:00:00-05:00</published><updated>2021-02-03T00:00:00-05:00</updated><id>https://seungeonk.github.io/django/django_heroku_access_models</id><content type="html" xml:base="https://seungeonk.github.io/django/django_heroku_access_models/">&lt;p&gt;헤로쿠로 배포된 장고 앱의 모델을 액세스 하고 싶을 때,&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;heroku run -a app_name python3 manage.py shell
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;you can access models remotely through heroku.&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="django" /><summary type="html">헤로쿠로 배포된 장고 앱의 모델을 액세스 하고 싶을 때,</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Intro</summary></entry></feed>

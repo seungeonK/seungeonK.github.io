@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>HTML Name 속성 vs ID 속성 - Seungeon</title>
-<meta name="description" content="Name 속성(Name Attribute)">
+<!-- begin _includes/seo.html --><title>2/24 Requirements Specification - Seungeon</title>
+<meta name="description" content="Requirements Specification(요구사항 특이점)">
 
 
   <meta name="author" content="Seungeon Kim">
@@ -22,30 +22,30 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Seungeon">
-<meta property="og:title" content="HTML Name 속성 vs ID 속성">
-<meta property="og:url" content="https://seungeonk.github.io/js/Post_request_name_vs_id/">
+<meta property="og:title" content="2/24 Requirements Specification">
+<meta property="og:url" content="https://seungeonk.github.io/cs3240/cs3240_Requirements_Specifiaction/">
 
 
-  <meta property="og:description" content="Name 속성(Name Attribute)">
-
-
-
-
-
-
-
-  <meta property="article:published_time" content="2021-01-29T00:00:00-05:00">
+  <meta property="og:description" content="Requirements Specification(요구사항 특이점)">
 
 
 
 
 
-  
+
+
+  <meta property="article:published_time" content="2021-02-24T00:00:00-05:00">
+
+
+
+
 
   
 
+  
 
-<link rel="canonical" href="https://seungeonk.github.io/js/Post_request_name_vs_id/">
+
+<link rel="canonical" href="https://seungeonk.github.io/cs3240/cs3240_Requirements_Specifiaction/">
 
 
 
@@ -275,15 +275,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="HTML Name 속성 vs ID 속성">
-    <meta itemprop="description" content="Name 속성(Name Attribute)">
-    <meta itemprop="datePublished" content="2021-01-29T00:00:00-05:00">
+    <meta itemprop="headline" content="2/24 Requirements Specification">
+    <meta itemprop="description" content="Requirements Specification(요구사항 특이점)">
+    <meta itemprop="datePublished" content="2021-02-24T00:00:00-05:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">HTML Name 속성 vs ID 속성
+          <h1 id="page-title" class="page__title" itemprop="headline">2/24 Requirements Specification
 </h1>
           
 
@@ -299,7 +299,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          less than 1 minute read
+          2 minute read
         
       </span>
     
@@ -311,26 +311,109 @@
 
       <section class="page__content" itemprop="text">
         
-        <h2 id="name-속성name-attribute"><strong>Name</strong> 속성(Name Attribute)</h2>
+        <h2 id="requirements-specification요구사항-특이점">Requirements Specification(요구사항 특이점)</h2>
 
-<p><strong>(Important)</strong> The name attribute is <strong>used in the HTTP request</strong> sent by your browser to the server as a variable name associated with the data contained in the value attribute.</p>
+<ul>
+  <li>
+    <p>고객들의 요구사항을 모은 후에, what are some ways you can communicate those requirements to the dev team?</p>
+  </li>
+  <li>
+    <p>we discuss use cases and <strong>software requirements specification (SRS) documents</strong> for more plan-driven environments and <strong>user stories</strong> for more agile projects.</p>
+  </li>
+</ul>
 
-<p>Valid only on <code class="language-plaintext highlighter-rouge">&lt;a&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;form&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;iframe&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;img&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;map&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;input&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;select&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;textarea&gt;</code></p>
+<h2 id="requirements-modelingspecification">Requirements Modeling/Specification</h2>
 
-<p><strong>Name</strong> does not have to be unique, and can be used to group elements together such as radio buttons &amp; checkboxes</p>
+<ul>
+  <li>Stakeholders에게서 요구사항을 뽑아냈으면, How do you write the requirements down so that:
+    <ul>
+      <li>뭐를 만들어야할지에 관한 팀과 고객 사이에 agreement</li>
+      <li>개발팀 사이에 애매하지 않은 understanding</li>
+    </ul>
+  </li>
+  <li>Requirements specification는 <strong>a restating of the requirements in a technical format of some kind that is actionable by developers</strong></li>
+</ul>
 
-<hr />
+<h2 id="analysiselicitation-vs-modeliingspecification">Analysis/Elicitation vs Modeliing/Specification</h2>
 
-<h2 id="id-속성id-attribute"><strong>ID</strong> 속성(ID Attribute)</h2>
+<ul>
+  <li>Analysis는 customer-focused, modeling/specification는 developer-focused(more technical)</li>
+  <li>분석은 should be non-technical human readable and understandable</li>
+  <li>Specification는 should be unambiguous to developers for system comprehension</li>
+</ul>
 
-<p>Valid on <strong>any element except</strong> <code class="language-plaintext highlighter-rouge">&lt;base&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;html&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;meta&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;param&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;script&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;style&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;title&gt;</code></p>
+<h2 id="specification-techniques-and-formats">Specification Techniques and Formats</h2>
 
-<p><strong>Each Id should be unique</strong> in the page as rendered in the browser, which may or may not be all in the same file</p>
+<ul>
+  <li>We will examine 3 methods for R.S.
+    <ul>
+      <li><strong>Use Cases</strong></li>
+      <li><strong>Software Requirements Specification(SRS)</strong></li>
+      <li><strong>User Stories</strong>
+        <ul>
+          <li>more agile and scrum uses</li>
+          <li>get input from user, written down to work with the developers</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>These range from more plan-driven to more agile, although thre can be aspects spread between all of them</li>
+  <li><strong>Main Point: No matter the precise technique, the idea is to capture specific, actionable requirements!</strong></li>
+</ul>
 
-<p>Is referenced in <strong>CSS</strong> or <strong>URL</strong> with <code class="language-plaintext highlighter-rouge">#</code> sign</p>
+<h2 id="use-cases">Use Cases</h2>
 
-<p>Is referenced in <strong>JS</strong> with <code class="language-plaintext highlighter-rouge">getElementById()</code></p>
+<ul>
+  <li>a more visual way of modeling requirements</li>
+  <li>Consists of a use case diagram(specified by UML) and a use case document</li>
+  <li>Base around user interactions with the system</li>
+  <li>plan-driven에서 많이 쓴다, 물론 agile에서도 쓰긴 한다</li>
+</ul>
 
+<h2 id="soft-requirements-specificationsrs">Soft Requirements Specification(SRS)</h2>
+
+<ul>
+  <li>SRS is a <strong>templat</strong> that is followed by a team to document functional requirements, non-functional requirements, and 제약등등</li>
+  <li>Follows IEEE specifications</li>
+  <li>Use Cases를 쓰는 팀이 종종 이걸 쓴다, as a part of a larger SRS document</li>
+</ul>
+
+<h2 id="user-stories">User Stories</h2>
+
+<ul>
+  <li>Short description of system behavior:
+    <ul>
+      <li>From user point of view</li>
+      <li>Written on one index card!
+        <ul>
+          <li>short, actionalbe, easy to follow 사이즈로</li>
+        </ul>
+      </li>
+      <li>Written by developer and customer together</li>
+      <li>Level of detail: enough to estimate time to implement(in terms of weeks)</li>
+      <li>Focus on user needs</li>
+      <li>Not on algorithms, UI, database details, technology etc</li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="user-story-예시">User Story 예시</h3>
+    <ul>
+      <li>When a transaction causes a customer’s account to go into overdraft, transfer money from the overdraft protection account, if any</li>
+      <li>Produce a statement for each account, showing transaction date, number, payee, and amount. A sample statement is attached - make the report look something like the sample</li>
+      <li>Students can purchase monthly parking passes online. Parking passes can be paid via credit cards or PayPal</li>
+      <li>An alternate format:
+        <ul>
+          <li>As a/an</li>
+          <li>I want to -or- the system shall …</li>
+          <li>So that …</li>
+        </ul>
+      </li>
+      <li>ex) On SIS, As a faculty memeber, I should be able to view academic records of students. As a student, only students can view their account
+  <img src="/assets/images/user_stories_example.png" /></li>
+      <li>이런것처럼 카드에 적을 수 있는 것들</li>
+    </ul>
+  </li>
+</ul>
 
         
       </section>
@@ -353,14 +436,14 @@
     
       
       
-      <a href="/categories/#js" class="page__taxonomy-item" rel="tag">JS</a>
+      <a href="/categories/#cs3240" class="page__taxonomy-item" rel="tag">cs3240</a>
     
     </span>
   </p>
 
 
         
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-01-29T00:00:00-05:00">January 29, 2021</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-02-24T00:00:00-05:00">February 24, 2021</time></p>
 
 
       </footer>
@@ -370,23 +453,22 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=HTML+Name+%EC%86%8D%EC%84%B1+vs+ID+%EC%86%8D%EC%84%B1%20https%3A%2F%2Fseungeonk.github.io%2Fjs%2FPost_request_name_vs_id%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=2%2F24+Requirements+Specification%20https%3A%2F%2Fseungeonk.github.io%2Fcs3240%2Fcs3240_Requirements_Specifiaction%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseungeonk.github.io%2Fjs%2FPost_request_name_vs_id%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseungeonk.github.io%2Fcs3240%2Fcs3240_Requirements_Specifiaction%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fseungeonk.github.io%2Fjs%2FPost_request_name_vs_id%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fseungeonk.github.io%2Fcs3240%2Fcs3240_Requirements_Specifiaction%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/js/JS_callback/" class="pagination--pager" title="자바스크립트 콜백 함수(JS callback)
+      <a href="/cs3240/cs3240_Requirements_Elicitation/" class="pagination--pager" title="2/23 Requirements Elicitation
 ">Previous</a>
     
     
-      <a href="/cs3240/cs3240_what-_is_software_engineering/" class="pagination--pager" title="2/4 What is software engineering?
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
@@ -400,46 +482,6 @@
     <div class="page__related">
       <h4 class="page__related-title">You may also enjoy</h4>
       <div class="grid__wrapper">
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/cs3240/cs3240_Requirements_Specifiaction/" rel="permalink">2/24 Requirements Specification
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          2 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">Requirements Specification(요구사항 특이점)
-</p>
-  </article>
-</div>
-
         
           
 
@@ -556,6 +598,46 @@
 
 
     <p class="archive__item-excerpt" itemprop="description">Your Software will haunt you
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/homework/cs3240" rel="permalink">2/16 Plan-Driven Method
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Plan-Driven Method
 </p>
   </article>
 </div>

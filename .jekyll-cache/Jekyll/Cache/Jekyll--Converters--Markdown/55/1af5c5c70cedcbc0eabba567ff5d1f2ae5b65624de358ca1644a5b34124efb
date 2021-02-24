@@ -1,0 +1,106 @@
+I"�<h2 id="requirements-specification요구사항-특이점">Requirements Specification(요구사항 특이점)</h2>
+
+<ul>
+  <li>
+    <p>고객들의 요구사항을 모은 후에, what are some ways you can communicate those requirements to the dev team?</p>
+  </li>
+  <li>
+    <p>we discuss use cases and <strong>software requirements specification (SRS) documents</strong> for more plan-driven environments and <strong>user stories</strong> for more agile projects.</p>
+  </li>
+</ul>
+
+<h2 id="requirements-modelingspecification">Requirements Modeling/Specification</h2>
+
+<ul>
+  <li>Stakeholders에게서 요구사항을 뽑아냈으면, How do you write the requirements down so that:
+    <ul>
+      <li>뭐를 만들어야할지에 관한 팀과 고객 사이에 agreement</li>
+      <li>개발팀 사이에 애매하지 않은 understanding</li>
+    </ul>
+  </li>
+  <li>Requirements specification는 <strong>a restating of the requirements in a technical format of some kind that is actionable by developers</strong></li>
+</ul>
+
+<h2 id="analysiselicitation-vs-modeliingspecification">Analysis/Elicitation vs Modeliing/Specification</h2>
+
+<ul>
+  <li>Analysis는 customer-focused, modeling/specification는 developer-focused(more technical)</li>
+  <li>분석은 should be non-technical human readable and understandable</li>
+  <li>Specification는 should be unambiguous to developers for system comprehension</li>
+</ul>
+
+<h2 id="specification-techniques-and-formats">Specification Techniques and Formats</h2>
+
+<ul>
+  <li>We will examine 3 methods for R.S.
+    <ul>
+      <li><strong>Use Cases</strong></li>
+      <li><strong>Software Requirements Specification(SRS)</strong></li>
+      <li><strong>User Stories</strong>
+        <ul>
+          <li>more agile and scrum uses</li>
+          <li>get input from user, written down to work with the developers</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>These range from more plan-driven to more agile, although thre can be aspects spread between all of them</li>
+  <li><strong>Main Point: No matter the precise technique, the idea is to capture specific, actionable requirements!</strong></li>
+</ul>
+
+<h2 id="use-cases">Use Cases</h2>
+
+<ul>
+  <li>a more visual way of modeling requirements</li>
+  <li>Consists of a use case diagram(specified by UML) and a use case document</li>
+  <li>Base around user interactions with the system</li>
+  <li>plan-driven에서 많이 쓴다, 물론 agile에서도 쓰긴 한다</li>
+</ul>
+
+<h2 id="soft-requirements-specificationsrs">Soft Requirements Specification(SRS)</h2>
+
+<ul>
+  <li>SRS is a <strong>templat</strong> that is followed by a team to document functional requirements, non-functional requirements, and 제약등등</li>
+  <li>Follows IEEE specifications</li>
+  <li>Use Cases를 쓰는 팀이 종종 이걸 쓴다, as a part of a larger SRS document</li>
+</ul>
+
+<h2 id="user-stories">User Stories</h2>
+
+<ul>
+  <li>Short description of system behavior:
+    <ul>
+      <li>From user point of view</li>
+      <li>Written on one index card!
+        <ul>
+          <li>short, actionalbe, easy to follow 사이즈로</li>
+        </ul>
+      </li>
+      <li>Written by developer and customer together</li>
+      <li>Level of detail: enough to estimate time to implement(in terms of weeks)</li>
+      <li>Focus on user needs</li>
+      <li>Not on algorithms, UI, database details, technology etc</li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="user-story-예시">User Story 예시</h3>
+    <ul>
+      <li>When a transaction causes a customer’s account to go into overdraft, transfer money from the overdraft protection account, if any</li>
+      <li>Produce a statement for each account, showing transaction date, number, payee, and amount. A sample statement is attached - make the report look something like the sample</li>
+      <li>Students can purchase monthly parking passes online. Parking passes can be paid via credit cards or PayPal</li>
+      <li>An alternate format:
+        <ul>
+          <li>As a/an</li>
+          <li>I want to -or- the system shall …</li>
+          <li>So that …</li>
+        </ul>
+      </li>
+    </ul>
+
+    <p><img src="/assets/images/" /></p>
+    <ul>
+      <li>이런것처럼 카드에 적을 수 있는 것들</li>
+    </ul>
+  </li>
+</ul>
+:ET

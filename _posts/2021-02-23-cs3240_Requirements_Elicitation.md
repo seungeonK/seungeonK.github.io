@@ -46,7 +46,7 @@ categories:
 10. Requirements are volatile(변덕스러운) and change over time
 
 ## Which Techniques To Use?(어떤 기술을 쓸까?)
-*   Not enough information gathered?
+*   Not enough inform$$ation gathered?
     *   Build the wrong product
     *   Missing key features
     *   May need to be completely rebuilt
