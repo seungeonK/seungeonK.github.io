@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>2/23 Requirements Elicitation - Seungeon</title>
-<meta name="description" content="Requirements Elicitation(요구사항 뽑아내기)">
+<!-- begin _includes/seo.html --><title>JS classList 클래스 - Seungeon</title>
+<meta name="description" content="JS에서 어떠한 이벤트가 발생했을때, 클래스를 add,remove할 수 있는 클래스로는 classList가 있다">
 
 
   <meta name="author" content="Seungeon Kim">
@@ -22,30 +22,30 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Seungeon">
-<meta property="og:title" content="2/23 Requirements Elicitation">
-<meta property="og:url" content="https://seungeonk.github.io/cs3240/cs3240_Requirements_Elicitation/">
+<meta property="og:title" content="JS classList 클래스">
+<meta property="og:url" content="https://seungeonk.github.io/js/JS_classList/">
 
 
-  <meta property="og:description" content="Requirements Elicitation(요구사항 뽑아내기)">
-
-
-
-
-
-
-
-  <meta property="article:published_time" content="2021-02-23T00:00:00-05:00">
+  <meta property="og:description" content="JS에서 어떠한 이벤트가 발생했을때, 클래스를 add,remove할 수 있는 클래스로는 classList가 있다">
 
 
 
 
 
-  
+
+
+  <meta property="article:published_time" content="2021-02-24T00:00:00-05:00">
+
+
+
+
 
   
 
+  
 
-<link rel="canonical" href="https://seungeonk.github.io/cs3240/cs3240_Requirements_Elicitation/">
+
+<link rel="canonical" href="https://seungeonk.github.io/js/JS_classList/">
 
 
 
@@ -275,15 +275,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="2/23 Requirements Elicitation">
-    <meta itemprop="description" content="Requirements Elicitation(요구사항 뽑아내기)">
-    <meta itemprop="datePublished" content="2021-02-23T00:00:00-05:00">
+    <meta itemprop="headline" content="JS classList 클래스">
+    <meta itemprop="description" content="  JS에서 어떠한 이벤트가 발생했을때, 클래스를 add,remove할 수 있는 클래스로는 classList가 있다">
+    <meta itemprop="datePublished" content="2021-02-24T00:00:00-05:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">2/23 Requirements Elicitation
+          <h1 id="page-title" class="page__title" itemprop="headline">JS classList 클래스
 </h1>
           
 
@@ -299,7 +299,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          1 minute read
+          less than 1 minute read
         
       </span>
     
@@ -311,86 +311,39 @@
 
       <section class="page__content" itemprop="text">
         
-        <h2 id="requirements-elicitation요구사항-뽑아내기">Requirements Elicitation(요구사항 뽑아내기)</h2>
-
-<ul>
-  <li>Requirements Engineering process는 2개의 stages를 효율적으로 split한다
-    <ul>
-      <li><strong>Requirements analysis or elicitation</strong>: stakeholder가 뭐가 필요한지 다큐멘트하면서 일하는 행동</li>
-      <li><strong>Requirements modeling or specification</strong>: stakeholder에게서 받은 ‘plain language’를 something actionable by developers to work on 로 바꾸는 행동</li>
-    </ul>
-  </li>
+        <ul>
+  <li><code class="language-plaintext highlighter-rouge">JS</code>에서 어떠한 이벤트가 발생했을때, 클래스를 <code class="language-plaintext highlighter-rouge">add</code>,<code class="language-plaintext highlighter-rouge">remove</code>할 수 있는 클래스로는 <code class="language-plaintext highlighter-rouge">classList</code>가 있다</li>
 </ul>
 
-<h2 id="stakeholder">Stakeholder</h2>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">title</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">"</span><span class="s2">#title</span><span class="dl">"</span><span class="p">);</span>
+
+<span class="kd">const</span> <span class="nx">CLICKED_CLASS</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">clicked</span><span class="dl">"</span> <span class="c1">// "clicked"란 클래스가 css 에 있다고 가정</span>
+
+<span class="kd">function</span> <span class="nx">handleClick</span><span class="p">(){</span>
+    <span class="kd">const</span> <span class="nx">hasClass</span> <span class="o">=</span> <span class="nx">title</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">contains</span><span class="p">(</span><span class="nx">CLICKED_CLASS</span><span class="p">);</span> <span class="c1">// contains()함수가 이 element에 이 클래스가 있는지 체크, return T/F</span>
+
+    <span class="k">if</span><span class="p">(</span><span class="nx">hasClass</span><span class="p">){</span>
+        <span class="nx">title</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">remove</span><span class="p">(</span><span class="nx">CLICKED_CLASS</span><span class="p">);</span> <span class="c1">// 그 element에서 CLICKED_CLASS를 지움</span>
+    <span class="p">}</span> <span class="k">else</span><span class="p">{</span>
+        <span class="nx">title</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="nx">CLICKED_CLASS</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">function</span> <span class="nx">init</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">title</span><span class="p">.</span><span class="nx">addEventListner</span><span class="p">(</span><span class="dl">"</span><span class="s2">click</span><span class="dl">"</span><span class="p">,</span> <span class="nx">handleClick</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="nx">init</span><span class="p">();</span>
+</code></pre></div></div>
+
 <ul>
-  <li>anyone has vest interest in the system를 stakeholder라 부름.
-    <ul>
-      <li>could be <strong>users</strong>, <strong>people who are paying for it</strong>, etc</li>
-    </ul>
-  </li>
+  <li><code class="language-plaintext highlighter-rouge">classList</code>에 또다른 메소드 <code class="language-plaintext highlighter-rouge">toggle()</code>이 위에 라인을 다 대체 가능함</li>
 </ul>
 
-<h2 id="elicitation-techniques">Elicitation Techniques</h2>
-<ul>
-  <li>Now that we know basically what we are after, what techniques should we use to get the infor from stakeholders?</li>
-  <li><strong>Interview</strong>: common, usually strutured but could be just a conversation with stakeholders, must ensure the customer agrees with the outcome of interview
-    <ul>
-      <li>만약 follow-up 질문이 떠오르면 질문해도 가능, just make sure you write them down for documentation</li>
-    </ul>
-  </li>
-  <li><strong>observation</strong>: watch people do their current daily jobs and see where problems arise</li>
-  <li><strong>examining docs/artifacts</strong>: read everything you can about current policy and procedures</li>
-  <li><strong>groupware</strong>: kind of a mix of asynchronous interview with a large digital whiteboard
-    <ul>
-      <li>digital whiteboard, slack, discord etc</li>
-      <li>anyone can toss ideas and pick anything seeming useful</li>
-    </ul>
-  </li>
-  <li><strong>questionnaires</strong>: an asynchronous interview with as many stakeholders as possible</li>
-  <li><strong>prototypes</strong>: rapid prototyping is often a good way to determine if you’re on the right track
-    <ul>
-      <li>mock-up을 만들고 고객에게 보여주면 instant feedback이 가능하다</li>
-    </ul>
-  </li>
-  <li><strong>focus group</strong>: stakeholder중에 subset을 골라 group interview를 하는 방식</li>
-  <li><strong>on-site customer</strong>: the customer is a member of the team and guides the whole process</li>
-</ul>
-
-<h2 id="10-problems-with-requirements-elicitation">10 Problems with Requirements Elicitation</h2>
-
-<ol>
-  <li>The boundary of the system is ill-defined</li>
-  <li>Unnecessary design information may be given</li>
-  <li>Stakeholders have incomplete understanding of their needs</li>
-  <li>Stakeholders have poor understanding of computer capabilities and limitations</li>
-  <li>Software enginners have poor knowledge of the problem domain</li>
-  <li>Stakeholder and software engineers speak different languages</li>
-  <li>“Obvious” information is ommited</li>
-  <li>Different stakeholders have conflicting views</li>
-  <li>Requirements are vague and untestable, such as “user friendly” and “robust”</li>
-  <li>Requirements are volatile(변덕스러운) and change over time</li>
-</ol>
-
-<h2 id="which-techniques-to-use어떤-기술을-쓸까">Which Techniques To Use?(어떤 기술을 쓸까?)</h2>
-<ul>
-  <li>Not enough inform$$ation gathered?
-    <ul>
-      <li>Build the wrong product</li>
-      <li>Missing key features</li>
-      <li>May need to be completely rebuilt</li>
-      <li>Cannot properly estimate costs/time frame</li>
-    </ul>
-  </li>
-  <li>Too much information gathered?
-    <ul>
-      <li>Conflicting requirements</li>
-      <li>Time-to-market has been affected</li>
-      <li>System could be over-engineered</li>
-    </ul>
-  </li>
-  <li>Identify which stakeholders are most important</li>
-</ul>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">handleClick</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span><span class="p">{</span>
+    <span class="nx">title</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">toggle</span><span class="p">(</span><span class="nx">CLICKED_CLASS</span><span class="p">);</span>
+    <span class="p">}</span>
+</code></pre></div></div>
 
         
       </section>
@@ -413,14 +366,14 @@
     
       
       
-      <a href="/categories/#cs3240" class="page__taxonomy-item" rel="tag">cs3240</a>
+      <a href="/categories/#js" class="page__taxonomy-item" rel="tag">JS</a>
     
     </span>
   </p>
 
 
         
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-02-23T00:00:00-05:00">February 23, 2021</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-02-24T00:00:00-05:00">February 24, 2021</time></p>
 
 
       </footer>
@@ -430,22 +383,22 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=2%2F23+Requirements+Elicitation%20https%3A%2F%2Fseungeonk.github.io%2Fcs3240%2Fcs3240_Requirements_Elicitation%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=JS+classList+%ED%81%B4%EB%9E%98%EC%8A%A4%20https%3A%2F%2Fseungeonk.github.io%2Fjs%2FJS_classList%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseungeonk.github.io%2Fcs3240%2Fcs3240_Requirements_Elicitation%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseungeonk.github.io%2Fjs%2FJS_classList%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fseungeonk.github.io%2Fcs3240%2Fcs3240_Requirements_Elicitation%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fseungeonk.github.io%2Fjs%2FJS_classList%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/github/github_run_jekyll_locally/" class="pagination--pager" title="Run github blog locally
+      <a href="/cs3240/cs3240_Requirements_Elicitation/" class="pagination--pager" title="2/23 Requirements Elicitation
 ">Previous</a>
     
     
-      <a href="/js/JS_classList/" class="pagination--pager" title="JS classList 클래스
+      <a href="/js/JS_setInterval()/" class="pagination--pager" title="JS setInterval() function
 ">Next</a>
     
   </nav>
@@ -552,7 +505,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/js/JS_classList/" rel="permalink">JS classList 클래스
+        <a href="/cs3240/cs3240_Requirements_Elicitation/" rel="permalink">2/23 Requirements Elicitation
 </a>
       
     </h2>
@@ -570,16 +523,14 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          less than 1 minute read
+          1 minute read
         
       </span>
     
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">
-  JS에서 어떠한 이벤트가 발생했을때, 클래스를 add,remove할 수 있는 클래스로는 classList가 있다
-
+    <p class="archive__item-excerpt" itemprop="description">Requirements Elicitation(요구사항 뽑아내기)
 </p>
   </article>
 </div>

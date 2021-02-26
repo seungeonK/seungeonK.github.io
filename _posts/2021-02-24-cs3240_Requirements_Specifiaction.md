@@ -9,7 +9,7 @@ categories:
 
 *   고객들의 요구사항을 모은 후에, what are some ways you can communicate those requirements to the dev team?
 
-*   we discuss use cases and **software requirements specification (SRS) documents** for more plan-driven environments and **user stories** for more agile projects.
+*   we discuss **use cases** and **software requirements specification (SRS) documents** for more plan-driven environments and **user stories** for more agile projects.
 
 ## Requirements Modeling/Specification
 

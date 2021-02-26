@@ -1,11 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://seungeonk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://seungeonk.github.io/" rel="alternate" type="text/html" /><updated>2021-02-24T18:01:36-05:00</updated><id>https://seungeonk.github.io/feed.xml</id><title type="html">Seungeon</title><subtitle>Undergrad in University of Virginia, Charlottesville</subtitle><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><entry><title type="html">2/24 Requirements Specification</title><link href="https://seungeonk.github.io/cs3240/cs3240_Requirements_Specifiaction/" rel="alternate" type="text/html" title="2/24 Requirements Specification" /><published>2021-02-24T00:00:00-05:00</published><updated>2021-02-24T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_Requirements_Specifiaction</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_Requirements_Specifiaction/">&lt;h2 id=&quot;requirements-specification요구사항-특이점&quot;&gt;Requirements Specification(요구사항 특이점)&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://seungeonk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://seungeonk.github.io/" rel="alternate" type="text/html" /><updated>2021-02-25T13:59:08-05:00</updated><id>https://seungeonk.github.io/feed.xml</id><title type="html">Seungeon</title><subtitle>Undergrad in University of Virginia, Charlottesville</subtitle><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><entry><title type="html">JS setInterval() function</title><link href="https://seungeonk.github.io/js/JS_setInterval()/" rel="alternate" type="text/html" title="JS setInterval() function" /><published>2021-02-24T00:00:00-05:00</published><updated>2021-02-24T00:00:00-05:00</updated><id>https://seungeonk.github.io/js/JS_setInterval()</id><content type="html" xml:base="https://seungeonk.github.io/js/JS_setInterval()/">&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;setInterval(fn, time)&lt;/code&gt;은 첫번째 인자(argument)로 함수를 받고, 두번째 인자로 how often the function should executes.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="JS" /><summary type="html">setInterval(fn, time)은 첫번째 인자(argument)로 함수를 받고, 두번째 인자로 how often the function should executes.</summary></entry><entry><title type="html">JS classList 클래스</title><link href="https://seungeonk.github.io/js/JS_classList/" rel="alternate" type="text/html" title="JS classList 클래스" /><published>2021-02-24T00:00:00-05:00</published><updated>2021-02-24T00:00:00-05:00</updated><id>https://seungeonk.github.io/js/JS_classList</id><content type="html" xml:base="https://seungeonk.github.io/js/JS_classList/">&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;JS&lt;/code&gt;에서 어떠한 이벤트가 발생했을때, 클래스를 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;add&lt;/code&gt;,&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;remove&lt;/code&gt;할 수 있는 클래스로는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;classList&lt;/code&gt;가 있다&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;#title&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;CLICKED_CLASS&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;clicked&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// &quot;clicked&quot;란 클래스가 css 에 있다고 가정&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;handleClick&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;hasClass&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;classList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;contains&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CLICKED_CLASS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// contains()함수가 이 element에 이 클래스가 있는지 체크, return T/F&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;hasClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;classList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CLICKED_CLASS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 그 element에서 CLICKED_CLASS를 지움&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;classList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CLICKED_CLASS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListner&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;handleClick&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;classList&lt;/code&gt;에 또다른 메소드 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;toggle()&lt;/code&gt;이 위에 라인을 다 대체 가능함&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;handleClick&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;classList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toggle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CLICKED_CLASS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="JS" /><summary type="html">JS에서 어떠한 이벤트가 발생했을때, 클래스를 add,remove할 수 있는 클래스로는 classList가 있다</summary></entry><entry><title type="html">2/24 Requirements Specification</title><link href="https://seungeonk.github.io/cs3240/cs3240_Requirements_Specifiaction/" rel="alternate" type="text/html" title="2/24 Requirements Specification" /><published>2021-02-24T00:00:00-05:00</published><updated>2021-02-24T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_Requirements_Specifiaction</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_Requirements_Specifiaction/">&lt;h2 id=&quot;requirements-specification요구사항-특이점&quot;&gt;Requirements Specification(요구사항 특이점)&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;고객들의 요구사항을 모은 후에, what are some ways you can communicate those requirements to the dev team?&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;we discuss use cases and &lt;strong&gt;software requirements specification (SRS) documents&lt;/strong&gt; for more plan-driven environments and &lt;strong&gt;user stories&lt;/strong&gt; for more agile projects.&lt;/p&gt;
+    &lt;p&gt;we discuss &lt;strong&gt;use cases&lt;/strong&gt; and &lt;strong&gt;software requirements specification (SRS) documents&lt;/strong&gt; for more plan-driven environments and &lt;strong&gt;user stories&lt;/strong&gt; for more agile projects.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -309,48 +343,7 @@
       &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Bootstrap&lt;/code&gt;는? -&amp;gt; &lt;strong&gt;optional&lt;/strong&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Your Software will haunt you</summary></entry><entry><title type="html">2/16 Plan-Driven Method</title><link href="https://seungeonk.github.io/homework/cs3240" rel="alternate" type="text/html" title="2/16 Plan-Driven Method" /><published>2021-02-15T00:00:00-05:00</published><updated>2021-02-15T00:00:00-05:00</updated><id>https://seungeonk.github.io/homework/cs3240_Plan-driven-methodologies</id><content type="html" xml:base="https://seungeonk.github.io/homework/cs3240">&lt;h1 id=&quot;plan-driven-method&quot;&gt;Plan-Driven Method&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;플랜-드리븐 방법은 개발자가 요구사항을 먼저 결정할 때 좋다.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;그 Requirement가 상대적으로 바뀌지 않을때도 좋다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h3 id=&quot;remember-continuum&quot;&gt;remember: continuum&lt;/h3&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Focus on repeatability and predictability&lt;/li&gt;
-  &lt;li&gt;Defined, standardized steps we need to follow&lt;/li&gt;
-  &lt;li&gt;철저한 documentation이 존재함/혹은 만듦&lt;/li&gt;
-  &lt;li&gt;verification과 validation에 중점(소포트웨어가 잘 돌아가는지)&lt;/li&gt;
-  &lt;li&gt;상세한 플랜, 워크플로우, 역할, 책임감 그리고 work product description이 들어있다&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;rational-unified-process&quot;&gt;Rational Unified Process&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;RUP&lt;/li&gt;
-  &lt;li&gt;Built around the Unified Modeling Language(UML)&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Toolsets were created to help build UML diagrams and then translate them into code&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;The process iself is configurable&lt;/li&gt;
-  &lt;li&gt;6가지 practice로 만들어지는데:
-    &lt;ul&gt;
-      &lt;li&gt;develope software iteratively&lt;/li&gt;
-      &lt;li&gt;manage requirements&lt;/li&gt;
-      &lt;li&gt;use component-based architectures&lt;/li&gt;
-      &lt;li&gt;visually model software&lt;/li&gt;
-      &lt;li&gt;verify software quality&lt;/li&gt;
-      &lt;li&gt;
-        &lt;h2 id=&quot;control-changes-to-software&quot;&gt;control changes to software&lt;/h2&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Plan Driven(P.D.) 는 요구사항이 잘 바뀌지 않을 때 좋다&lt;/li&gt;
-  &lt;li&gt;팀이 사이즈가 커지면, P.D. 프로세스가 더 효율적임&lt;/li&gt;
-  &lt;li&gt;P.D.는 통합되야하는 여러가지 components가 있을 경우 효과적&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Plan-Driven Method</summary></entry><entry><title type="html">2/16 Software Process</title><link href="https://seungeonk.github.io/cs3240/cs3240-Software-process/" rel="alternate" type="text/html" title="2/16 Software Process" /><published>2021-02-15T00:00:00-05:00</published><updated>2021-02-15T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240-Software-process</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240-Software-process/">&lt;h1 id=&quot;a-process&quot;&gt;A process?&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Your Software will haunt you</summary></entry><entry><title type="html">2/16 Software Process</title><link href="https://seungeonk.github.io/cs3240/cs3240-Software-process/" rel="alternate" type="text/html" title="2/16 Software Process" /><published>2021-02-15T00:00:00-05:00</published><updated>2021-02-15T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240-Software-process</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240-Software-process/">&lt;h1 id=&quot;a-process&quot;&gt;A process?&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -464,7 +457,48 @@
       &lt;li&gt;Team Software Process(TSP)&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">A process?</summary></entry><entry><title type="html">2/16 Agile Methodologies</title><link href="https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies/" rel="alternate" type="text/html" title="2/16 Agile Methodologies" /><published>2021-02-15T00:00:00-05:00</published><updated>2021-02-15T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies/">&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">A process?</summary></entry><entry><title type="html">2/16 Plan-Driven Method</title><link href="https://seungeonk.github.io/homework/cs3240" rel="alternate" type="text/html" title="2/16 Plan-Driven Method" /><published>2021-02-15T00:00:00-05:00</published><updated>2021-02-15T00:00:00-05:00</updated><id>https://seungeonk.github.io/homework/cs3240_Plan-driven-methodologies</id><content type="html" xml:base="https://seungeonk.github.io/homework/cs3240">&lt;h1 id=&quot;plan-driven-method&quot;&gt;Plan-Driven Method&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;플랜-드리븐 방법은 개발자가 요구사항을 먼저 결정할 때 좋다.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;그 Requirement가 상대적으로 바뀌지 않을때도 좋다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;remember-continuum&quot;&gt;remember: continuum&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Focus on repeatability and predictability&lt;/li&gt;
+  &lt;li&gt;Defined, standardized steps we need to follow&lt;/li&gt;
+  &lt;li&gt;철저한 documentation이 존재함/혹은 만듦&lt;/li&gt;
+  &lt;li&gt;verification과 validation에 중점(소포트웨어가 잘 돌아가는지)&lt;/li&gt;
+  &lt;li&gt;상세한 플랜, 워크플로우, 역할, 책임감 그리고 work product description이 들어있다&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;rational-unified-process&quot;&gt;Rational Unified Process&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;RUP&lt;/li&gt;
+  &lt;li&gt;Built around the Unified Modeling Language(UML)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Toolsets were created to help build UML diagrams and then translate them into code&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The process iself is configurable&lt;/li&gt;
+  &lt;li&gt;6가지 practice로 만들어지는데:
+    &lt;ul&gt;
+      &lt;li&gt;develope software iteratively&lt;/li&gt;
+      &lt;li&gt;manage requirements&lt;/li&gt;
+      &lt;li&gt;use component-based architectures&lt;/li&gt;
+      &lt;li&gt;visually model software&lt;/li&gt;
+      &lt;li&gt;verify software quality&lt;/li&gt;
+      &lt;li&gt;
+        &lt;h2 id=&quot;control-changes-to-software&quot;&gt;control changes to software&lt;/h2&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Plan Driven(P.D.) 는 요구사항이 잘 바뀌지 않을 때 좋다&lt;/li&gt;
+  &lt;li&gt;팀이 사이즈가 커지면, P.D. 프로세스가 더 효율적임&lt;/li&gt;
+  &lt;li&gt;P.D.는 통합되야하는 여러가지 components가 있을 경우 효과적&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Plan-Driven Method</summary></entry><entry><title type="html">2/16 Agile Methodologies</title><link href="https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies/" rel="alternate" type="text/html" title="2/16 Agile Methodologies" /><published>2021-02-15T00:00:00-05:00</published><updated>2021-02-15T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies/">&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -752,139 +786,4 @@
 5. Repeat steps 3 and 4 until you have something ready for sharing with others
 6. Push code to shared remote repo
 7. But you should look at and fetch any changes others have made first. Resolve any problems before push
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">IDEs and SCM</summary></entry><entry><title type="html">2/3 Sorting and Some Algorithm Principles</title><link href="https://seungeonk.github.io/cs4102%20algorithms/cs4102/" rel="alternate" type="text/html" title="2/3 Sorting and Some Algorithm Principles" /><published>2021-02-03T00:00:00-05:00</published><updated>2021-02-03T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs4102%20algorithms/cs4102</id><content type="html" xml:base="https://seungeonk.github.io/cs4102%20algorithms/cs4102/">&lt;h1 id=&quot;sorting-terms&quot;&gt;Sorting Terms&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Comparison Sort&lt;/strong&gt;: 키를 비교하여 아이템을 움직인다&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Adjacent Sort&lt;/strong&gt;: 근접한 요소(adjacent elements)를 움직임으로 정렬하는 알고리즘
-    &lt;ul&gt;
-      &lt;li&gt;bubble, insertion 등등&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Stable Sort&lt;/strong&gt;: Sorting 알고리즘이 Stable(안정)하다
-    &lt;ul&gt;
-      &lt;li&gt;when two items x and y occur in the relative order x,y in the original list AND x==y, &lt;strong&gt;then x and y appear in the same relative order x,y in the final sorted list.&lt;/strong&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;In-Place Sort&lt;/strong&gt;: 알고리즘이 &lt;strong&gt;최대 Θ(1)&lt;/strong&gt; 추가 공간을 사용한다
-    &lt;ul&gt;
-      &lt;li&gt;e.g. allocating another array of size θ(n) is &lt;strong&gt;NOT&lt;/strong&gt; allowed.&lt;/li&gt;
-      &lt;li&gt;it doesn’t create any D.S. or so
-        &lt;ul&gt;
-          &lt;li&gt;ex) 만약 이 알고리즘이 array size 10인 scratch array를 만들면 -&amp;gt; it’s okay! because the space complexity is θ(1).&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;insertion-sort삽입-정렬&quot;&gt;Insertion Sort(삽입 정렬)&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Strategy:&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;First section of list is sorted (say i-1 items)&lt;/li&gt;
-      &lt;li&gt;Increase this partial solution by…&lt;/li&gt;
-      &lt;li&gt;Shifting down next item beyond sorted section (i.e. the ith item) down to its proper place in sorted section.  (Must shift items up to make room.)&lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Since one item alone is already sorted, we can put steps 1-3 in a loop going from the 2nd to the last item.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;h2 id=&quot;python-example&quot;&gt;python example&lt;/h2&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;insertion_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;# lists start at index 0 to n-1
-&lt;/span&gt;      &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-   &lt;span class=&quot;c1&quot;&gt;# Insert lst[j] into sorted sub-list lst[0:j-1]
-&lt;/span&gt;      &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
-          &lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# shift item up
-&lt;/span&gt;          &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;# put item in correct spot
-&lt;/span&gt;  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;insertion-sort-analysis&quot;&gt;Insertion Sort: Analysis&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;Worst Case :&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;merge-sort&quot;&gt;Merge Sort&lt;/h1&gt;
-&lt;p&gt;\(\sum_{a}^{b}(\alpha \pm \beta)\)&lt;/p&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs4102 algorithms" /><category term="python" /><category term="algorithm" /><category term="sort" /><summary type="html">Sorting Terms Comparison Sort: 키를 비교하여 아이템을 움직인다 Adjacent Sort: 근접한 요소(adjacent elements)를 움직임으로 정렬하는 알고리즘 bubble, insertion 등등 Stable Sort: Sorting 알고리즘이 Stable(안정)하다 when two items x and y occur in the relative order x,y in the original list AND x==y, then x and y appear in the same relative order x,y in the final sorted list. In-Place Sort: 알고리즘이 최대 Θ(1) 추가 공간을 사용한다 e.g. allocating another array of size θ(n) is NOT allowed. it doesn’t create any D.S. or so ex) 만약 이 알고리즘이 array size 10인 scratch array를 만들면 -&amp;gt; it’s okay! because the space complexity is θ(1).</summary></entry><entry><title type="html">2/4 What is software engineering?</title><link href="https://seungeonk.github.io/cs3240/cs3240_what-_is_software_engineering/" rel="alternate" type="text/html" title="2/4 What is software engineering?" /><published>2021-02-03T00:00:00-05:00</published><updated>2021-02-03T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_what%20_is_software_engineering</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_what-_is_software_engineering/">&lt;h1 id=&quot;intro&quot;&gt;Intro&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;HCI is kind of psy branch&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;This(software engineering)&lt;/strong&gt; is a bit more business branch&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;software is very different&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h5 id=&quot;key-point-to-remember-programming-is-actually-a-small-part-of-software-engineering&quot;&gt;key point to remember: Programming is actually a small part of software engineering&lt;/h5&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;S.E. is literally the field of how to engineer software&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;EX) building a building
-    &lt;ul&gt;
-      &lt;li&gt;knowing how to hammer a nail and how to lay a brick is not enough&lt;/li&gt;
-      &lt;li&gt;What else is needed?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;high-level-se&quot;&gt;High Level S.E.&lt;/h1&gt;
-
-&lt;h3 id=&quot;at-a-high-level-se는-steps-of-the-development-process를-생각함&quot;&gt;At a high level, SE는 steps of the development process를 생각함&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Requirements(how do we know what to build?)&lt;/li&gt;
-  &lt;li&gt;Design / Specification&lt;/li&gt;
-  &lt;li&gt;Programming / Construction / Implementation&lt;/li&gt;
-  &lt;li&gt;Testing (Verification and Validation)&lt;/li&gt;
-  &lt;li&gt;Production and Release&lt;/li&gt;
-  &lt;li&gt;Maintenance and Updates(bugs etc)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;why-is-se-different&quot;&gt;Why is S.E. different?&lt;/h1&gt;
-
-&lt;p&gt;What makes creating software different than creating other things that engineers build (ex. machines, aircraft, bridges etc)?&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Software is changeable/malleable (소프트웨어는 가변성이다)&lt;/li&gt;
-  &lt;li&gt;Requirements often change DURING development&lt;/li&gt;
-  &lt;li&gt;Requirements often change AFTER development&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Misconceptions regarding actual time frames / how software is built and maintained from customers… and developers&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;problems-about-failure&quot;&gt;Problems about failure&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;how do we protect software from being failed?&lt;/li&gt;
-  &lt;li&gt;how do we make sure the software is safe?
-    &lt;ul&gt;
-      &lt;li&gt;ex) HealthCare.gov failed launch&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;find-some-failures&quot;&gt;Find some failures&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Find a major issues making software crashed&lt;/li&gt;
-  &lt;li&gt;What was the technical cause?&lt;/li&gt;
-  &lt;li&gt;What was the underlying cause?
-    &lt;ul&gt;
-      &lt;li&gt;A problem with requirements?&lt;/li&gt;
-      &lt;li&gt;No enough testing?&lt;/li&gt;
-      &lt;li&gt;Training?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;How would you mitigate this in the future?&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Intro</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">IDEs and SCM</summary></entry></feed>

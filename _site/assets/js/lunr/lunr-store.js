@@ -83,6 +83,18 @@ var store = [{
         "url": "https://seungeonk.github.io/cs3240/cs3240_Requirements_Elicitation/",
         "teaser": null
       },{
+        "title": "JS classList 클래스",
+        "excerpt":"JS에서 어떠한 이벤트가 발생했을때, 클래스를 add,remove할 수 있는 클래스로는 classList가 있다 const title = document.querySelector(\"#title\"); const CLICKED_CLASS = \"clicked\" // \"clicked\"란 클래스가 css 에 있다고 가정 function handleClick(){ const hasClass = title.classList.contains(CLICKED_CLASS); // contains()함수가 이 element에 이 클래스가 있는지 체크, return T/F if(hasClass){ title.classList.remove(CLICKED_CLASS); // 그 element에서 CLICKED_CLASS를 지움 }...","categories": ["JS"],
+        "tags": [],
+        "url": "https://seungeonk.github.io/js/JS_classList/",
+        "teaser": null
+      },{
+        "title": "JS setInterval() function",
+        "excerpt":"   setInterval(fn, time)은 첫번째 인자(argument)로 함수를 받고, 두번째 인자로 how often the function should executes.  ","categories": ["JS"],
+        "tags": [],
+        "url": "https://seungeonk.github.io/js/JS_setInterval()/",
+        "teaser": null
+      },{
         "title": "2/24 Requirements Specification",
         "excerpt":"Requirements Specification(요구사항 특이점) 고객들의 요구사항을 모은 후에, what are some ways you can communicate those requirements to the dev team? we discuss use cases and software requirements specification (SRS) documents for more plan-driven environments and user stories for more agile projects. Requirements Modeling/Specification Stakeholders에게서 요구사항을 뽑아냈으면, How do you write...","categories": ["cs3240"],
         "tags": [],
