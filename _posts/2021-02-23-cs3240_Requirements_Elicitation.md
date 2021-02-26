@@ -1,5 +1,5 @@
 ---
-title: 2/23 Requirements Elicitation
+title: Requirements Elicitation
 
 categories:
     - cs3240

@@ -1,5 +1,5 @@
 ---
-title: 2/24 Requirements Specification
+title: Requirements Specification
 
 categories:
     -   cs3240

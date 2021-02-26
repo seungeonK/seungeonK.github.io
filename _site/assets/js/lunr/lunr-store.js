@@ -23,7 +23,7 @@ var store = [{
         "url": "https://seungeonk.github.io/js/Post_request_name_vs_id/",
         "teaser": null
       },{
-        "title": "2/4 What is software engineering?",
+        "title": "What is software engineering?",
         "excerpt":"Intro HCI is kind of psy branch This(software engineering) is a bit more business branch software is very different key point to remember: Programming is actually a small part of software engineering S.E. is literally the field of how to engineer software EX) building a building knowing how to hammer...","categories": ["cs3240"],
         "tags": [],
         "url": "https://seungeonk.github.io/cs3240/cs3240_what-_is_software_engineering/",
@@ -47,25 +47,25 @@ var store = [{
         "url": "https://seungeonk.github.io/cs3240/cs3240_Software_Construction/",
         "teaser": null
       },{
-        "title": "2/16 Agile Methodologies",
+        "title": "Agile Methodologies",
         "excerpt":"Background 플랜 드리븐은 about determining the nature of a software product up front and then building contracts, documentation, infrastructure, etc. Agile은 “We can figure it out as we go, because requirements and needs change” 한때 Agile은 붐이었는데, It focuses on getting something to market as soon as possible to capitalize...","categories": ["cs3240"],
         "tags": [],
         "url": "https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies/",
         "teaser": null
       },{
-        "title": "2/16 Software Process",
+        "title": "Software Process\"",
         "excerpt":"A process? Organizations want a well-defined, well-understood, repeatable software development process. Why? Find and repeat good practices Management know what to do next know when we’re done with current task know if we’re late estimate time to completion, costs New team members know what to do The creation and tranlation...","categories": ["cs3240"],
         "tags": [],
         "url": "https://seungeonk.github.io/cs3240/cs3240-Software-process/",
         "teaser": null
       },{
-        "title": "2/16 Plan-Driven Method",
+        "title": "Plan-Driven Method",
         "excerpt":"Plan-Driven Method 플랜-드리븐 방법은 개발자가 요구사항을 먼저 결정할 때 좋다. 그 Requirement가 상대적으로 바뀌지 않을때도 좋다. remember: continuum Focus on repeatability and predictability Defined, standardized steps we need to follow 철저한 documentation이 존재함/혹은 만듦 verification과 validation에 중점(소포트웨어가 잘 돌아가는지) 상세한 플랜, 워크플로우, 역할, 책임감 그리고 work product description이 들어있다 Rational...","categories": ["cs3240"],
         "tags": [],
         "url": "https://seungeonk.github.io/homework/cs3240",
         "teaser": null
       },{
-        "title": "2/22 Requiremens Engineering(요구사항)",
+        "title": "Requiremens Engineering(요구사항)",
         "excerpt":"Your Software will haunt you Software Requirement(소프트웨어 요구사항) A software requirement Is a condition or capability needed by a user to solve a problem or achieve an objective Must be met or possessed by a system or component to satisfy a contract, standard, specification, or other formal constraint Requirements are...","categories": ["cs3240"],
         "tags": [],
         "url": "https://seungeonk.github.io/cs3240/cs3240_Requirements_Engineering/",
@@ -77,7 +77,7 @@ var store = [{
         "url": "https://seungeonk.github.io/github/github_run_jekyll_locally/",
         "teaser": null
       },{
-        "title": "2/23 Requirements Elicitation",
+        "title": "Requirements Elicitation",
         "excerpt":"Requirements Elicitation(요구사항 뽑아내기) Requirements Engineering process는 2개의 stages를 효율적으로 split한다 Requirements analysis or elicitation: stakeholder가 뭐가 필요한지 다큐멘트하면서 일하는 행동 Requirements modeling or specification: stakeholder에게서 받은 ‘plain language’를 something actionable by developers to work on 로 바꾸는 행동 Stakeholder anyone has vest interest in the system를 stakeholder라 부름. could be...","categories": ["cs3240"],
         "tags": [],
         "url": "https://seungeonk.github.io/cs3240/cs3240_Requirements_Elicitation/",
@@ -95,7 +95,7 @@ var store = [{
         "url": "https://seungeonk.github.io/js/JS_setInterval()/",
         "teaser": null
       },{
-        "title": "2/24 Requirements Specification",
+        "title": "Requirements Specification",
         "excerpt":"Requirements Specification(요구사항 특이점) 고객들의 요구사항을 모은 후에, what are some ways you can communicate those requirements to the dev team? we discuss use cases and software requirements specification (SRS) documents for more plan-driven environments and user stories for more agile projects. Requirements Modeling/Specification Stakeholders에게서 요구사항을 뽑아냈으면, How do you write...","categories": ["cs3240"],
         "tags": [],
         "url": "https://seungeonk.github.io/cs3240/cs3240_Requirements_Specifiaction/",

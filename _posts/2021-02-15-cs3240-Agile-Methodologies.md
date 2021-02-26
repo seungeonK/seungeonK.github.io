@@ -1,5 +1,5 @@
 ---
-title: "2/16 Agile Methodologies"
+title: Agile Methodologies
 categories: 
     - cs3240
 ---

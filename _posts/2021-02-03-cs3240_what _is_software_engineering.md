@@ -1,5 +1,5 @@
 ---
-title: 2/4 What is software engineering?
+title: What is software engineering?
 subtitle:
 
 category: cs3240

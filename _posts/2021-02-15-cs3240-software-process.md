@@ -1,5 +1,5 @@
 ---
-title: "2/16 Software Process"
+title: Software Process"
 categories: 
     - cs3240
 ---

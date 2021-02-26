@@ -1,5 +1,5 @@
 ---
-title: "2/22 Requiremens Engineering(요구사항)"
+title: "Requiremens Engineering(요구사항)"
 categories: 
     - cs3240
 ---
