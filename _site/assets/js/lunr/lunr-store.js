@@ -100,4 +100,16 @@ var store = [{
         "tags": [],
         "url": "https://seungeonk.github.io/cs3240/cs3240_Requirements_Specifiaction/",
         "teaser": null
+      },{
+        "title": "Risk Management",
+        "excerpt":"Overview 소프트웨어 개발자들은 내재적으로 많은 risk를 가지게 된다. Can you figure out the technology in time? Will the customer change the requirements? Will a competitor release a new product before you can get to market? etc… risk management의 기보은 다음과 같은 사이클을 따른다: Identify: What is the risk and how...","categories": ["cs3240"],
+        "tags": [],
+        "url": "https://seungeonk.github.io/cs3240/cs3240_Risk_Management/",
+        "teaser": null
+      },{
+        "title": "SE Code of Ethics",
+        "excerpt":"소프트웨어 코드 윤리 IEEE Computer Society와 ACM 이 공동으로 joint task force를 설립. Software Engieering Code of Ethics to help guide software engineers when faced with dilemmas in our careers. With Great Power… Have you ever thought about the power you could potentially wield as a software engineer or architect?...","categories": ["cs3240"],
+        "tags": [],
+        "url": "https://seungeonk.github.io/cs3240/cs3240_SE_Code_of_Ethics/",
+        "teaser": null
       }]

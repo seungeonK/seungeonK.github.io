@@ -1,4 +1,225 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://seungeonk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://seungeonk.github.io/" rel="alternate" type="text/html" /><updated>2021-02-25T19:22:12-05:00</updated><id>https://seungeonk.github.io/feed.xml</id><title type="html">Seungeon</title><subtitle>Undergrad in University of Virginia, Charlottesville</subtitle><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><entry><title type="html">JS setInterval() function</title><link href="https://seungeonk.github.io/js/JS_setInterval()/" rel="alternate" type="text/html" title="JS setInterval() function" /><published>2021-02-24T00:00:00-05:00</published><updated>2021-02-24T00:00:00-05:00</updated><id>https://seungeonk.github.io/js/JS_setInterval()</id><content type="html" xml:base="https://seungeonk.github.io/js/JS_setInterval()/">&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://seungeonk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://seungeonk.github.io/" rel="alternate" type="text/html" /><updated>2021-03-01T18:58:22-05:00</updated><id>https://seungeonk.github.io/feed.xml</id><title type="html">Seungeon</title><subtitle>Undergrad in University of Virginia, Charlottesville</subtitle><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><entry><title type="html">SE Code of Ethics</title><link href="https://seungeonk.github.io/cs3240/cs3240_SE_Code_of_Ethics/" rel="alternate" type="text/html" title="SE Code of Ethics" /><published>2021-03-01T00:00:00-05:00</published><updated>2021-03-01T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_SE_Code_of_Ethics</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_SE_Code_of_Ethics/">&lt;h2 id=&quot;소프트웨어-코드-윤리&quot;&gt;소프트웨어 코드 윤리&lt;/h2&gt;
+
+&lt;hr /&gt;
+&lt;ul&gt;
+  &lt;li&gt;IEEE Computer Society와 ACM 이 공동으로 joint task force를 설립.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Software Engieering Code of Ethics&lt;/strong&gt; to help guide software engineers when faced with dilemmas in our careers.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;with-great-power&quot;&gt;With Great Power…&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Have you ever thought about the power you could potentially wield as a software engineer or architect?&lt;/li&gt;
+  &lt;li&gt;What responsibility do you have to society?&lt;/li&gt;
+  &lt;li&gt;Have you seen any evidence of unethical behavior from software developers recently?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;the-need-for-ethics&quot;&gt;The Need for Ethics&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;ex) 소프트웨어 결함 발견 -&amp;gt; hesitant to inform because the stock would plunge and we’d have massive layoffs -&amp;gt; but.. my negligence could cause the deaths of a dozen customers?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;8-principles-top-down1이-가장-중요-8이-가장-덜-중요&quot;&gt;8 Principles: top-down(1이 가장 중요, 8이 가장 덜 중요)&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Public&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Software engineers shall act &lt;strong&gt;consistently with the public interest&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;if the software endangers the public -&amp;gt; 삐빅&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Client and Employer&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Software engineers shall act in a manner that is in the best interests of their client and employer cosisten with the public interest&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Product&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Software engineers shall ensure that their products and related modifications meet the highest professional standards possible&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Judgment&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Software engineers shall maintain integrity and independence in their professional judgment&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Management&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Software engineering managers and leaders shall subscribe to and promote an ethical approach to the management of software development and maintenance&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Profession&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Software engineers shall advance the integrity and reputation of the profession consistent with the public interest&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Colleagues&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Software engineers shall be fair to and supportive of their colleagues&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Self&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Software engineers shall participate in lifelong learning regarding the practice of their profession and shall promote an ethical approach to the practice of the profession&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;whats-missing&quot;&gt;What’s Missing?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Where to get help in a dilemma?&lt;/li&gt;
+  &lt;li&gt;Who to report iolations to??&lt;/li&gt;
+  &lt;li&gt;Where to get advice and support in a confrontation with employer?&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">소프트웨어 코드 윤리</summary></entry><entry><title type="html">Risk Management</title><link href="https://seungeonk.github.io/cs3240/cs3240_Risk_Management/" rel="alternate" type="text/html" title="Risk Management" /><published>2021-02-25T00:00:00-05:00</published><updated>2021-02-25T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_Risk_Management</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_Risk_Management/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;소프트웨어 개발자들은 내재적으로 많은 risk를 가지게 된다.
+    &lt;ol&gt;
+      &lt;li&gt;Can you figure out the technology in time?&lt;/li&gt;
+      &lt;li&gt;Will the customer change the requirements?&lt;/li&gt;
+      &lt;li&gt;Will a competitor release a new product before you can get to market?&lt;/li&gt;
+      &lt;li&gt;etc…&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;risk management의 기보은 다음과 같은 사이클을 따른다:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Identify&lt;/strong&gt;: What is the risk and how does it affect your project?&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Analyze&lt;/strong&gt;: What is the cost of the risk if it occurs and how likely is it to occur?&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;우선순위 매기기&lt;/strong&gt;: 얼마나 많이 이 risk를 신경써야하니?&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Plan&lt;/strong&gt;: 그 risk가 실제로 오면 어떻게 할거니?&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;완화시키기(Mitigate)&lt;/strong&gt;: 어떻게 그 risk의 영향이나 가능성을 줄일거니?&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;모니터하기(Monitor)&lt;/strong&gt;: 어떤 면의 프로젝트/팀을 지켜봐야 하니?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;the-problem-before-you&quot;&gt;The Problem Before You&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You have just started on an multi-week project..&lt;/li&gt;
+  &lt;li&gt;…With several other people you may or may not know&lt;/li&gt;
+  &lt;li&gt;…Building a piece of software you don’t know a ton about&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;So, how does that make you feel?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;You can approach this uncertainty in a few different ways:
+    &lt;ul&gt;
+      &lt;li&gt;You can ignore it(무시)
+        &lt;ul&gt;
+          &lt;li&gt;silly but depending on the size/nature of your project, 괜찮은 옵션&lt;/li&gt;
+          &lt;li&gt;물론 무시해도, you should still be cognizant of what might happen&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;you can be reactive(반응형)
+        &lt;ul&gt;
+          &lt;li&gt;When a problem arises, everyone drops everything to address the issue&lt;/li&gt;
+          &lt;li&gt;exhausting할 수 있음&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;You can be proactive
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;h2 id=&quot;if-you-identify-and-plan-for-some-of-the-most-common-scenarios-ahead-of-time-they-wont-have-as-much-impact-when-they-occur&quot;&gt;If you identify and plan for some of the most common scenarios ahead of time, they won’t have as much impact when they occur&lt;/h2&gt;
+            &lt;h2 id=&quot;risk-management-cycle리스크-관리-사이클&quot;&gt;Risk Management Cycle(리스크 관리 사이클)&lt;/h2&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Identify(리스크 확인하기):&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;What are some types of risks? How do they affect our projects?
+        &lt;ul&gt;
+          &lt;li&gt;ex) 수업 드랍, 파이썬 모르는 거, 수업에 참가할 상황이 안됨, 팀원과 커뮤니케이션이 안됨 etc…&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Analyze(분석하기):&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;What are the costs of these risks?&lt;/li&gt;
+      &lt;li&gt;What is the likelihood that they will happen?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Prioritize(우선순위 매기기):&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;How do we decide which risks to worry about?&lt;/li&gt;
+      &lt;li&gt;Hwat is our risk exposure?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Plan(계획하기)&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;Can we gather more info?&lt;/li&gt;
+      &lt;li&gt;How can we plan for contingencies to reduce risk?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mitigate(경감하기, 줄이기)&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;Can we cut high risk items?&lt;/li&gt;
+      &lt;li&gt;Are there actions we can take to lower cost of risk or chance something will happen?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Monitor(모니터하기)&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;Can we get constant updates on progress?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;what-aspects-of-a-project-can-introduce-risk어떤-면이-팀에게-risk일까&quot;&gt;What aspects of a project can introduce risk?(어떤 면이 팀에게 risk일까?)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;People
+    &lt;ul&gt;
+      &lt;li&gt;드랍, 잠수타는거&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Size of project
+    &lt;ul&gt;
+      &lt;li&gt;큰 사이즈 경우에, 어떤 요구사항이 어떤 component에 맞는지 생각해야하는 고민 등&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Software process&lt;/li&gt;
+  &lt;li&gt;Technology and tools
+    &lt;ul&gt;
+      &lt;li&gt;git, heroku, travis등을 사용해보지 않을 때&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Organizational and managerial
+    &lt;ul&gt;
+      &lt;li&gt;TA나 교수에게 질문하기 꺼릴 때&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Customer&lt;/li&gt;
+  &lt;li&gt;Estimation&lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;support&quot;&gt;Support&lt;/h2&gt;
+    &lt;h2 id=&quot;consider-your-risk-profile내가-가지고-있는-리스크는-내가-고민하고-있는거는&quot;&gt;Consider Your Risk Profile(내가 가지고 있는 리스크는? 내가 고민하고 있는거는?)&lt;/h2&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;pick-your-top-3-risks-you-may-encounter-this-semseter-and-figure-out-what-you-will-do-to-mitigate--deal-with-those-risks&quot;&gt;Pick your top 3 risks you may encounter this semseter and figure out what you will do to mitigate / deal with those risks&lt;/h2&gt;
+    &lt;h2 id=&quot;top-ten-risks-to-educational-projects&quot;&gt;Top Ten Risks to Educational Projects&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;다른 사람 코드 overwrite하는거/ not having latest version&lt;/li&gt;
+  &lt;li&gt;Lack of exposure with technology&lt;/li&gt;
+  &lt;li&gt;다른 수업 때문에 이걸 못하는거&lt;/li&gt;
+  &lt;li&gt;팀이 만날 시간을 못 찾는거&lt;/li&gt;
+  &lt;li&gt;Requirements를 이해하지 못하는거&lt;/li&gt;
+  &lt;li&gt;팀 소통의 부재&lt;/li&gt;
+  &lt;li&gt;Project organization / who is responsible for what&lt;/li&gt;
+  &lt;li&gt;Loss of a team member&lt;/li&gt;
+  &lt;li&gt;Difficulty integrating work from various team members&lt;/li&gt;
+  &lt;li&gt;Too much planning; not enough work on project&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Overview</summary></entry><entry><title type="html">JS setInterval() function</title><link href="https://seungeonk.github.io/js/JS_setInterval()/" rel="alternate" type="text/html" title="JS setInterval() function" /><published>2021-02-24T00:00:00-05:00</published><updated>2021-02-24T00:00:00-05:00</updated><id>https://seungeonk.github.io/js/JS_setInterval()</id><content type="html" xml:base="https://seungeonk.github.io/js/JS_setInterval()/">&lt;ul&gt;
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;setInterval(fn, time)&lt;/code&gt;은 첫번째 인자(argument)로 함수를 받고, 두번째 인자로 how often the function should executes.&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="JS" /><summary type="html">setInterval(fn, time)은 첫번째 인자(argument)로 함수를 받고, 두번째 인자로 how often the function should executes.</summary></entry><entry><title type="html">JS classList 클래스</title><link href="https://seungeonk.github.io/js/JS_classList/" rel="alternate" type="text/html" title="JS classList 클래스" /><published>2021-02-24T00:00:00-05:00</published><updated>2021-02-24T00:00:00-05:00</updated><id>https://seungeonk.github.io/js/JS_classList</id><content type="html" xml:base="https://seungeonk.github.io/js/JS_classList/">&lt;ul&gt;
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;JS&lt;/code&gt;에서 어떠한 이벤트가 발생했을때, 클래스를 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;add&lt;/code&gt;,&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;remove&lt;/code&gt;할 수 있는 클래스로는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;classList&lt;/code&gt;가 있다&lt;/li&gt;
@@ -343,162 +564,7 @@
       &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Bootstrap&lt;/code&gt;는? -&amp;gt; &lt;strong&gt;optional&lt;/strong&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Your Software will haunt you</summary></entry><entry><title type="html">Software Process”</title><link href="https://seungeonk.github.io/cs3240/cs3240-Software-process/" rel="alternate" type="text/html" title="Software Process”" /><published>2021-02-15T00:00:00-05:00</published><updated>2021-02-15T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240-Software-process</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240-Software-process/">&lt;h1 id=&quot;a-process&quot;&gt;A process?&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Organizations want a well-defined, well-understood, repeatable software development process.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Why?&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Find and repeat good practices&lt;/li&gt;
-      &lt;li&gt;Management
-        &lt;ul&gt;
-          &lt;li&gt;know what to do next&lt;/li&gt;
-          &lt;li&gt;know when we’re done with current task&lt;/li&gt;
-          &lt;li&gt;know if we’re late&lt;/li&gt;
-          &lt;li&gt;estimate time to completion, costs&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;New team members know what to do&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;h2 id=&quot;the-creation-and-tranlation-of-human-needs-into-requirements-requirements-into-design-design-into-code-testing-installing-etc&quot;&gt;The creation and tranlation of human needs into requirements, requirements into design, design into code, testing, installing, etc&lt;/h2&gt;
-  &lt;h1 id=&quot;software-process&quot;&gt;Software Process&lt;/h1&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;All processes have some form of:
-    &lt;ul&gt;
-      &lt;li&gt;Requirements Elicitation&lt;/li&gt;
-      &lt;li&gt;Requirements Specification&lt;/li&gt;
-      &lt;li&gt;Design&lt;/li&gt;
-      &lt;li&gt;Development(design, implemented, verified)&lt;/li&gt;
-      &lt;li&gt;Validation&lt;/li&gt;
-      &lt;li&gt;Evolution(AKA, maintence)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;The form/ iteration/ timing/ etc. of these activities defines different process families and methodologies&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-&lt;h1 id=&quot;software-process-models&quot;&gt;Software Process Models&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Brodaly speaking, process models and thus methodologies fall on a continuum&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h2 id=&quot;agile-method&quot;&gt;Agile method&lt;/h2&gt;
-    &lt;ul&gt;
-      &lt;li&gt;scrum, extreme programming&lt;/li&gt;
-      &lt;li&gt;rapid iteration&lt;/li&gt;
-      &lt;li&gt;moving through software version continuously&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h2 id=&quot;plan-driven&quot;&gt;Plan-Driven&lt;/h2&gt;
-    &lt;ul&gt;
-      &lt;li&gt;focus on specific phase intensively&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;choosing-a-software-process&quot;&gt;Choosing a Software Process&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;h2 id=&quot;organizational-factors&quot;&gt;Organizational factors&lt;/h2&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Is the team co-located or global?&lt;/li&gt;
-      &lt;li&gt;How is the team structured(Are thre PMs? Small teams? Large Team?)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h2 id=&quot;technology-factors&quot;&gt;Technology factors&lt;/h2&gt;
-    &lt;ul&gt;
-      &lt;li&gt;How does the team like to work? Whiteboard or online tracking?&lt;/li&gt;
-      &lt;li&gt;Do you have access to software to manage communication effectively?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h2 id=&quot;domainsector-factors&quot;&gt;Domain/Sector factors&lt;/h2&gt;
-    &lt;ul&gt;
-      &lt;li&gt;how quick is the turnaround on a products?&lt;/li&gt;
-      &lt;li&gt;Are there constant updates?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h2 id=&quot;regulatory-factors&quot;&gt;Regulatory factors&lt;/h2&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Are you building something that requires government or other third-party oversight?&lt;/li&gt;
-      &lt;li&gt;What docs / artifiacts will you have to provide?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h3 id=&quot;agile-methodologies&quot;&gt;Agile Methodologies&lt;/h3&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Scrum&lt;/li&gt;
-      &lt;li&gt;Extreme Programming(XP)&lt;/li&gt;
-      &lt;li&gt;Kanban&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h3 id=&quot;plan-driven-methodologies&quot;&gt;Plan-Driven Methodologies&lt;/h3&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Rational Unified Process(RUP)&lt;/li&gt;
-      &lt;li&gt;Personal Software Process(PSP)&lt;/li&gt;
-      &lt;li&gt;Team Software Process(TSP)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">A process?</summary></entry><entry><title type="html">Plan-Driven Method</title><link href="https://seungeonk.github.io/homework/cs3240" rel="alternate" type="text/html" title="Plan-Driven Method" /><published>2021-02-15T00:00:00-05:00</published><updated>2021-02-15T00:00:00-05:00</updated><id>https://seungeonk.github.io/homework/cs3240_Plan-driven-methodologies</id><content type="html" xml:base="https://seungeonk.github.io/homework/cs3240">&lt;h1 id=&quot;plan-driven-method&quot;&gt;Plan-Driven Method&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;플랜-드리븐 방법은 개발자가 요구사항을 먼저 결정할 때 좋다.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;그 Requirement가 상대적으로 바뀌지 않을때도 좋다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h3 id=&quot;remember-continuum&quot;&gt;remember: continuum&lt;/h3&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Focus on repeatability and predictability&lt;/li&gt;
-  &lt;li&gt;Defined, standardized steps we need to follow&lt;/li&gt;
-  &lt;li&gt;철저한 documentation이 존재함/혹은 만듦&lt;/li&gt;
-  &lt;li&gt;verification과 validation에 중점(소포트웨어가 잘 돌아가는지)&lt;/li&gt;
-  &lt;li&gt;상세한 플랜, 워크플로우, 역할, 책임감 그리고 work product description이 들어있다&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;rational-unified-process&quot;&gt;Rational Unified Process&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;RUP&lt;/li&gt;
-  &lt;li&gt;Built around the Unified Modeling Language(UML)&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Toolsets were created to help build UML diagrams and then translate them into code&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;The process iself is configurable&lt;/li&gt;
-  &lt;li&gt;6가지 practice로 만들어지는데:
-    &lt;ul&gt;
-      &lt;li&gt;develope software iteratively&lt;/li&gt;
-      &lt;li&gt;manage requirements&lt;/li&gt;
-      &lt;li&gt;use component-based architectures&lt;/li&gt;
-      &lt;li&gt;visually model software&lt;/li&gt;
-      &lt;li&gt;verify software quality&lt;/li&gt;
-      &lt;li&gt;
-        &lt;h2 id=&quot;control-changes-to-software&quot;&gt;control changes to software&lt;/h2&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Plan Driven(P.D.) 는 요구사항이 잘 바뀌지 않을 때 좋다&lt;/li&gt;
-  &lt;li&gt;팀이 사이즈가 커지면, P.D. 프로세스가 더 효율적임&lt;/li&gt;
-  &lt;li&gt;P.D.는 통합되야하는 여러가지 components가 있을 경우 효과적&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Plan-Driven Method</summary></entry><entry><title type="html">Agile Methodologies</title><link href="https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies/" rel="alternate" type="text/html" title="Agile Methodologies" /><published>2021-02-15T00:00:00-05:00</published><updated>2021-02-15T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies/">&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Your Software will haunt you</summary></entry><entry><title type="html">Agile Methodologies</title><link href="https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies/" rel="alternate" type="text/html" title="Agile Methodologies" /><published>2021-02-15T00:00:00-05:00</published><updated>2021-02-15T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies/">&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -681,109 +747,45 @@
       &lt;li&gt;Each week, your team will have a stand-up meeting, demo to the customer(TA), and plan the next sprint&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Background</summary></entry><entry><title type="html">software construction</title><link href="https://seungeonk.github.io/cs3240/cs3240_Software_Construction/" rel="alternate" type="text/html" title="software construction" /><published>2021-02-08T00:00:00-05:00</published><updated>2021-02-08T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_Software_Construction</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_Software_Construction/">&lt;h1 id=&quot;ides-and-scm&quot;&gt;IDEs and SCM&lt;/h1&gt;
-
-&lt;p&gt;How do we work together as a team?&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Background</summary></entry><entry><title type="html">Plan-Driven Method</title><link href="https://seungeonk.github.io/homework/cs3240" rel="alternate" type="text/html" title="Plan-Driven Method" /><published>2021-02-15T00:00:00-05:00</published><updated>2021-02-15T00:00:00-05:00</updated><id>https://seungeonk.github.io/homework/cs3240_Plan-driven-methodologies</id><content type="html" xml:base="https://seungeonk.github.io/homework/cs3240">&lt;h1 id=&quot;plan-driven-method&quot;&gt;Plan-Driven Method&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Our definition&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Software Construction focuses specifically on the building, testing, and technical production of the software porudct and tools and techniques used&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Techniques and Practices&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Coding standards&lt;/li&gt;
-      &lt;li&gt;Refactoring&lt;/li&gt;
-      &lt;li&gt;Collective code ownership and continuous integration&lt;/li&gt;
-      &lt;li&gt;minimal shippable/viable product&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Tool Categories&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;IDEs&lt;/li&gt;
-      &lt;li&gt;Source control management&lt;/li&gt;
-      &lt;li&gt;Bug/ Issue tracker&lt;/li&gt;
-      &lt;li&gt;Requirements / Features / Backlog tracker&lt;/li&gt;
-      &lt;li&gt;Communication systems&lt;/li&gt;
-      &lt;li&gt;Continuous intergration systems&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;These are all things helping larger team &lt;strong&gt;keep on track&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Training
-    &lt;ul&gt;
-      &lt;li&gt;In many companies, when you’re on-boarded, you have some time of &lt;strong&gt;crash course&lt;/strong&gt; in the tools and systems used in that organization&lt;/li&gt;
-      &lt;li&gt;Smaller and more agile teams often allow more freedom for developers in tool/system choices&lt;/li&gt;
-      &lt;li&gt;New team memeber/new developers are often given less freedom…&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;ides&quot;&gt;IDEs&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;An IDE is a programming tool that combines a few dev features into one unified system
-    &lt;ul&gt;
-      &lt;li&gt;code editor
-        &lt;ul&gt;
-          &lt;li&gt;syntax highlighting&lt;/li&gt;
-          &lt;li&gt;code folding&lt;/li&gt;
-          &lt;li&gt;auto-complete&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;compiling/running&lt;/li&gt;
-      &lt;li&gt;debugging&lt;/li&gt;
-      &lt;li&gt;Testing&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;source-control-management&quot;&gt;Source Control Management&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;SCM enbales multiple people to simultaneously work on a single project.&lt;/li&gt;
-  &lt;li&gt;Verion control also enables one person to use multiple computers to work on a project, so it’s valuable even if you are working by yourself&lt;/li&gt;
+  &lt;li&gt;플랜-드리븐 방법은 개발자가 요구사항을 먼저 결정할 때 좋다.&lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;if there are any conflicting edits to the same line of a file, then the version control system requests human assistance in deciding what to do&lt;/p&gt;
+    &lt;p&gt;그 Requirement가 상대적으로 바뀌지 않을때도 좋다.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;h3 id=&quot;distributed-vs-centralized-scm&quot;&gt;Distributed vs Centralized SCM&lt;/h3&gt;
+    &lt;h3 id=&quot;remember-continuum&quot;&gt;remember: continuum&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Focus on repeatability and predictability&lt;/li&gt;
+  &lt;li&gt;Defined, standardized steps we need to follow&lt;/li&gt;
+  &lt;li&gt;철저한 documentation이 존재함/혹은 만듦&lt;/li&gt;
+  &lt;li&gt;verification과 validation에 중점(소포트웨어가 잘 돌아가는지)&lt;/li&gt;
+  &lt;li&gt;상세한 플랜, 워크플로우, 역할, 책임감 그리고 work product description이 들어있다&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;rational-unified-process&quot;&gt;Rational Unified Process&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;RUP&lt;/li&gt;
+  &lt;li&gt;Built around the Unified Modeling Language(UML)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Toolsets were created to help build UML diagrams and then translate them into code&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The process iself is configurable&lt;/li&gt;
+  &lt;li&gt;6가지 practice로 만들어지는데:
     &lt;ul&gt;
-      &lt;li&gt;Distributed version control is more modern&lt;/li&gt;
-      &lt;li&gt;main difference is that
-        &lt;ul&gt;
-          &lt;li&gt;Centralized -&amp;gt; there is just one repo&lt;/li&gt;
-          &lt;li&gt;distributed -&amp;gt; there are multiple repos&lt;/li&gt;
-        &lt;/ul&gt;
+      &lt;li&gt;develope software iteratively&lt;/li&gt;
+      &lt;li&gt;manage requirements&lt;/li&gt;
+      &lt;li&gt;use component-based architectures&lt;/li&gt;
+      &lt;li&gt;visually model software&lt;/li&gt;
+      &lt;li&gt;verify software quality&lt;/li&gt;
+      &lt;li&gt;
+        &lt;h2 id=&quot;control-changes-to-software&quot;&gt;control changes to software&lt;/h2&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h3 id=&quot;repository&quot;&gt;Repository&lt;/h3&gt;
-    &lt;ul&gt;
-      &lt;li&gt;place where SCM keeps track of changes&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h3 id=&quot;working-copyworking-tree&quot;&gt;Working copy(Working Tree)&lt;/h3&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Your current view or copy of what’s in the repo&lt;/li&gt;
-      &lt;li&gt;you edit, update, test, etc these files&lt;/li&gt;
-      &lt;li&gt;When you’re ready, you &lt;strong&gt;commit&lt;/strong&gt; a file to the repository -&amp;gt; kind of &lt;strong&gt;Save files&lt;/strong&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;typical-git-workflow&quot;&gt;Typical Git WorkFlow&lt;/h1&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. Start coding session by fetching code from shared remote repo
-2. Merge that branch into local branch
-3. Code, test files in your local branch
-4. Commit code to local repo
-5. Repeat steps 3 and 4 until you have something ready for sharing with others
-6. Push code to shared remote repo
-7. But you should look at and fetch any changes others have made first. Resolve any problems before push
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">IDEs and SCM</summary></entry></feed>
+  &lt;li&gt;Plan Driven(P.D.) 는 요구사항이 잘 바뀌지 않을 때 좋다&lt;/li&gt;
+  &lt;li&gt;팀이 사이즈가 커지면, P.D. 프로세스가 더 효율적임&lt;/li&gt;
+  &lt;li&gt;P.D.는 통합되야하는 여러가지 components가 있을 경우 효과적&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Plan-Driven Method</summary></entry></feed>
