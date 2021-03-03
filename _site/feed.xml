@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://seungeonk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://seungeonk.github.io/" rel="alternate" type="text/html" /><updated>2021-03-01T18:58:22-05:00</updated><id>https://seungeonk.github.io/feed.xml</id><title type="html">Seungeon</title><subtitle>Undergrad in University of Virginia, Charlottesville</subtitle><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><entry><title type="html">SE Code of Ethics</title><link href="https://seungeonk.github.io/cs3240/cs3240_SE_Code_of_Ethics/" rel="alternate" type="text/html" title="SE Code of Ethics" /><published>2021-03-01T00:00:00-05:00</published><updated>2021-03-01T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_SE_Code_of_Ethics</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_SE_Code_of_Ethics/">&lt;h2 id=&quot;소프트웨어-코드-윤리&quot;&gt;소프트웨어 코드 윤리&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://seungeonk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://seungeonk.github.io/" rel="alternate" type="text/html" /><updated>2021-03-03T17:07:53-05:00</updated><id>https://seungeonk.github.io/feed.xml</id><title type="html">Seungeon</title><subtitle>Undergrad in University of Virginia, Charlottesville</subtitle><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><entry><title type="html">Justice, Equity, Diversity, and Inclusion in SE</title><link href="https://seungeonk.github.io/cs3240/cs3240_J_E_D_I_In_S.E/" rel="alternate" type="text/html" title="Justice, Equity, Diversity, and Inclusion in SE" /><published>2021-03-03T00:00:00-05:00</published><updated>2021-03-03T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_J_E_D_I_In_S.E</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_J_E_D_I_In_S.E/">&lt;h2 id=&quot;소프트웨어-엔지니어링의-정의-공평성-다양성-포괄성&quot;&gt;소프트웨어 엔지니어링의 정의, 공평성, 다양성, 포괄성&lt;/h2&gt;
+
+&lt;hr /&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;소프트웨어 윤리중에, 정의, 공평성, 다양성, 포괄성등을 다루고 있다&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;In Software Engineering
+    &lt;ul&gt;
+      &lt;li&gt;More likely to see potential needs / pitfalls in software solutions that affect&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;But just being diverse isn’t enough if biases still exist&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;How do we address justice, eauity, diversity, and inclusion?&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What cultural competence is there?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;숨겨진 bias가 뭐가 있을까?
+    &lt;ul&gt;
+      &lt;li&gt;medical history도 가능&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Case Study
+    &lt;ul&gt;
+      &lt;li&gt;Zoom face recognition of Zoom for virtual backgrounds&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Elements of Cultural Competence(문화적 능력? 요소)
+    &lt;ul&gt;
+      &lt;li&gt;Management of Dynamics of Difference&lt;/li&gt;
+      &lt;li&gt;Instituionalization of Cultural Knowledge
+        &lt;ul&gt;
+          &lt;li&gt;requires continued learning, engagement, and parctice in order to develop proficiency&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Adaptation to Diversity&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Things You Can Do
+    &lt;ul&gt;
+      &lt;li&gt;Become familiar with the intricacies of race, ethnicity, bias, microaggressions, marginalization, and historically disenfranchised(권리를 뺐긴) group through publications, current events, and training&lt;/li&gt;
+      &lt;li&gt;critical eye로 기술적인 해결책을 찾고, 위에서 뭘 배웠는지 설명하자&lt;/li&gt;
+      &lt;li&gt;Work toward your own cultural competence&lt;/li&gt;
+      &lt;li&gt;Build teams with diversity in mind&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">소프트웨어 엔지니어링의 정의, 공평성, 다양성, 포괄성</summary></entry><entry><title type="html">SE Code of Ethics</title><link href="https://seungeonk.github.io/cs3240/cs3240_SE_Code_of_Ethics/" rel="alternate" type="text/html" title="SE Code of Ethics" /><published>2021-03-01T00:00:00-05:00</published><updated>2021-03-01T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_SE_Code_of_Ethics</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_SE_Code_of_Ethics/">&lt;h2 id=&quot;소프트웨어-코드-윤리&quot;&gt;소프트웨어 코드 윤리&lt;/h2&gt;
 
 &lt;hr /&gt;
 &lt;ul&gt;
@@ -219,41 +267,7 @@
   &lt;li&gt;Loss of a team member&lt;/li&gt;
   &lt;li&gt;Difficulty integrating work from various team members&lt;/li&gt;
   &lt;li&gt;Too much planning; not enough work on project&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Overview</summary></entry><entry><title type="html">JS setInterval() function</title><link href="https://seungeonk.github.io/js/JS_setInterval()/" rel="alternate" type="text/html" title="JS setInterval() function" /><published>2021-02-24T00:00:00-05:00</published><updated>2021-02-24T00:00:00-05:00</updated><id>https://seungeonk.github.io/js/JS_setInterval()</id><content type="html" xml:base="https://seungeonk.github.io/js/JS_setInterval()/">&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;setInterval(fn, time)&lt;/code&gt;은 첫번째 인자(argument)로 함수를 받고, 두번째 인자로 how often the function should executes.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="JS" /><summary type="html">setInterval(fn, time)은 첫번째 인자(argument)로 함수를 받고, 두번째 인자로 how often the function should executes.</summary></entry><entry><title type="html">JS classList 클래스</title><link href="https://seungeonk.github.io/js/JS_classList/" rel="alternate" type="text/html" title="JS classList 클래스" /><published>2021-02-24T00:00:00-05:00</published><updated>2021-02-24T00:00:00-05:00</updated><id>https://seungeonk.github.io/js/JS_classList</id><content type="html" xml:base="https://seungeonk.github.io/js/JS_classList/">&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;JS&lt;/code&gt;에서 어떠한 이벤트가 발생했을때, 클래스를 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;add&lt;/code&gt;,&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;remove&lt;/code&gt;할 수 있는 클래스로는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;classList&lt;/code&gt;가 있다&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;#title&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;CLICKED_CLASS&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;clicked&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// &quot;clicked&quot;란 클래스가 css 에 있다고 가정&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;handleClick&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;hasClass&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;classList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;contains&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CLICKED_CLASS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// contains()함수가 이 element에 이 클래스가 있는지 체크, return T/F&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;hasClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;classList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CLICKED_CLASS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 그 element에서 CLICKED_CLASS를 지움&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;classList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CLICKED_CLASS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListner&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;handleClick&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nx&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;classList&lt;/code&gt;에 또다른 메소드 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;toggle()&lt;/code&gt;이 위에 라인을 다 대체 가능함&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;handleClick&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;classList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toggle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CLICKED_CLASS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="JS" /><summary type="html">JS에서 어떠한 이벤트가 발생했을때, 클래스를 add,remove할 수 있는 클래스로는 classList가 있다</summary></entry><entry><title type="html">Requirements Specification</title><link href="https://seungeonk.github.io/cs3240/cs3240_Requirements_Specifiaction/" rel="alternate" type="text/html" title="Requirements Specification" /><published>2021-02-24T00:00:00-05:00</published><updated>2021-02-24T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_Requirements_Specifiaction</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_Requirements_Specifiaction/">&lt;h2 id=&quot;requirements-specification요구사항-특이점&quot;&gt;Requirements Specification(요구사항 특이점)&lt;/h2&gt;
+&lt;/ol&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Overview</summary></entry><entry><title type="html">Requirements Specification</title><link href="https://seungeonk.github.io/cs3240/cs3240_Requirements_Specifiaction/" rel="alternate" type="text/html" title="Requirements Specification" /><published>2021-02-24T00:00:00-05:00</published><updated>2021-02-24T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_Requirements_Specifiaction</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_Requirements_Specifiaction/">&lt;h2 id=&quot;requirements-specification요구사항-특이점&quot;&gt;Requirements Specification(요구사항 특이점)&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -355,7 +369,41 @@
       &lt;li&gt;이런것처럼 카드에 적을 수 있는 것들&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Requirements Specification(요구사항 특이점)</summary></entry><entry><title type="html">Requirements Elicitation</title><link href="https://seungeonk.github.io/cs3240/cs3240_Requirements_Elicitation/" rel="alternate" type="text/html" title="Requirements Elicitation" /><published>2021-02-23T00:00:00-05:00</published><updated>2021-02-23T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_Requirements_Elicitation</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_Requirements_Elicitation/">&lt;h2 id=&quot;requirements-elicitation요구사항-뽑아내기&quot;&gt;Requirements Elicitation(요구사항 뽑아내기)&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Requirements Specification(요구사항 특이점)</summary></entry><entry><title type="html">JS setInterval() function</title><link href="https://seungeonk.github.io/js/JS_setInterval()/" rel="alternate" type="text/html" title="JS setInterval() function" /><published>2021-02-24T00:00:00-05:00</published><updated>2021-02-24T00:00:00-05:00</updated><id>https://seungeonk.github.io/js/JS_setInterval()</id><content type="html" xml:base="https://seungeonk.github.io/js/JS_setInterval()/">&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;setInterval(fn, time)&lt;/code&gt;은 첫번째 인자(argument)로 함수를 받고, 두번째 인자로 how often the function should executes.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="JS" /><summary type="html">setInterval(fn, time)은 첫번째 인자(argument)로 함수를 받고, 두번째 인자로 how often the function should executes.</summary></entry><entry><title type="html">JS classList 클래스</title><link href="https://seungeonk.github.io/js/JS_classList/" rel="alternate" type="text/html" title="JS classList 클래스" /><published>2021-02-24T00:00:00-05:00</published><updated>2021-02-24T00:00:00-05:00</updated><id>https://seungeonk.github.io/js/JS_classList</id><content type="html" xml:base="https://seungeonk.github.io/js/JS_classList/">&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;JS&lt;/code&gt;에서 어떠한 이벤트가 발생했을때, 클래스를 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;add&lt;/code&gt;,&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;remove&lt;/code&gt;할 수 있는 클래스로는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;classList&lt;/code&gt;가 있다&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;#title&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;CLICKED_CLASS&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;clicked&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// &quot;clicked&quot;란 클래스가 css 에 있다고 가정&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;handleClick&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;hasClass&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;classList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;contains&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CLICKED_CLASS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// contains()함수가 이 element에 이 클래스가 있는지 체크, return T/F&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;hasClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;classList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CLICKED_CLASS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 그 element에서 CLICKED_CLASS를 지움&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;classList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CLICKED_CLASS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListner&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;handleClick&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;classList&lt;/code&gt;에 또다른 메소드 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;toggle()&lt;/code&gt;이 위에 라인을 다 대체 가능함&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;handleClick&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;classList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toggle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CLICKED_CLASS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="JS" /><summary type="html">JS에서 어떠한 이벤트가 발생했을때, 클래스를 add,remove할 수 있는 클래스로는 classList가 있다</summary></entry><entry><title type="html">Requirements Elicitation</title><link href="https://seungeonk.github.io/cs3240/cs3240_Requirements_Elicitation/" rel="alternate" type="text/html" title="Requirements Elicitation" /><published>2021-02-23T00:00:00-05:00</published><updated>2021-02-23T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_Requirements_Elicitation</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_Requirements_Elicitation/">&lt;h2 id=&quot;requirements-elicitation요구사항-뽑아내기&quot;&gt;Requirements Elicitation(요구사항 뽑아내기)&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Requirements Engineering process는 2개의 stages를 효율적으로 split한다
@@ -747,45 +795,4 @@
       &lt;li&gt;Each week, your team will have a stand-up meeting, demo to the customer(TA), and plan the next sprint&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Background</summary></entry><entry><title type="html">Plan-Driven Method</title><link href="https://seungeonk.github.io/homework/cs3240" rel="alternate" type="text/html" title="Plan-Driven Method" /><published>2021-02-15T00:00:00-05:00</published><updated>2021-02-15T00:00:00-05:00</updated><id>https://seungeonk.github.io/homework/cs3240_Plan-driven-methodologies</id><content type="html" xml:base="https://seungeonk.github.io/homework/cs3240">&lt;h1 id=&quot;plan-driven-method&quot;&gt;Plan-Driven Method&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;플랜-드리븐 방법은 개발자가 요구사항을 먼저 결정할 때 좋다.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;그 Requirement가 상대적으로 바뀌지 않을때도 좋다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h3 id=&quot;remember-continuum&quot;&gt;remember: continuum&lt;/h3&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Focus on repeatability and predictability&lt;/li&gt;
-  &lt;li&gt;Defined, standardized steps we need to follow&lt;/li&gt;
-  &lt;li&gt;철저한 documentation이 존재함/혹은 만듦&lt;/li&gt;
-  &lt;li&gt;verification과 validation에 중점(소포트웨어가 잘 돌아가는지)&lt;/li&gt;
-  &lt;li&gt;상세한 플랜, 워크플로우, 역할, 책임감 그리고 work product description이 들어있다&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;rational-unified-process&quot;&gt;Rational Unified Process&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;RUP&lt;/li&gt;
-  &lt;li&gt;Built around the Unified Modeling Language(UML)&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Toolsets were created to help build UML diagrams and then translate them into code&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;The process iself is configurable&lt;/li&gt;
-  &lt;li&gt;6가지 practice로 만들어지는데:
-    &lt;ul&gt;
-      &lt;li&gt;develope software iteratively&lt;/li&gt;
-      &lt;li&gt;manage requirements&lt;/li&gt;
-      &lt;li&gt;use component-based architectures&lt;/li&gt;
-      &lt;li&gt;visually model software&lt;/li&gt;
-      &lt;li&gt;verify software quality&lt;/li&gt;
-      &lt;li&gt;
-        &lt;h2 id=&quot;control-changes-to-software&quot;&gt;control changes to software&lt;/h2&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Plan Driven(P.D.) 는 요구사항이 잘 바뀌지 않을 때 좋다&lt;/li&gt;
-  &lt;li&gt;팀이 사이즈가 커지면, P.D. 프로세스가 더 효율적임&lt;/li&gt;
-  &lt;li&gt;P.D.는 통합되야하는 여러가지 components가 있을 경우 효과적&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Plan-Driven Method</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Background</summary></entry></feed>

@@ -112,4 +112,10 @@ var store = [{
         "tags": [],
         "url": "https://seungeonk.github.io/cs3240/cs3240_SE_Code_of_Ethics/",
         "teaser": null
+      },{
+        "title": "Justice, Equity, Diversity, and Inclusion in SE",
+        "excerpt":"소프트웨어 엔지니어링의 정의, 공평성, 다양성, 포괄성 소프트웨어 윤리중에, 정의, 공평성, 다양성, 포괄성등을 다루고 있다 In Software Engineering More likely to see potential needs / pitfalls in software solutions that affect But just being diverse isn’t enough if biases still exist How do we address justice, eauity, diversity, and inclusion? What...","categories": ["cs3240"],
+        "tags": [],
+        "url": "https://seungeonk.github.io/cs3240/cs3240_J_E_D_I_In_S.E/",
+        "teaser": null
       }]
