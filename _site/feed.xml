@@ -1,4 +1,175 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://seungeonk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://seungeonk.github.io/" rel="alternate" type="text/html" /><updated>2021-03-03T17:07:53-05:00</updated><id>https://seungeonk.github.io/feed.xml</id><title type="html">Seungeon</title><subtitle>Undergrad in University of Virginia, Charlottesville</subtitle><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><entry><title type="html">Justice, Equity, Diversity, and Inclusion in SE</title><link href="https://seungeonk.github.io/cs3240/cs3240_J_E_D_I_In_S.E/" rel="alternate" type="text/html" title="Justice, Equity, Diversity, and Inclusion in SE" /><published>2021-03-03T00:00:00-05:00</published><updated>2021-03-03T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_J_E_D_I_In_S.E</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_J_E_D_I_In_S.E/">&lt;h2 id=&quot;소프트웨어-엔지니어링의-정의-공평성-다양성-포괄성&quot;&gt;소프트웨어 엔지니어링의 정의, 공평성, 다양성, 포괄성&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://seungeonk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://seungeonk.github.io/" rel="alternate" type="text/html" /><updated>2021-03-09T16:19:10-05:00</updated><id>https://seungeonk.github.io/feed.xml</id><title type="html">Seungeon</title><subtitle>Undergrad in University of Virginia, Charlottesville</subtitle><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><entry><title type="html">Verification and Validation</title><link href="https://seungeonk.github.io/cs3240/cs-3240_Verification_and_Validation/" rel="alternate" type="text/html" title="Verification and Validation" /><published>2021-03-09T00:00:00-05:00</published><updated>2021-03-09T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs-3240_Verification_and_Validation</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs-3240_Verification_and_Validation/">&lt;h2 id=&quot;verification확인-and-validation확인&quot;&gt;Verification(확인) and Validation(확인)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What’s the diff between verification and validation?&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;How do they relate to insuring our software works correctly??&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;둘다 소프트웨어 엔지니어링에 vital한 콘셉 as we want to ensure our product is correct&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;하지만 개발자에게 correct가 소비자에게 correct와 같다고 확정할 수 없다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;what-is-it&quot;&gt;What is it??&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Verification - satisfying the conditions imposed at the start of the phase.&lt;/li&gt;
+  &lt;li&gt;Validation - at the end of the dev process, determining whether it satisfies specified requirements.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;simpler-version&quot;&gt;Simpler Version&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Validation:
+    &lt;ul&gt;
+      &lt;li&gt;“Did we build the right thing?”&lt;/li&gt;
+      &lt;li&gt;Does the software do what user wants?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Verification:
+    &lt;ul&gt;
+      &lt;li&gt;“Did we build the right thing?”&lt;/li&gt;
+      &lt;li&gt;Does the system (or X) implement the specification?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;validation&quot;&gt;Validation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;How do we know if we built the right thing?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Who makes that call?&lt;/li&gt;
+  &lt;li&gt;Think back to our discusion of stakholders…
+    &lt;ul&gt;
+      &lt;li&gt;who paid for the system?&lt;/li&gt;
+      &lt;li&gt;Who are the primary users?&lt;/li&gt;
+      &lt;li&gt;when they is in need of support, Who is going to be asking you for support?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Now the question: How are you going to do this for your project? Who do you have to convince?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Validation for your project will happen through several vectors:
+    &lt;ul&gt;
+      &lt;li&gt;Each week you will demo to your TA and they will give you feedback&lt;/li&gt;
+      &lt;li&gt;You can ask questions on Piazza of the staff&lt;/li&gt;
+      &lt;li&gt;At the end of each sprint, you will have a deliverable version of your system that will be evaluated&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;verification&quot;&gt;Verification&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Verification is ensuring
+you are building the
+product “correctly”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Verification will happen 
+throughout the project 
+and will take many 
+different forms&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;verification-techniques&quot;&gt;Verification Techniques&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Different techniques target different stages of a mistake/error/defect/failure&lt;/li&gt;
+  &lt;li&gt;항상 빨리 문제를 잡는게 나중에 잡는것보다 훨씬 cheaper!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;the-problems-you-will-face맞딱드릴-문제-예시&quot;&gt;The Problems You Will Face(맞딱드릴 문제 예시)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Mistake&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;a human error that produces something incorrect&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Error&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;the &lt;strong&gt;difference between the current state and the correct value/condition&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Falut / Defect&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;a latent(잠재적) problem according to the specifications in the product that has not been discovered&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Failure&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;the inability of a system to perform its function according to specification&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;preventing-mistakes실수-방지&quot;&gt;Preventing Mistakes(실수 방지)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What are some ways we can help developers avoid making mistakes in the first place?&lt;/li&gt;
+  &lt;li&gt;Sure, some mistakes will always happen, but some things are easier to catch
+    &lt;ul&gt;
+      &lt;li&gt;Syntactic mistakes&lt;/li&gt;
+      &lt;li&gt;Basic algorithmic mistakes&lt;/li&gt;
+      &lt;li&gt;Use of incorrect library / function&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;IDEs play a big role here!
+    &lt;ul&gt;
+      &lt;li&gt;코드 오토 컴플리션&lt;/li&gt;
+      &lt;li&gt;etc&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Pair Programming
+    &lt;ul&gt;
+      &lt;li&gt;Two sets of eyes on the code at any time&lt;/li&gt;
+      &lt;li&gt;Driver and Navigator working together on both code and algorithm&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Training&lt;/li&gt;
+  &lt;li&gt;etc&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;defect-detection-and-resolution&quot;&gt;Defect Detection and Resolution&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Okay, developers are still going to make mistakes&lt;/li&gt;
+  &lt;li&gt;How do we systematically and efficiently ensure that these defects don’t make it into the final product?
+    &lt;ul&gt;
+      &lt;li&gt;Spoiler: We can’t prevent all of the defects from getting out… nor should we…&lt;/li&gt;
+      &lt;li&gt;Why do you think this is the case?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;risk-profile-and-testing리스크-프로파일과-테스팅&quot;&gt;Risk Profile and Testing(리스크 프로파일과 테스팅)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Time-to-market is a risk you have to contend with&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Trying to remove all defects is incredibly hard, time consuming, and expensive&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Leaving critical-level defects could be literally dangerous (depends on your risk profile)&lt;/li&gt;
+  &lt;li&gt;뭘 테스트해? 얼마나 많이 테스트해? 어떤 종류의 테스트를 해?&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Verification(확인) and Validation(확인)</summary></entry><entry><title type="html">Justice, Equity, Diversity, and Inclusion in SE</title><link href="https://seungeonk.github.io/cs3240/cs3240_J_E_D_I_In_S.E/" rel="alternate" type="text/html" title="Justice, Equity, Diversity, and Inclusion in SE" /><published>2021-03-03T00:00:00-05:00</published><updated>2021-03-03T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_J_E_D_I_In_S.E</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_J_E_D_I_In_S.E/">&lt;h2 id=&quot;소프트웨어-엔지니어링의-정의-공평성-다양성-포괄성&quot;&gt;소프트웨어 엔지니어링의 정의, 공평성, 다양성, 포괄성&lt;/h2&gt;
 
 &lt;hr /&gt;
 &lt;ul&gt;
@@ -612,187 +783,4 @@
       &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Bootstrap&lt;/code&gt;는? -&amp;gt; &lt;strong&gt;optional&lt;/strong&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Your Software will haunt you</summary></entry><entry><title type="html">Agile Methodologies</title><link href="https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies/" rel="alternate" type="text/html" title="Agile Methodologies" /><published>2021-02-15T00:00:00-05:00</published><updated>2021-02-15T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240-Agile-Methodologies/">&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;플랜 드리븐은 about determining the nature of a software product up front and then building contracts, documentation, infrastructure, etc.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Agile은 &lt;strong&gt;“We can figure it out as we go, because requirements and needs change”&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;한때 Agile은 붐이었는데, It focuses on getting something to market &lt;strong&gt;as soon as possible&lt;/strong&gt; to capitalize on all the new and exciting things&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;This is still true today with mobile app dev&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;agile-processes&quot;&gt;Agile Processes&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;“Manifesto for Agile Software Developement”의 탄생&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;strong&gt;Individuals and interactions&lt;/strong&gt; over processes and tools&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;strong&gt;Customer collaboration&lt;/strong&gt; over contract negotiation&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;strong&gt;Working software&lt;/strong&gt; over comprehensive documentation&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;strong&gt;Responding to change&lt;/strong&gt; over following a plan&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Self documenting에 더 중점을 두는 것&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Market이 변하면, Requirements도 변하고, 여러가지가 변하기 때문에 그것에 따라 개발 방식도 바뀌어야 하기 때문에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Agile&lt;/code&gt;이 더 효율적임.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;extreme-programmingxp익스트림-프로그래밍&quot;&gt;Extreme Programming(XP)(익스트림 프로그래밍)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;It is kind of practices(관행)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;One of the well-known Agile process&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Rarely does a team follow XP strictly now&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Each practice could be adjusted for a given team/project&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;the-12-xp-practices익스트림-프로그래밍-관습&quot;&gt;The 12 XP Practices(익스트림 프로그래밍 관습)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;The Planning Game:&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Use user stories and story points at the beginning of each iteration to plan&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Whole Team(a.k.a. On-site customer)&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Everyone(from business to coders to QA to customer) is part of one team and is co-located as much as possible to promote cohesion&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Sustainable Pace(a.k.a. The 40-hour work week)&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;u&gt;Team members that work too much burn out quicker and are much more likely to introduce defects into the system.&lt;/u&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Small Releases&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Get customer feedback early and often to prevent building the wrong solution&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Coding Standards&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Following good coding standards and naming mitigates the need for extensive documentation&lt;/li&gt;
-      &lt;li&gt;The code shold always be understandable and an artifact unto itself&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Pair Programming&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;An early inverstment in learning how to pair yields significant results in reducing the number of defects injected into a system&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Test-Driven Development&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Test first, then write the code that passes the test&lt;/li&gt;
-      &lt;li&gt;Make tests automated and add them to the overall code base&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Refactor Mercilessly&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Continuously imporve your codebase and don’t leave anything stagnant&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Collective Code Ownership&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;No one ‘owns’ any part of the system&lt;/li&gt;
-      &lt;li&gt;Anyone can update any part of the code when needed&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Continuous Integration&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Constantly build the code&lt;/li&gt;
-      &lt;li&gt;When code is checked in, run all tests and rebuild&lt;/li&gt;
-      &lt;li&gt;Always have a working build&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Simple Design&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Build the simplest thing that works&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Metaphor Over Architecture&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Have a narrative / description that can be used to communicate design decisions&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Stand-Up Meeting&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;The start of every workday begins with a meeting in which all team members must stand in circle, giving updates and what they will work on that day&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Why do they stand? To prevent the meeting from going too long…&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;scrum&quot;&gt;Scrum&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Another Agile Methodology&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;특정 개발 언어나 방법론에 의존적이지 않으며, 제품 개발 뿐만 아니라 일반적인 프로젝트 관리에도 사용 가능한 프로세스 프레임워크이다&lt;/li&gt;
-  &lt;li&gt;작은 주기(Sprint)로 개발 및 검토를 하며, 효율적인 협업 방법을 제공함.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/scrum.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Focuses on&lt;/strong&gt;:
-    &lt;ul&gt;
-      &lt;li&gt;Simplicity&lt;/li&gt;
-      &lt;li&gt;ANY complex project(not just software)&lt;/li&gt;
-      &lt;li&gt;Constant feedback(both with team and customer)&lt;/li&gt;
-      &lt;li&gt;Sprint iterations always end with a potentially shippable product&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;What’s Sprint?&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Sprint is a dedicated amount of time and say “check point”&lt;/li&gt;
-      &lt;li&gt;Over that time frame, see what we can do, what the hightest priority feature&lt;/li&gt;
-      &lt;li&gt;At the end of the scrum, you should have ‘something’ working.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Applying Scrum to CS3240&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Will be using Scrum for our projects&lt;/li&gt;
-      &lt;li&gt;Will create a product backlog based on the project you pick&lt;/li&gt;
-      &lt;li&gt;During each sprint, your team will choose user stories off the backlog to work on
-        &lt;ul&gt;
-          &lt;li&gt;&lt;strong&gt;Backlog란?&lt;/strong&gt; 개발할 제품의 요구사항인 사용자 스토리의 집합, 우선순위로 관리&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Each week, your team will have a stand-up meeting, demo to the customer(TA), and plan the next sprint&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Background</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><category term="cs3240" /><summary type="html">Your Software will haunt you</summary></entry></feed>

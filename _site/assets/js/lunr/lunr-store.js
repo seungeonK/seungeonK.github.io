@@ -118,4 +118,10 @@ var store = [{
         "tags": [],
         "url": "https://seungeonk.github.io/cs3240/cs3240_J_E_D_I_In_S.E/",
         "teaser": null
+      },{
+        "title": "Verification and Validation",
+        "excerpt":"Verification(확인) and Validation(확인) What’s the diff between verification and validation? How do they relate to insuring our software works correctly?? 둘다 소프트웨어 엔지니어링에 vital한 콘셉 as we want to ensure our product is correct 하지만 개발자에게 correct가 소비자에게 correct와 같다고 확정할 수 없다. What is it?? Verification - satisfying the...","categories": ["cs3240"],
+        "tags": [],
+        "url": "https://seungeonk.github.io/cs3240/cs-3240_Verification_and_Validation/",
+        "teaser": null
       }]
