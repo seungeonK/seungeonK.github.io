@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://seungeonk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://seungeonk.github.io/" rel="alternate" type="text/html" /><updated>2021-03-09T20:50:36-05:00</updated><id>https://seungeonk.github.io/feed.xml</id><title type="html">Seungeon</title><subtitle>Undergrad in University of Virginia, Charlottesville</subtitle><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><entry><title type="html">Unit Test(유닛 테스트)</title><link href="https://seungeonk.github.io/cs3240/cs3240_Unit_Test/" rel="alternate" type="text/html" title="Unit Test(유닛 테스트)" /><published>2021-03-09T00:00:00-05:00</published><updated>2021-03-09T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_Unit_Test</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_Unit_Test/">&lt;h2 id=&quot;unit-testing유닛-테스트&quot;&gt;Unit Testing(유닛 테스트)&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://seungeonk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://seungeonk.github.io/" rel="alternate" type="text/html" /><updated>2021-03-11T12:30:33-05:00</updated><id>https://seungeonk.github.io/feed.xml</id><title type="html">Seungeon</title><subtitle>Undergrad in University of Virginia, Charlottesville</subtitle><author><name>Seungeon Kim</name><email>sk6qk@virginia.edu</email></author><entry><title type="html">Unit Test(유닛 테스트)</title><link href="https://seungeonk.github.io/cs3240/cs3240_Unit_Test/" rel="alternate" type="text/html" title="Unit Test(유닛 테스트)" /><published>2021-03-09T00:00:00-05:00</published><updated>2021-03-09T00:00:00-05:00</updated><id>https://seungeonk.github.io/cs3240/cs3240_Unit_Test</id><content type="html" xml:base="https://seungeonk.github.io/cs3240/cs3240_Unit_Test/">&lt;h2 id=&quot;unit-testing유닛-테스트&quot;&gt;Unit Testing(유닛 테스트)&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -143,7 +143,11 @@
 &lt;h2 id=&quot;system-testing시스템-테스팅&quot;&gt;System Testing(시스템 테스팅)&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Entirely &lt;strong&gt;black box&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Entirely &lt;strong&gt;black box&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;이거 할 때면, 거의 모든 함수들이 다 만들어져 있는 상태, 그걸 다 테스트하기엔(white box)너무 시간적으로 비쌈&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;End-to-end testing of the entire product
     &lt;ul&gt;
       &lt;li&gt;시스템이 다 구성되고 나서 하는 테스팅&lt;/li&gt;
@@ -175,8 +179,8 @@
 &lt;ul&gt;
   &lt;li&gt;완전히 Black box&lt;/li&gt;
   &lt;li&gt;시스템 테스팅과 비슷하지만, done by a customer or customer’s representative to ensure adherence to requirements&lt;/li&gt;
-  &lt;li&gt;System testing: verify against specifications&lt;/li&gt;
-  &lt;li&gt;Acceptacne testing: verify against original requirements&lt;/li&gt;
+  &lt;li&gt;System testing: verify against specifications(from developers)&lt;/li&gt;
+  &lt;li&gt;Acceptacne testing: verify against original requirements(from customers, 요구사항이 충족하는지 체크)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;

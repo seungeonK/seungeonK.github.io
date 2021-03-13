@@ -126,7 +126,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Other Types of Testings(유닛테스트 이외의 테스팅 종류)",
-        "excerpt":"Integration Testing(통합 테스팅) 블랙, 그레이, 화이트 박스 다 가능 테스트는 보통 written separately from any one component Based on 합의된 APIs/interactions Run druing continuous integration Run as a part of regression as well System Testing(시스템 테스팅) Entirely black box End-to-end testing of the entire product 시스템이 다 구성되고 나서 하는...","categories": ["cs3240"],
+        "excerpt":"Integration Testing(통합 테스팅) 블랙, 그레이, 화이트 박스 다 가능 테스트는 보통 written separately from any one component Based on 합의된 APIs/interactions Run druing continuous integration Run as a part of regression as well System Testing(시스템 테스팅) Entirely black box 이거 할 때면, 거의 모든 함수들이 다 만들어져 있는 상태, 그걸...","categories": ["cs3240"],
         "tags": [],
         "url": "https://seungeonk.github.io/cs3240/cs3240_Other_Types_of_Testings/",
         "teaser": null

@@ -20,6 +20,7 @@ categories:
 ## System Testing(시스템 테스팅)
 
 * Entirely **black box**
+  * 이거 할 때면, 거의 모든 함수들이 다 만들어져 있는 상태, 그걸 다 테스트하기엔(white box)너무 시간적으로 비쌈
 * End-to-end testing of the entire product
   * 시스템이 다 구성되고 나서 하는 테스팅
 * Usually follows a written test plan
@@ -41,8 +42,8 @@ categories:
 
 * 완전히 Black box
 * 시스템 테스팅과 비슷하지만, done by a customer or customer's representative to ensure adherence to requirements
-* System testing: verify against specifications
-* Acceptacne testing: verify against original requirements
+* System testing: verify against specifications(from developers)
+* Acceptacne testing: verify against original requirements(from customers, 요구사항이 충족하는지 체크)
 
 ---
 
