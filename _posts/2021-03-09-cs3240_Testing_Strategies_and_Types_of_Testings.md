@@ -8,9 +8,12 @@ categories:
 
 ## Testing Strategies(테스팅 전략)
 
+### how can we smartly decide how to test such that we increase the certainity
+
 *   **Black Box**
     *   Testing that ignores how a function/component is written and focuses solely on the outputs generated based upon particular inputs
-    * 어떤 인풋으로 인해 나오는 아웃풋만 신꼉쓰는 테스팅
+    * 어떤 인풋으로 인해 나오는 아웃풋만 신경쓰는 테스팅
+    * 예 -> 자동차 운전할때 왼쪽으로 꺽으면, 왼쪽으로 돎 -> input => output
     * 그 함수/컴포넌트가 어떻게 작성되고 작동되는지 신경x
     * Doesn’t matter how you wrote it - does it work?  Yes or no?
 
@@ -23,7 +26,7 @@ categories:
 
 *   **Gray Box**
     *   A mix of these two… the tester has some knowledge of the internals of a function/component, but not perfect knowledge
-    *   이 두개의 짬뽐
+    *   이 두개의 짬뽕
     *   Knowing that X was used to write the function, how might you test that particular component?
 
 
